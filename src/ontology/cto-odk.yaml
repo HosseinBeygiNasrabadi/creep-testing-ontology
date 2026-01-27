@@ -1,0 +1,39 @@
+id: cto
+title: "Creep Testing Ontology"
+github_org: materialdigital
+git_main_branch: main
+repo: creep-testing-ontology
+uribase: https://w3id.org/pmd
+uribase_suffix: cto
+
+release_artefacts:
+  - base
+  - full
+  - simple
+primary_release: full
+export_formats:
+  - owl
+  - ttl
+remove_owl_nothing: true
+
+import_group:
+  products:
+  - id: pmdco
+    mirror_from: https://materialdigital.github.io/core-ontology/ontology.owl
+    module_type: mirror
+  - id: mwo
+    mirror_from: https://raw.githubusercontent.com/ISE-FIZKarlsruhe/mwo/refs/heads/main/mwo.owl
+    #module_type: custom
+#  - id: obi
+#    mirror_from: http://purl.obolibrary.org/obo/obi.owl
+    #module_type: custom
+  - id: log
+    mirror_from: http://raw.githubusercontent.com/materialdigital/logistics-application-ontology/refs/heads/main/log.owl
+    #module_type: custom
+  - id: tto
+    mirror_from: https://raw.githubusercontent.com/materialdigital/tensile-test-ontology/refs/heads/main/tto.ttl
+    #module_type: custom  
+#  - id: iao
+#    module_type: custom
+namespaces:
+  - https://w3id.org/pmd/cto/

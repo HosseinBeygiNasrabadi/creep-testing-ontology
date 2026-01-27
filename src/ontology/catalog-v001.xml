@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+  <group id="odk-managed-catalog" prefer="public">
+    <uri name="https://w3id.org/pmd/cto/imports/pmdco_import.owl" uri="imports/pmdco_import.owl"/>
+    <uri name="https://w3id.org/pmd/cto/imports/mwo_import.owl" uri="imports/mwo_import.owl"/>
+    <uri name="https://w3id.org/pmd/cto/imports/log_import.owl" uri="imports/log_import.owl"/>
+    <uri name="https://w3id.org/pmd/cto/imports/tto_import.owl" uri="imports/tto_import.owl"/>
+  </group>
+</catalog>
