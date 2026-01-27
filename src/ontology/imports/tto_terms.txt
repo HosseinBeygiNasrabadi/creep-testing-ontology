@@ -1,0 +1,4 @@
+https://w3id.org/pmd/tto/TTO_0000005 #extension
+https://w3id.org/pmd/tto/TTO_0000035 #percentage permanent elongation
+https://w3id.org/pmd/tto/TTO_0000038 #Percentage reduction of area
+https://w3id.org/pmd/tto/TTO_0000033 #percentage elongation after fracture

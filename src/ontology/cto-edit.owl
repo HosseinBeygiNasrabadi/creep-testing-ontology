@@ -9,38 +9,36 @@ Prefix(dcterms:=<http://purl.org/dc/terms/>)
 
 
 Ontology(<https://w3id.org/pmd/cto.owl>
-
-Import(<https://w3id.org/pmd/cto/imports/pmdco_import.owl>)
-Import(<https://w3id.org/pmd/cto/imports/mwo_import.owl>)
 Import(<https://w3id.org/pmd/cto/imports/log_import.owl>)
+Import(<https://w3id.org/pmd/cto/imports/mwo_import.owl>)
+Import(<https://w3id.org/pmd/cto/imports/pmdco_import.owl>)
 Import(<https://w3id.org/pmd/cto/imports/tto_import.owl>)
-
-
-Annotation(dcterms:description "None")
+Annotation(dcterms:creator "Soheil Molaei")
+Annotation(dcterms:creator "https://orcid.org/0000-0002-3092-0532")
+Annotation(dcterms:description "Creep Testing Ontology (CTO) has been developed for representing the creep testing process, testing equipment and setup requirements, test specimen characteristics, loading and environmental conditions (e.g. stress, temperature, atmosphere), time-dependent deformation behavior, and related testing parameters and measurement procedures according to DIN EN ISO 204 standard.")
 Annotation(dcterms:license <https://creativecommons.org/licenses/unspecified>)
 Annotation(dcterms:title "Creep Testing Ontology")
+Annotation(rdfs:comment "Reused ontologies: BFO, RO, OBI, IAO, PMDco, NFDIcore, MWO, LOG, TTO")
 
-
-Declaration(Class(<https://w3id.org/pmd/CTO_0000000>))
 Declaration(AnnotationProperty(dcterms:description))
 Declaration(AnnotationProperty(dcterms:license))
 Declaration(AnnotationProperty(dcterms:title))
-
 ############################
 #   Annotation Properties
 ############################
 
+# Annotation Property: dcterms:description (description)
+
 AnnotationAssertion(rdfs:label dcterms:description "description")
+
+# Annotation Property: dcterms:license (license)
+
 AnnotationAssertion(rdfs:label dcterms:license "license")
+
+# Annotation Property: dcterms:title (title)
+
 AnnotationAssertion(rdfs:label dcterms:title "title")
 
-############################
-#   Classes
-############################
-
-# Class: <https://w3id.org/pmd/CTO_0000000> (root node)
-
-AnnotationAssertion(rdfs:label <https://w3id.org/pmd/CTO_0000000> "root node"@en)
 
 
 )

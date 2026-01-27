@@ -1,9 +1,12 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+<?xml version='1.0' encoding='UTF-8'?>
+<catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog" prefer="public">
   <group id="odk-managed-catalog" prefer="public">
-    <uri name="https://w3id.org/pmd/cto/imports/pmdco_import.owl" uri="imports/pmdco_import.owl"/>
-    <uri name="https://w3id.org/pmd/cto/imports/mwo_import.owl" uri="imports/mwo_import.owl"/>
-    <uri name="https://w3id.org/pmd/cto/imports/log_import.owl" uri="imports/log_import.owl"/>
-    <uri name="https://w3id.org/pmd/cto/imports/tto_import.owl" uri="imports/tto_import.owl"/>
+    <uri name="https://w3id.org/pmd/cto/imports/pmdco_import.owl" uri="imports/pmdco_import.owl" />
+    <uri name="https://w3id.org/pmd/cto/imports/mwo_import.owl" uri="imports/mwo_import.owl" />
+    <uri name="https://w3id.org/pmd/cto/imports/obi_import.owl" uri="imports/obi_import.owl" />
+    <uri name="https://w3id.org/pmd/cto/imports/log_import.owl" uri="imports/log_import.owl" />
+    <uri name="https://w3id.org/pmd/cto/imports/tto_import.owl" uri="imports/tto_import.owl" />
   </group>
+  <uri id="Imports Wizard Entry" name="http://purls.helmholtz-metadaten.de/mwo/mwo.owl/3.0.0" uri="https://raw.githubusercontent.com/ISE-FIZKarlsruhe/mwo/refs/heads/main/mwo.ttl" />
+  <uri id="Imports Wizard Entry" name="https://w3id.org/pmd/co/3.0.0-rc2" uri="https://raw.githubusercontent.com/materialdigital/core-ontology/refs/heads/main/pmdco.ttl" />
 </catalog>
