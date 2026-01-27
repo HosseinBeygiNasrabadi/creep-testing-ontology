@@ -21,6 +21,7 @@ Annotation(dcterms:title "Creep Testing Ontology")
 Annotation(rdfs:comment "Reused ontologies: BFO, RO, OBI, IAO, PMDco, NFDIcore, MWO, LOG, TTO")
 
 Declaration(Class(<https://w3id.org/pmd/CTO_0000001>))
+Declaration(Class(<https://w3id.org/pmd/CTO_314d2145_d087_4e58_b125_cd1afe4417d6>))
 Declaration(AnnotationProperty(dcterms:description))
 Declaration(AnnotationProperty(dcterms:license))
 Declaration(AnnotationProperty(dcterms:title))
@@ -51,6 +52,12 @@ AnnotationAssertion(rdfs:label dcterms:title "title")
 AnnotationAssertion(rdfs:label <https://w3id.org/pmd/CTO_0000001> "testing recipe"@en)
 AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/CTO_0000001> "")
 SubClassOf(<https://w3id.org/pmd/CTO_0000001> <https://w3id.org/pmd/co/PMD_0060008>)
+
+# Class: <https://w3id.org/pmd/CTO_314d2145_d087_4e58_b125_cd1afe4417d6> (planned temperature)
+
+AnnotationAssertion(rdfs:label <https://w3id.org/pmd/CTO_314d2145_d087_4e58_b125_cd1afe4417d6> "planned temperature"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/CTO_314d2145_d087_4e58_b125_cd1afe4417d6> "The target temperature at which the specimen is maintained throughout the test (critical in creep testing as creep is temperature-dependent).")
+SubClassOf(<https://w3id.org/pmd/CTO_314d2145_d087_4e58_b125_cd1afe4417d6> <https://w3id.org/pmd/CTO_0000001>)
 
 
 )
