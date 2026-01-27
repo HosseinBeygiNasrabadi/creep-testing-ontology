@@ -20,6 +20,7 @@ Annotation(dcterms:license <https://creativecommons.org/licenses/unspecified>)
 Annotation(dcterms:title "Creep Testing Ontology")
 Annotation(rdfs:comment "Reused ontologies: BFO, RO, OBI, IAO, PMDco, NFDIcore, MWO, LOG, TTO")
 
+Declaration(Class(<https://w3id.org/pmd/CTO_0000001>))
 Declaration(AnnotationProperty(dcterms:description))
 Declaration(AnnotationProperty(dcterms:license))
 Declaration(AnnotationProperty(dcterms:title))
@@ -39,6 +40,17 @@ AnnotationAssertion(rdfs:label dcterms:license "license")
 
 AnnotationAssertion(rdfs:label dcterms:title "title")
 
+
+
+############################
+#   Classes
+############################
+
+# Class: <https://w3id.org/pmd/CTO_0000001> (testing recipe)
+
+AnnotationAssertion(rdfs:label <https://w3id.org/pmd/CTO_0000001> "testing recipe"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/CTO_0000001> "")
+SubClassOf(<https://w3id.org/pmd/CTO_0000001> <https://w3id.org/pmd/co/PMD_0060008>)
 
 
 )
