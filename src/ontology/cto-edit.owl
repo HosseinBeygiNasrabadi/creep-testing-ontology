@@ -48,8 +48,13 @@ Declaration(Class(<https://w3id.org/pmd/CTO_e1e83721_4881_46c1_bf25_d7d1fb6fd94b
 Declaration(Class(<https://w3id.org/pmd/CTO_e9a40754_b4e0_4108_8c1a_18696b83059c>))
 Declaration(Class(<https://w3id.org/pmd/CTO_efc8283e_2d08_4f02_b714_caad0975cdeb>))
 Declaration(Class(<https://w3id.org/pmd/CTO_f87aab7f_ff44_4245_9602_55941bfd272b>))
+Declaration(Class(<https://w3id.org/pmd/co/DeviceDesignation>))
 Declaration(Class(<https://w3id.org/pmd/co/PMD_0000779>))
+Declaration(Class(<https://w3id.org/pmd/cto.owl/CTO_0ef206b7_0f0d_4a98_a48a_e97e42fdd0df>))
+Declaration(Class(<https://w3id.org/pmd/cto.owl/CTO_24380076_5bc8_4948_991d_288c368d83bd>))
+Declaration(Class(<https://w3id.org/pmd/cto.owl/CTO_60a5c10c_6992_488c_9b75_3372d09744fa>))
 Declaration(Class(<https://w3id.org/pmd/cto.owl/CTO_90b8e9ef_1f50_43fb_b852_c88181db7239>))
+Declaration(Class(<https://w3id.org/pmd/cto.owl/CTO_f1df7d37_eb7b_4ef0_a4fb_c0c8b4546946>))
 Declaration(Class(<https://w3id.org/pmd/http://purl.obolibrary.org/obo/BFO_0000038>))
 Declaration(AnnotationProperty(dcterms:description))
 Declaration(AnnotationProperty(dcterms:license))
@@ -236,15 +241,43 @@ AnnotationAssertion(rdfs:label <https://w3id.org/pmd/CTO_f87aab7f_ff44_4245_9602
 AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/CTO_f87aab7f_ff44_4245_9602_55941bfd272b> "A small initial load applied to align the specimen and remove \"slack\" from the fixture before the actual test starts.")
 SubClassOf(<https://w3id.org/pmd/CTO_f87aab7f_ff44_4245_9602_55941bfd272b> <http://purl.obolibrary.org/obo/BFO_0000023>)
 
+# Class: <https://w3id.org/pmd/co/DeviceDesignation> (<https://w3id.org/pmd/co/DeviceDesignation>)
+
+SubClassOf(<https://w3id.org/pmd/co/DeviceDesignation> <https://w3id.org/pmd/co/PMD_0000602>)
+
 # Class: <https://w3id.org/pmd/co/PMD_0000779> (Wärmebehandlung)
 
 SubClassOf(<https://w3id.org/pmd/co/PMD_0000779> <https://w3id.org/pmd/co/PMD_0000589>)
+
+# Class: <https://w3id.org/pmd/cto.owl/CTO_0ef206b7_0f0d_4a98_a48a_e97e42fdd0df> (creep test machine identifier)
+
+AnnotationAssertion(rdfs:label <https://w3id.org/pmd/cto.owl/CTO_0ef206b7_0f0d_4a98_a48a_e97e42fdd0df> "creep test machine identifier"@de)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/cto.owl/CTO_0ef206b7_0f0d_4a98_a48a_e97e42fdd0df> "The unique serial number or internal asset tag assigned to the specific testing rig used.")
+SubClassOf(<https://w3id.org/pmd/cto.owl/CTO_0ef206b7_0f0d_4a98_a48a_e97e42fdd0df> <https://w3id.org/pmd/co/DeviceDesignation>)
+
+# Class: <https://w3id.org/pmd/cto.owl/CTO_24380076_5bc8_4948_991d_288c368d83bd> (device type specification)
+
+AnnotationAssertion(rdfs:label <https://w3id.org/pmd/cto.owl/CTO_24380076_5bc8_4948_991d_288c368d83bd> "device type specification"@de)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/cto.owl/CTO_24380076_5bc8_4948_991d_288c368d83bd> "The technical classification of the heating element (e.g., \"3-Zone Resistance Furnace\" or \"Induction Heater\").")
+SubClassOf(<https://w3id.org/pmd/cto.owl/CTO_24380076_5bc8_4948_991d_288c368d83bd> <https://w3id.org/pmd/co/DeviceDesignation>)
+
+# Class: <https://w3id.org/pmd/cto.owl/CTO_60a5c10c_6992_488c_9b75_3372d09744fa> (creep test machine heating furnace)
+
+AnnotationAssertion(rdfs:label <https://w3id.org/pmd/cto.owl/CTO_60a5c10c_6992_488c_9b75_3372d09744fa> "creep test machine heating furnace"@de)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/cto.owl/CTO_60a5c10c_6992_488c_9b75_3372d09744fa> "The specific heating unit (device) responsible for maintaining the specimen temperature.")
+SubClassOf(<https://w3id.org/pmd/cto.owl/CTO_60a5c10c_6992_488c_9b75_3372d09744fa> <https://w3id.org/pmd/co/PMD_0000655>)
 
 # Class: <https://w3id.org/pmd/cto.owl/CTO_90b8e9ef_1f50_43fb_b852_c88181db7239> (Heat treatment process description)
 
 AnnotationAssertion(rdfs:label <https://w3id.org/pmd/cto.owl/CTO_90b8e9ef_1f50_43fb_b852_c88181db7239> "Heat treatment process description"@de)
 AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/cto.owl/CTO_90b8e9ef_1f50_43fb_b852_c88181db7239> "A narrative text detailing the thermal history (heating and cooling cycles) applied to the material.")
 SubClassOf(<https://w3id.org/pmd/cto.owl/CTO_90b8e9ef_1f50_43fb_b852_c88181db7239> <https://w3id.org/nfdi4ing/metadata/Description>)
+
+# Class: <https://w3id.org/pmd/cto.owl/CTO_f1df7d37_eb7b_4ef0_a4fb_c0c8b4546946> (testing machine role)
+
+AnnotationAssertion(rdfs:label <https://w3id.org/pmd/cto.owl/CTO_f1df7d37_eb7b_4ef0_a4fb_c0c8b4546946> "testing machine role"@de)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/cto.owl/CTO_f1df7d37_eb7b_4ef0_a4fb_c0c8b4546946> "The function assigned to this specific piece of equipment within the broader experiment (e.g., \"Main Load Frame\").")
+SubClassOf(<https://w3id.org/pmd/cto.owl/CTO_f1df7d37_eb7b_4ef0_a4fb_c0c8b4546946> <http://purl.obolibrary.org/obo/BFO_0000023>)
 
 # Class: <https://w3id.org/pmd/http://purl.obolibrary.org/obo/BFO_0000038> (time)
 
