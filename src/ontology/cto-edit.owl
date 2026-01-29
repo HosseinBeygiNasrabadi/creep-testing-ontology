@@ -20,6 +20,7 @@ Annotation(dcterms:license <https://creativecommons.org/licenses/unspecified>)
 Annotation(dcterms:title "Creep Testing Ontology")
 Annotation(rdfs:comment "Reused ontologies: BFO, RO, OBI, IAO, PMDco, NFDIcore, MWO, LOG, TTO")
 
+Declaration(Class(<https://w3id.org/nfdi4ing/metadata/Description>))
 Declaration(Class(<https://w3id.org/pmd/CTO_0000001>))
 Declaration(Class(<https://w3id.org/pmd/CTO_0649df74_0e60_4a62_9f0d_66adee218888>))
 Declaration(Class(<https://w3id.org/pmd/CTO_279faa82_82bc_4da3_9d18_0ebba279304c>))
@@ -27,6 +28,7 @@ Declaration(Class(<https://w3id.org/pmd/CTO_2e6f3727_0ef5_4c0c_9aa0_7745ace4a590
 Declaration(Class(<https://w3id.org/pmd/CTO_304180f6_5aa2_40d3_8430_21926d842d43>))
 Declaration(Class(<https://w3id.org/pmd/CTO_314d2145_d087_4e58_b125_cd1afe4417d6>))
 Declaration(Class(<https://w3id.org/pmd/CTO_33fc0e20_9b53_421f_8317_9fd1570290f2>))
+Declaration(Class(<https://w3id.org/pmd/CTO_37c8b464_e0b5_479f_92d2_f670369516fd>))
 Declaration(Class(<https://w3id.org/pmd/CTO_455b18aa_c353_432a_8f14_d6deda476cd9>))
 Declaration(Class(<https://w3id.org/pmd/CTO_52648101_790d_4544_9068_33858fd9c936>))
 Declaration(Class(<https://w3id.org/pmd/CTO_584b8138_68f7_4043_b23d_bac8e13ffe22>))
@@ -38,6 +40,7 @@ Declaration(Class(<https://w3id.org/pmd/CTO_85c91eb0_fb35_48c0_8cc4_82d078e77fec
 Declaration(Class(<https://w3id.org/pmd/CTO_8b11ee4a_37f7_4e93_9627_f27d798f1007>))
 Declaration(Class(<https://w3id.org/pmd/CTO_97b1b0e0_f4ed_4b50_a4ff_3a53ad181310>))
 Declaration(Class(<https://w3id.org/pmd/CTO_a2a699e1_4865_4bb1_a259_76d9533f90f8>))
+Declaration(Class(<https://w3id.org/pmd/CTO_bb826c6b_31ca_4fbd_8c19_0111aa39c4cc>))
 Declaration(Class(<https://w3id.org/pmd/CTO_c794f084_0123_467e_83ea_317faad81ad0>))
 Declaration(Class(<https://w3id.org/pmd/CTO_c9dc26b3_1617_4ca3_96c8_77ba51e41eac>))
 Declaration(Class(<https://w3id.org/pmd/CTO_d9f3408a_df31_4af5_a1de_33931741f97e>))
@@ -45,6 +48,8 @@ Declaration(Class(<https://w3id.org/pmd/CTO_e1e83721_4881_46c1_bf25_d7d1fb6fd94b
 Declaration(Class(<https://w3id.org/pmd/CTO_e9a40754_b4e0_4108_8c1a_18696b83059c>))
 Declaration(Class(<https://w3id.org/pmd/CTO_efc8283e_2d08_4f02_b714_caad0975cdeb>))
 Declaration(Class(<https://w3id.org/pmd/CTO_f87aab7f_ff44_4245_9602_55941bfd272b>))
+Declaration(Class(<https://w3id.org/pmd/co/PMD_0000779>))
+Declaration(Class(<https://w3id.org/pmd/cto.owl/CTO_90b8e9ef_1f50_43fb_b852_c88181db7239>))
 Declaration(Class(<https://w3id.org/pmd/http://purl.obolibrary.org/obo/BFO_0000038>))
 Declaration(AnnotationProperty(dcterms:description))
 Declaration(AnnotationProperty(dcterms:license))
@@ -70,6 +75,10 @@ AnnotationAssertion(rdfs:label dcterms:title "title")
 ############################
 #   Classes
 ############################
+
+# Class: <https://w3id.org/nfdi4ing/metadata/Description> (<https://w3id.org/nfdi4ing/metadata/Description>)
+
+SubClassOf(<https://w3id.org/nfdi4ing/metadata/Description> <https://w3id.org/pmd/co/PMD_0000779>)
 
 # Class: <https://w3id.org/pmd/CTO_0000001> (testing recipe)
 
@@ -112,6 +121,12 @@ SubClassOf(<https://w3id.org/pmd/CTO_314d2145_d087_4e58_b125_cd1afe4417d6> <http
 AnnotationAssertion(rdfs:label <https://w3id.org/pmd/CTO_33fc0e20_9b53_421f_8317_9fd1570290f2> "planned loading control type"@en)
 AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/CTO_33fc0e20_9b53_421f_8317_9fd1570290f2> "The feedback mechanism used to control the machine, typically Force Control (for creep) or Strain Control (for fatigue/relaxation).")
 SubClassOf(<https://w3id.org/pmd/CTO_33fc0e20_9b53_421f_8317_9fd1570290f2> <https://w3id.org/pmd/CTO_0000001>)
+
+# Class: <https://w3id.org/pmd/CTO_37c8b464_e0b5_479f_92d2_f670369516fd> (calibration process)
+
+AnnotationAssertion(rdfs:label <https://w3id.org/pmd/CTO_37c8b464_e0b5_479f_92d2_f670369516fd> "calibration process"@de)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/CTO_37c8b464_e0b5_479f_92d2_f670369516fd> "A process executed to assess the accuracy of the testing equipment before the main experiment begins.")
+SubClassOf(<https://w3id.org/pmd/CTO_37c8b464_e0b5_479f_92d2_f670369516fd> <http://purl.obolibrary.org/obo/OBI_0000011>)
 
 # Class: <https://w3id.org/pmd/CTO_455b18aa_c353_432a_8f14_d6deda476cd9> (test duration value specification)
 
@@ -175,6 +190,11 @@ AnnotationAssertion(rdfs:label <https://w3id.org/pmd/CTO_a2a699e1_4865_4bb1_a259
 AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/CTO_a2a699e1_4865_4bb1_a259_76d9533f90f8> "The method of applying force, such as \"Constant Load\" (force remains the same) or \"Constant Stress\" (load is adjusted as the specimen cross-section changes).")
 SubClassOf(<https://w3id.org/pmd/CTO_a2a699e1_4865_4bb1_a259_76d9533f90f8> <https://w3id.org/pmd/CTO_0000001>)
 
+# Class: <https://w3id.org/pmd/CTO_bb826c6b_31ca_4fbd_8c19_0111aa39c4cc> (shape specification)
+
+AnnotationAssertion(rdfs:label <https://w3id.org/pmd/CTO_bb826c6b_31ca_4fbd_8c19_0111aa39c4cc> "shape specification"@de)
+SubClassOf(<https://w3id.org/pmd/CTO_bb826c6b_31ca_4fbd_8c19_0111aa39c4cc> <http://purl.obolibrary.org/obo/OBI_0001930>)
+
 # Class: <https://w3id.org/pmd/CTO_c794f084_0123_467e_83ea_317faad81ad0> (planned initial stress)
 
 AnnotationAssertion(rdfs:label <https://w3id.org/pmd/CTO_c794f084_0123_467e_83ea_317faad81ad0> "planned initial stress"@en)
@@ -215,6 +235,16 @@ SubClassOf(<https://w3id.org/pmd/CTO_efc8283e_2d08_4f02_b714_caad0975cdeb> <http
 AnnotationAssertion(rdfs:label <https://w3id.org/pmd/CTO_f87aab7f_ff44_4245_9602_55941bfd272b> "grain role"@en)
 AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/CTO_f87aab7f_ff44_4245_9602_55941bfd272b> "A small initial load applied to align the specimen and remove \"slack\" from the fixture before the actual test starts.")
 SubClassOf(<https://w3id.org/pmd/CTO_f87aab7f_ff44_4245_9602_55941bfd272b> <http://purl.obolibrary.org/obo/BFO_0000023>)
+
+# Class: <https://w3id.org/pmd/co/PMD_0000779> (Wärmebehandlung)
+
+SubClassOf(<https://w3id.org/pmd/co/PMD_0000779> <https://w3id.org/pmd/co/PMD_0000589>)
+
+# Class: <https://w3id.org/pmd/cto.owl/CTO_90b8e9ef_1f50_43fb_b852_c88181db7239> (Heat treatment process description)
+
+AnnotationAssertion(rdfs:label <https://w3id.org/pmd/cto.owl/CTO_90b8e9ef_1f50_43fb_b852_c88181db7239> "Heat treatment process description"@de)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/cto.owl/CTO_90b8e9ef_1f50_43fb_b852_c88181db7239> "A narrative text detailing the thermal history (heating and cooling cycles) applied to the material.")
+SubClassOf(<https://w3id.org/pmd/cto.owl/CTO_90b8e9ef_1f50_43fb_b852_c88181db7239> <https://w3id.org/nfdi4ing/metadata/Description>)
 
 # Class: <https://w3id.org/pmd/http://purl.obolibrary.org/obo/BFO_0000038> (time)
 
