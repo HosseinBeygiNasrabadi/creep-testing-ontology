@@ -20,7 +20,10 @@ Annotation(dcterms:license <https://creativecommons.org/licenses/unspecified>)
 Annotation(dcterms:title "Creep Testing Ontology")
 Annotation(rdfs:comment "Reused ontologies: BFO, RO, OBI, IAO, PMDco, NFDIcore, MWO, LOG, TTO")
 
+Declaration(Class(<http://purl.obolibrary.org/obo/IAO_0000416>))
+Declaration(Class(<http://purl.obolibrary.org/obo/extention>))
 Declaration(Class(<https://w3id.org/pmd/CTO_0000001>))
+Declaration(Class(<https://w3id.org/pmd/CTO_01c537d6_4f0c_4e6a_8824_030c958c7d80>))
 Declaration(Class(<https://w3id.org/pmd/CTO_0649df74_0e60_4a62_9f0d_66adee218888>))
 Declaration(Class(<https://w3id.org/pmd/CTO_279faa82_82bc_4da3_9d18_0ebba279304c>))
 Declaration(Class(<https://w3id.org/pmd/CTO_2e6f3727_0ef5_4c0c_9aa0_7745ace4a590>))
@@ -45,7 +48,12 @@ Declaration(Class(<https://w3id.org/pmd/CTO_e1e83721_4881_46c1_bf25_d7d1fb6fd94b
 Declaration(Class(<https://w3id.org/pmd/CTO_e9a40754_b4e0_4108_8c1a_18696b83059c>))
 Declaration(Class(<https://w3id.org/pmd/CTO_efc8283e_2d08_4f02_b714_caad0975cdeb>))
 Declaration(Class(<https://w3id.org/pmd/CTO_f87aab7f_ff44_4245_9602_55941bfd272b>))
+Declaration(Class(<https://w3id.org/pmd/CTO_fabc6e25_2cfb_4f98_84d8_76141fe8819c>))
+Declaration(Class(<https://w3id.org/pmd/co/PMD_00000114>))
+Declaration(Class(<https://w3id.org/pmd/co/PMD_00000115>))
+Declaration(Class(<https://w3id.org/pmd/co/PMD_00000116>))
 Declaration(Class(<https://w3id.org/pmd/http://purl.obolibrary.org/obo/BFO_0000038>))
+Declaration(Class(<https://w3id.org/pmd/tto/Elongation>))
 Declaration(AnnotationProperty(dcterms:description))
 Declaration(AnnotationProperty(dcterms:license))
 Declaration(AnnotationProperty(dcterms:title))
@@ -70,6 +78,11 @@ AnnotationAssertion(rdfs:label dcterms:title "title")
 ############################
 #   Classes
 ############################
+
+# Class: <http://purl.obolibrary.org/obo/IAO_0000416> (extension)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000416> "extension")
+SubClassOf(<http://purl.obolibrary.org/obo/IAO_0000416> <https://w3id.org/pmd/co/PMD_0040001>)
 
 # Class: <https://w3id.org/pmd/CTO_0000001> (testing recipe)
 
@@ -215,6 +228,30 @@ SubClassOf(<https://w3id.org/pmd/CTO_efc8283e_2d08_4f02_b714_caad0975cdeb> <http
 AnnotationAssertion(rdfs:label <https://w3id.org/pmd/CTO_f87aab7f_ff44_4245_9602_55941bfd272b> "grain role"@en)
 AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/CTO_f87aab7f_ff44_4245_9602_55941bfd272b> "A small initial load applied to align the specimen and remove \"slack\" from the fixture before the actual test starts.")
 SubClassOf(<https://w3id.org/pmd/CTO_f87aab7f_ff44_4245_9602_55941bfd272b> <http://purl.obolibrary.org/obo/BFO_0000023>)
+
+# Class: <https://w3id.org/pmd/CTO_fabc6e25_2cfb_4f98_84d8_76141fe8819c> (final gauge length after fracture)
+
+AnnotationAssertion(rdfs:label <https://w3id.org/pmd/CTO_fabc6e25_2cfb_4f98_84d8_76141fe8819c> "final gauge length after fracture"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/CTO_fabc6e25_2cfb_4f98_84d8_76141fe8819c> "Length between gauge length marks on the test piece measured after fracture, at ambient temperature.")
+SubClassOf(<https://w3id.org/pmd/CTO_fabc6e25_2cfb_4f98_84d8_76141fe8819c> <https://w3id.org/pmd/CTO_7a6a3420_fac3_4903_95bc_4354a06488f7>)
+
+# Class: <https://w3id.org/pmd/co/PMD_00000114> (percentage extension)
+
+AnnotationAssertion(rdfs:label <https://w3id.org/pmd/co/PMD_00000114> "percentage extension")
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/co/PMD_00000114> "Extension at test temperature expressed as a percentage of the reference length, Lr​.")
+SubClassOf(<https://w3id.org/pmd/co/PMD_00000114> <http://purl.obolibrary.org/obo/IAO_0000416>)
+
+# Class: <https://w3id.org/pmd/co/PMD_00000115> (percentage elastic extension)
+
+AnnotationAssertion(rdfs:label <https://w3id.org/pmd/co/PMD_00000115> "percentage elastic extension")
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/co/PMD_00000115> "Extension at test temperature expressed as a percentage of Lr​, proportional to initial stress Ro​.")
+SubClassOf(<https://w3id.org/pmd/co/PMD_00000115> <http://purl.obolibrary.org/obo/IAO_0000416>)
+
+# Class: <https://w3id.org/pmd/co/PMD_00000116> (percentage initial total extension)
+
+AnnotationAssertion(rdfs:label <https://w3id.org/pmd/co/PMD_00000116> "percentage initial total extension")
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/co/PMD_00000116> "Extension at test temperature as a percentage of Lr​ at end of loading with initial stress.")
+SubClassOf(<https://w3id.org/pmd/co/PMD_00000116> <http://purl.obolibrary.org/obo/IAO_0000416>)
 
 # Class: <https://w3id.org/pmd/http://purl.obolibrary.org/obo/BFO_0000038> (time)
 
