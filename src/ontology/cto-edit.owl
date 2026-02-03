@@ -25,8 +25,11 @@ Declaration(Class(<http://purl.obolibrary.org/obo/extra>))
 Declaration(Class(<https://w3id.org/nfdi4ing/metadata/title>))
 Declaration(Class(<https://w3id.org/pmd/CTO_0000001>))
 Declaration(Class(<https://w3id.org/pmd/CTO_0649df74_0e60_4a62_9f0d_66adee218888>))
+Declaration(Class(<https://w3id.org/pmd/CTO_1000000>))
 Declaration(Class(<https://w3id.org/pmd/CTO_279faa82_82bc_4da3_9d18_0ebba279304c>))
 Declaration(Class(<https://w3id.org/pmd/CTO_2e6f3727_0ef5_4c0c_9aa0_7745ace4a590>))
+Declaration(Class(<https://w3id.org/pmd/CTO_3000000>))
+Declaration(Class(<https://w3id.org/pmd/CTO_3000001>))
 Declaration(Class(<https://w3id.org/pmd/CTO_304180f6_5aa2_40d3_8430_21926d842d43>))
 Declaration(Class(<https://w3id.org/pmd/CTO_314d2145_d087_4e58_b125_cd1afe4417d6>))
 Declaration(Class(<https://w3id.org/pmd/CTO_33fc0e20_9b53_421f_8317_9fd1570290f2>))
@@ -42,9 +45,7 @@ Declaration(Class(<https://w3id.org/pmd/CTO_7dddccc4_7ed3_48d9_9461_c10445fd1987
 Declaration(Class(<https://w3id.org/pmd/CTO_85c91eb0_fb35_48c0_8cc4_82d078e77fec>))
 Declaration(Class(<https://w3id.org/pmd/CTO_8b11ee4a_37f7_4e93_9627_f27d798f1007>))
 Declaration(Class(<https://w3id.org/pmd/CTO_8b3c7e12_95a6_4712_8a2b_6f4856769b2d>))
-Declaration(Class(<https://w3id.org/pmd/CTO_97b1b0e0_f4ed_4b50_a4ff_3a53ad181310>))
 Declaration(Class(<https://w3id.org/pmd/CTO_a2a699e1_4865_4bb1_a259_76d9533f90f8>))
-Declaration(Class(<https://w3id.org/pmd/CTO_c794f084_0123_467e_83ea_317faad81ad0>))
 Declaration(Class(<https://w3id.org/pmd/CTO_c89d24d9_cce2_48d8_a8da_59b07221f00f>))
 Declaration(Class(<https://w3id.org/pmd/CTO_c9dc26b3_1617_4ca3_96c8_77ba51e41eac>))
 Declaration(Class(<https://w3id.org/pmd/CTO_d9f3408a_df31_4af5_a1de_33931741f97e>))
@@ -119,6 +120,11 @@ AnnotationAssertion(rdfs:label <https://w3id.org/pmd/CTO_0649df74_0e60_4a62_9f0d
 AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/CTO_0649df74_0e60_4a62_9f0d_66adee218888> "The standard length used for the calculation of ductility (elongation) at the end of the test, often defined by standards relative to the diameter (e.g., $5d$).")
 SubClassOf(<https://w3id.org/pmd/CTO_0649df74_0e60_4a62_9f0d_66adee218888> <https://w3id.org/pmd/CTO_7a6a3420_fac3_4903_95bc_4354a06488f7>)
 
+# Class: <https://w3id.org/pmd/CTO_1000000> (creep test standard)
+
+AnnotationAssertion(rdfs:label <https://w3id.org/pmd/CTO_1000000> "creep test standard"@en)
+SubClassOf(<https://w3id.org/pmd/CTO_1000000> <http://purl.obolibrary.org/obo/IAO_0000033>)
+
 # Class: <https://w3id.org/pmd/CTO_279faa82_82bc_4da3_9d18_0ebba279304c> (soaking time value specification)
 
 AnnotationAssertion(rdfs:label <https://w3id.org/pmd/CTO_279faa82_82bc_4da3_9d18_0ebba279304c> "soaking time value specification"@en)
@@ -130,6 +136,18 @@ SubClassOf(<https://w3id.org/pmd/CTO_279faa82_82bc_4da3_9d18_0ebba279304c> <http
 AnnotationAssertion(rdfs:label <https://w3id.org/pmd/CTO_2e6f3727_0ef5_4c0c_9aa0_7745ace4a590> "planned test force"@en)
 AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/CTO_2e6f3727_0ef5_4c0c_9aa0_7745ace4a590> "The specific magnitude of force (Load) to be applied to the specimen.")
 SubClassOf(<https://w3id.org/pmd/CTO_2e6f3727_0ef5_4c0c_9aa0_7745ace4a590> <https://w3id.org/pmd/CTO_0000001>)
+
+# Class: <https://w3id.org/pmd/CTO_3000000> (planned extension limit)
+
+AnnotationAssertion(rdfs:label <https://w3id.org/pmd/CTO_3000000> "planned extension limit"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/CTO_3000000> "The maximum elongation (strain) allowed before the machine automatically stops the test to prevent damage or if the target is reached.")
+SubClassOf(<https://w3id.org/pmd/CTO_3000000> <https://w3id.org/pmd/CTO_0000001>)
+
+# Class: <https://w3id.org/pmd/CTO_3000001> (planned initial stress)
+
+AnnotationAssertion(rdfs:label <https://w3id.org/pmd/CTO_3000001> "planned initial stress"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/CTO_3000001> "The calculated stress applied to the specimen at the very start of the test.")
+SubClassOf(<https://w3id.org/pmd/CTO_3000001> <https://w3id.org/pmd/CTO_0000001>)
 
 # Class: <https://w3id.org/pmd/CTO_304180f6_5aa2_40d3_8430_21926d842d43> (planned preload)
 
@@ -217,23 +235,11 @@ AnnotationAssertion(rdfs:label <https://w3id.org/pmd/CTO_8b3c7e12_95a6_4712_8a2b
 AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/CTO_8b3c7e12_95a6_4712_8a2b_6f4856769b2d> "The date and time at which the experimental process was completed.")
 SubClassOf(<https://w3id.org/pmd/CTO_8b3c7e12_95a6_4712_8a2b_6f4856769b2d> <http://purl.obolibrary.org/obo/IAO_0000027>)
 
-# Class: <https://w3id.org/pmd/CTO_97b1b0e0_f4ed_4b50_a4ff_3a53ad181310> (planned extension limit)
-
-AnnotationAssertion(rdfs:label <https://w3id.org/pmd/CTO_97b1b0e0_f4ed_4b50_a4ff_3a53ad181310> "planned extension limit"@en)
-AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/CTO_97b1b0e0_f4ed_4b50_a4ff_3a53ad181310> "The maximum elongation (strain) allowed before the machine automatically stops the test to prevent damage or if the target is reached.")
-SubClassOf(<https://w3id.org/pmd/CTO_97b1b0e0_f4ed_4b50_a4ff_3a53ad181310> <https://w3id.org/pmd/CTO_0000001>)
-
 # Class: <https://w3id.org/pmd/CTO_a2a699e1_4865_4bb1_a259_76d9533f90f8> (planned loading type)
 
 AnnotationAssertion(rdfs:label <https://w3id.org/pmd/CTO_a2a699e1_4865_4bb1_a259_76d9533f90f8> "planned loading type"@en)
 AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/CTO_a2a699e1_4865_4bb1_a259_76d9533f90f8> "The method of applying force, such as \"Constant Load\" (force remains the same) or \"Constant Stress\" (load is adjusted as the specimen cross-section changes).")
 SubClassOf(<https://w3id.org/pmd/CTO_a2a699e1_4865_4bb1_a259_76d9533f90f8> <https://w3id.org/pmd/CTO_0000001>)
-
-# Class: <https://w3id.org/pmd/CTO_c794f084_0123_467e_83ea_317faad81ad0> (planned initial stress)
-
-AnnotationAssertion(rdfs:label <https://w3id.org/pmd/CTO_c794f084_0123_467e_83ea_317faad81ad0> "planned initial stress"@en)
-AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/CTO_c794f084_0123_467e_83ea_317faad81ad0> "The calculated stress applied to the specimen at the very start of the test.")
-SubClassOf(<https://w3id.org/pmd/CTO_c794f084_0123_467e_83ea_317faad81ad0> <https://w3id.org/pmd/CTO_0000001>)
 
 # Class: <https://w3id.org/pmd/CTO_c89d24d9_cce2_48d8_a8da_59b07221f00f> (test identifier)
 
