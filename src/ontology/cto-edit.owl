@@ -25,7 +25,6 @@ Declaration(Class(<http://purl.obolibrary.org/obo/IAO_0000416>))
 Declaration(Class(<http://purl.obolibrary.org/obo/extra>))
 Declaration(Class(<https://w3id.org/nfdi4ing/metadata/title>))
 Declaration(Class(<https://w3id.org/pmd/CTO_0000001>))
-Declaration(Class(<https://w3id.org/pmd/CTO_0649df74_0e60_4a62_9f0d_66adee218888>))
 Declaration(Class(<https://w3id.org/pmd/CTO_1000000>))
 Declaration(Class(<https://w3id.org/pmd/CTO_1000001>))
 Declaration(Class(<https://w3id.org/pmd/CTO_1000002>))
@@ -44,6 +43,21 @@ Declaration(Class(<https://w3id.org/pmd/CTO_1000014>))
 Declaration(Class(<https://w3id.org/pmd/CTO_1000015>))
 Declaration(Class(<https://w3id.org/pmd/CTO_1000016>))
 Declaration(Class(<https://w3id.org/pmd/CTO_1000017>))
+Declaration(Class(<https://w3id.org/pmd/CTO_1000018>))
+Declaration(Class(<https://w3id.org/pmd/CTO_1000019>))
+Declaration(Class(<https://w3id.org/pmd/CTO_1000020>))
+Declaration(Class(<https://w3id.org/pmd/CTO_1000021>))
+Declaration(Class(<https://w3id.org/pmd/CTO_1000022>))
+Declaration(Class(<https://w3id.org/pmd/CTO_1000023>))
+Declaration(Class(<https://w3id.org/pmd/CTO_1000024>))
+Declaration(Class(<https://w3id.org/pmd/CTO_1000025>))
+Declaration(Class(<https://w3id.org/pmd/CTO_1000026>))
+Declaration(Class(<https://w3id.org/pmd/CTO_1000027>))
+Declaration(Class(<https://w3id.org/pmd/CTO_1000028>))
+Declaration(Class(<https://w3id.org/pmd/CTO_1000029>))
+Declaration(Class(<https://w3id.org/pmd/CTO_1000030>))
+Declaration(Class(<https://w3id.org/pmd/CTO_1000031>))
+Declaration(Class(<https://w3id.org/pmd/CTO_1c35081b_1983_47c1_88d9_cd38403f9f71>))
 Declaration(Class(<https://w3id.org/pmd/CTO_279faa82_82bc_4da3_9d18_0ebba279304c>))
 Declaration(Class(<https://w3id.org/pmd/CTO_3000000>))
 Declaration(Class(<https://w3id.org/pmd/CTO_3000001>))
@@ -61,20 +75,14 @@ Declaration(Class(<https://w3id.org/pmd/CTO_3000012>))
 Declaration(Class(<https://w3id.org/pmd/CTO_3000013>))
 Declaration(Class(<https://w3id.org/pmd/CTO_3000014>))
 Declaration(Class(<https://w3id.org/pmd/CTO_455b18aa_c353_432a_8f14_d6deda476cd9>))
-Declaration(Class(<https://w3id.org/pmd/CTO_52648101_790d_4544_9068_33858fd9c936>))
 Declaration(Class(<https://w3id.org/pmd/CTO_584b8138_68f7_4043_b23d_bac8e13ffe22>))
-Declaration(Class(<https://w3id.org/pmd/CTO_78d90582_c0cb_4db8_a37f_a227e354842a>))
 Declaration(Class(<https://w3id.org/pmd/CTO_78de79d6_4d45_480f_8c4b_ab5014f74425>))
 Declaration(Class(<https://w3id.org/pmd/CTO_7a6a3420_fac3_4903_95bc_4354a06488f7>))
 Declaration(Class(<https://w3id.org/pmd/CTO_7dddccc4_7ed3_48d9_9461_c10445fd1987>))
-Declaration(Class(<https://w3id.org/pmd/CTO_85c91eb0_fb35_48c0_8cc4_82d078e77fec>))
 Declaration(Class(<https://w3id.org/pmd/CTO_8b11ee4a_37f7_4e93_9627_f27d798f1007>))
 Declaration(Class(<https://w3id.org/pmd/CTO_8b3c7e12_95a6_4712_8a2b_6f4856769b2d>))
-Declaration(Class(<https://w3id.org/pmd/CTO_c89d24d9_cce2_48d8_a8da_59b07221f00f>))
 Declaration(Class(<https://w3id.org/pmd/CTO_e9a40754_b4e0_4108_8c1a_18696b83059c>))
-Declaration(Class(<https://w3id.org/pmd/CTO_efc8283e_2d08_4f02_b714_caad0975cdeb>))
 Declaration(Class(<https://w3id.org/pmd/CTO_f87aab7f_ff44_4245_9602_55941bfd272b>))
-Declaration(Class(<https://w3id.org/pmd/CTO_fabc6e25_2cfb_4f98_84d8_76141fe8819c>))
 Declaration(Class(<https://w3id.org/pmd/co/PMD_00000041>))
 Declaration(Class(<https://w3id.org/pmd/co/PMD_00000043>))
 Declaration(Class(<https://w3id.org/pmd/co/PMD_00000044>))
@@ -130,12 +138,6 @@ SubClassOf(<https://w3id.org/nfdi4ing/metadata/title> <http://purl.obolibrary.or
 AnnotationAssertion(rdfs:label <https://w3id.org/pmd/CTO_0000001> "testing recipe"@en)
 AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/CTO_0000001> "")
 SubClassOf(<https://w3id.org/pmd/CTO_0000001> <https://w3id.org/pmd/co/PMD_0060008>)
-
-# Class: <https://w3id.org/pmd/CTO_0649df74_0e60_4a62_9f0d_66adee218888> (reference length to calculate percentage elongations value)
-
-AnnotationAssertion(rdfs:label <https://w3id.org/pmd/CTO_0649df74_0e60_4a62_9f0d_66adee218888> "reference length to calculate percentage elongations value"@en)
-AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/CTO_0649df74_0e60_4a62_9f0d_66adee218888> "The standard length used for the calculation of ductility (elongation) at the end of the test, often defined by standards relative to the diameter (e.g., $5d$).")
-SubClassOf(<https://w3id.org/pmd/CTO_0649df74_0e60_4a62_9f0d_66adee218888> <https://w3id.org/pmd/CTO_7a6a3420_fac3_4903_95bc_4354a06488f7>)
 
 # Class: <https://w3id.org/pmd/CTO_1000000> (creep test standard)
 
@@ -244,6 +246,97 @@ AnnotationAssertion(rdfs:label <https://w3id.org/pmd/CTO_1000017> "fractured"@en
 AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/CTO_1000017> "The condition of the test piece after the creep rupture limit has been reached and the material has separated.")
 SubClassOf(<https://w3id.org/pmd/CTO_1000017> <https://w3id.org/pmd/CTO_1000013>)
 
+# Class: <https://w3id.org/pmd/CTO_1000018> (normalized)
+
+AnnotationAssertion(rdfs:label <https://w3id.org/pmd/CTO_1000018> "normalized"@de)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/CTO_1000018> "State resulting from heating to an austenitizing temperature and cooling in air to refine the grain structure.")
+SubClassOf(<https://w3id.org/pmd/CTO_1000018> <https://w3id.org/pmd/CTO_1000015>)
+
+# Class: <https://w3id.org/pmd/CTO_1000019> (annealed)
+
+AnnotationAssertion(rdfs:label <https://w3id.org/pmd/CTO_1000019> "annealed"@de)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/CTO_1000019> "State resulting from heating to a specific temperature and cooling at a controlled rate to remove internal stresses.")
+SubClassOf(<https://w3id.org/pmd/CTO_1000019> <https://w3id.org/pmd/CTO_1000015>)
+
+# Class: <https://w3id.org/pmd/CTO_1000020> (aged)
+
+AnnotationAssertion(rdfs:label <https://w3id.org/pmd/CTO_1000020> "aged"@de)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/CTO_1000020> "State resulting from precipitation hardening (holding at an intermediate temperature) to increase strength.")
+SubClassOf(<https://w3id.org/pmd/CTO_1000020> <https://w3id.org/pmd/CTO_1000013>)
+
+# Class: <https://w3id.org/pmd/CTO_1000021> (precipitate fraction value specification)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <https://w3id.org/pmd/CTO_1000021> "https://www.iso.org/standard/65757.html")
+AnnotationAssertion(rdfs:label <https://w3id.org/pmd/CTO_1000021> "precipitate fraction value specification"@de)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/CTO_1000021> "The quantitative measurement of the volume fraction of precipitate particles in the matrix.")
+SubClassOf(<https://w3id.org/pmd/CTO_1000021> <http://purl.obolibrary.org/obo/OBI_0001931>)
+
+# Class: <https://w3id.org/pmd/CTO_1000022> (precipitate size value specification)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <https://w3id.org/pmd/CTO_1000022> "https://www.iso.org/standard/65757.html")
+AnnotationAssertion(rdfs:label <https://w3id.org/pmd/CTO_1000022> "precipitate size value specification"@de)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/CTO_1000022> "The quantitative measurement of the average size (diameter/length) of precipitate particles.")
+SubClassOf(<https://w3id.org/pmd/CTO_1000022> <http://purl.obolibrary.org/obo/OBI_0001931>)
+
+# Class: <https://w3id.org/pmd/CTO_1000023> (creep test piece chemical composition)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <https://w3id.org/pmd/CTO_1000023> "https://w3id.org/pmd/co/ChemicalComposition")
+AnnotationAssertion(rdfs:label <https://w3id.org/pmd/CTO_1000023> "creep test piece chemical composition"@de)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/CTO_1000023> "The breakdown of the material into its constituent elements and their respective percentages (wt% or at%).")
+SubClassOf(<https://w3id.org/pmd/CTO_1000023> <https://w3id.org/pmd/CTO_1c35081b_1983_47c1_88d9_cd38403f9f71>)
+
+# Class: <https://w3id.org/pmd/CTO_1000024> (extensometer gauge length value specification)
+
+AnnotationAssertion(rdfs:label <https://w3id.org/pmd/CTO_1000024> "extensometer gauge length value specification"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/CTO_1000024> "The specific distance between the two contact points of the extensometer (the sensor measuring deformation) attached to the specimen.")
+SubClassOf(<https://w3id.org/pmd/CTO_1000024> <https://w3id.org/pmd/CTO_7a6a3420_fac3_4903_95bc_4354a06488f7>)
+
+# Class: <https://w3id.org/pmd/CTO_1000025> (original gauge length value specification)
+
+AnnotationAssertion(rdfs:label <https://w3id.org/pmd/CTO_1000025> "original gauge length value specification"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/CTO_1000025> "The specific measurement of the specimen's width (diameter) in the reduced section, used to calculate the cross-sectional area and subsequently the stress applied.")
+SubClassOf(<https://w3id.org/pmd/CTO_1000025> <https://w3id.org/pmd/CTO_7a6a3420_fac3_4903_95bc_4354a06488f7>)
+
+# Class: <https://w3id.org/pmd/CTO_1000026> (parallel length value specification)
+
+AnnotationAssertion(rdfs:label <https://w3id.org/pmd/CTO_1000026> "parallel length value specification"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/CTO_1000026> "The length of the reduced section of the specimen  where the diameter is uniform and the majority of the deformation is expected to occur.")
+SubClassOf(<https://w3id.org/pmd/CTO_1000026> <https://w3id.org/pmd/CTO_7a6a3420_fac3_4903_95bc_4354a06488f7>)
+
+# Class: <https://w3id.org/pmd/CTO_1000027> (reference length to calculate percentage elongations value)
+
+AnnotationAssertion(rdfs:label <https://w3id.org/pmd/CTO_1000027> "reference length to calculate percentage elongations value"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/CTO_1000027> "The standard length used for the calculation of ductility (elongation) at the end of the test, often defined by standards relative to the diameter (e.g., $5d$).")
+SubClassOf(<https://w3id.org/pmd/CTO_1000027> <https://w3id.org/pmd/CTO_7a6a3420_fac3_4903_95bc_4354a06488f7>)
+
+# Class: <https://w3id.org/pmd/CTO_1000028> (reference length to calculate percentage extensions value)
+
+AnnotationAssertion(rdfs:label <https://w3id.org/pmd/CTO_1000028> "reference length to calculate percentage extensions value"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/CTO_1000028> "The length used to calculate non-proportional extension, often distinct from elongation in specific creep contexts involving plastic deformation.")
+SubClassOf(<https://w3id.org/pmd/CTO_1000028> <https://w3id.org/pmd/CTO_7a6a3420_fac3_4903_95bc_4354a06488f7>)
+
+# Class: <https://w3id.org/pmd/CTO_1000029> (final gauge length after fracture)
+
+AnnotationAssertion(rdfs:label <https://w3id.org/pmd/CTO_1000029> "final gauge length after fracture"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/CTO_1000029> "Length between gauge length marks on the test piece measured after fracture, at ambient temperature.")
+SubClassOf(<https://w3id.org/pmd/CTO_1000029> <https://w3id.org/pmd/co/PMD_0040001>)
+
+# Class: <https://w3id.org/pmd/CTO_1000030> (test identifier)
+
+AnnotationAssertion(rdfs:label <https://w3id.org/pmd/CTO_1000030> "test identifier"@en)
+SubClassOf(<https://w3id.org/pmd/CTO_1000030> <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000015>)
+
+# Class: <https://w3id.org/pmd/CTO_1000031> (creep test piece material identifier)
+
+AnnotationAssertion(rdfs:label <https://w3id.org/pmd/CTO_1000031> "creep test piece material identifier"@de)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/CTO_1000031> "The specific code or heat number identifying the batch/lot of material the test piece was taken from.")
+SubClassOf(<https://w3id.org/pmd/CTO_1000031> <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000015>)
+
+# Class: <https://w3id.org/pmd/CTO_1c35081b_1983_47c1_88d9_cd38403f9f71> (#material composition : pmd)
+
+AnnotationAssertion(rdfs:label <https://w3id.org/pmd/CTO_1c35081b_1983_47c1_88d9_cd38403f9f71> "#material composition : pmd"@de)
+SubClassOf(<https://w3id.org/pmd/CTO_1c35081b_1983_47c1_88d9_cd38403f9f71> <http://purl.obolibrary.org/obo/extra>)
+
 # Class: <https://w3id.org/pmd/CTO_279faa82_82bc_4da3_9d18_0ebba279304c> (soaking time value specification)
 
 AnnotationAssertion(rdfs:label <https://w3id.org/pmd/CTO_279faa82_82bc_4da3_9d18_0ebba279304c> "soaking time value specification"@en)
@@ -347,22 +440,10 @@ SubClassOf(<https://w3id.org/pmd/CTO_3000014> <http://purl.obolibrary.org/obo/IA
 AnnotationAssertion(rdfs:label <https://w3id.org/pmd/CTO_455b18aa_c353_432a_8f14_d6deda476cd9> "test duration value specification"@en)
 SubClassOf(<https://w3id.org/pmd/CTO_455b18aa_c353_432a_8f14_d6deda476cd9> <https://w3id.org/pmd/CTO_8b11ee4a_37f7_4e93_9627_f27d798f1007>)
 
-# Class: <https://w3id.org/pmd/CTO_52648101_790d_4544_9068_33858fd9c936> (extensometer gauge length value specification)
-
-AnnotationAssertion(rdfs:label <https://w3id.org/pmd/CTO_52648101_790d_4544_9068_33858fd9c936> "extensometer gauge length value specification"@en)
-AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/CTO_52648101_790d_4544_9068_33858fd9c936> "The specific distance between the two contact points of the extensometer (the sensor measuring deformation) attached to the specimen.")
-SubClassOf(<https://w3id.org/pmd/CTO_52648101_790d_4544_9068_33858fd9c936> <https://w3id.org/pmd/CTO_7a6a3420_fac3_4903_95bc_4354a06488f7>)
-
 # Class: <https://w3id.org/pmd/CTO_584b8138_68f7_4043_b23d_bac8e13ffe22> (time measurment datum)
 
 AnnotationAssertion(rdfs:label <https://w3id.org/pmd/CTO_584b8138_68f7_4043_b23d_bac8e13ffe22> "time measurment datum"@en)
 SubClassOf(<https://w3id.org/pmd/CTO_584b8138_68f7_4043_b23d_bac8e13ffe22> <https://w3id.org/pmd/http://purl.obolibrary.org/obo/BFO_0000038>)
-
-# Class: <https://w3id.org/pmd/CTO_78d90582_c0cb_4db8_a37f_a227e354842a> (parallel length value specification)
-
-AnnotationAssertion(rdfs:label <https://w3id.org/pmd/CTO_78d90582_c0cb_4db8_a37f_a227e354842a> "parallel length value specification"@en)
-AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/CTO_78d90582_c0cb_4db8_a37f_a227e354842a> "The length of the reduced section of the specimen  where the diameter is uniform and the majority of the deformation is expected to occur.")
-SubClassOf(<https://w3id.org/pmd/CTO_78d90582_c0cb_4db8_a37f_a227e354842a> <https://w3id.org/pmd/CTO_7a6a3420_fac3_4903_95bc_4354a06488f7>)
 
 # Class: <https://w3id.org/pmd/CTO_78de79d6_4d45_480f_8c4b_ab5014f74425> (creep test standard)
 
@@ -370,22 +451,16 @@ AnnotationAssertion(rdfs:label <https://w3id.org/pmd/CTO_78de79d6_4d45_480f_8c4b
 AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/CTO_78de79d6_4d45_480f_8c4b_ab5014f74425> "The specific normative reference (e.g., ISO 204) governing the uniaxial creep test procedure.")
 SubClassOf(<https://w3id.org/pmd/CTO_78de79d6_4d45_480f_8c4b_ab5014f74425> <http://purl.obolibrary.org/obo/IAO_0000033>)
 
-# Class: <https://w3id.org/pmd/CTO_7a6a3420_fac3_4903_95bc_4354a06488f7> (length value specification)
+# Class: <https://w3id.org/pmd/CTO_7a6a3420_fac3_4903_95bc_4354a06488f7> (#length value specification)
 
-AnnotationAssertion(rdfs:label <https://w3id.org/pmd/CTO_7a6a3420_fac3_4903_95bc_4354a06488f7> "length value specification"@en)
-SubClassOf(<https://w3id.org/pmd/CTO_7a6a3420_fac3_4903_95bc_4354a06488f7> <https://w3id.org/pmd/co/PMD_0040001>)
+AnnotationAssertion(rdfs:label <https://w3id.org/pmd/CTO_7a6a3420_fac3_4903_95bc_4354a06488f7> "#length value specification"@en)
+SubClassOf(<https://w3id.org/pmd/CTO_7a6a3420_fac3_4903_95bc_4354a06488f7> <http://purl.obolibrary.org/obo/OBI_0001931>)
 
 # Class: <https://w3id.org/pmd/CTO_7dddccc4_7ed3_48d9_9461_c10445fd1987> (project title)
 
 AnnotationAssertion(rdfs:label <https://w3id.org/pmd/CTO_7dddccc4_7ed3_48d9_9461_c10445fd1987> "project title"@en)
 AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/CTO_7dddccc4_7ed3_48d9_9461_c10445fd1987> "The formal name or heading of the research project under which the test is performed")
 SubClassOf(<https://w3id.org/pmd/CTO_7dddccc4_7ed3_48d9_9461_c10445fd1987> <https://w3id.org/nfdi4ing/metadata/title>)
-
-# Class: <https://w3id.org/pmd/CTO_85c91eb0_fb35_48c0_8cc4_82d078e77fec> (reference length to calculate percentage extensions value)
-
-AnnotationAssertion(rdfs:label <https://w3id.org/pmd/CTO_85c91eb0_fb35_48c0_8cc4_82d078e77fec> "reference length to calculate percentage extensions value"@en)
-AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/CTO_85c91eb0_fb35_48c0_8cc4_82d078e77fec> "The length used to calculate non-proportional extension, often distinct from elongation in specific creep contexts involving plastic deformation.")
-SubClassOf(<https://w3id.org/pmd/CTO_85c91eb0_fb35_48c0_8cc4_82d078e77fec> <https://w3id.org/pmd/CTO_7a6a3420_fac3_4903_95bc_4354a06488f7>)
 
 # Class: <https://w3id.org/pmd/CTO_8b11ee4a_37f7_4e93_9627_f27d798f1007> (#time value specification: pmd)
 
@@ -398,34 +473,17 @@ AnnotationAssertion(rdfs:label <https://w3id.org/pmd/CTO_8b3c7e12_95a6_4712_8a2b
 AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/CTO_8b3c7e12_95a6_4712_8a2b_6f4856769b2d> "The date and time at which the experimental process was completed.")
 SubClassOf(<https://w3id.org/pmd/CTO_8b3c7e12_95a6_4712_8a2b_6f4856769b2d> <http://purl.obolibrary.org/obo/IAO_0000027>)
 
-# Class: <https://w3id.org/pmd/CTO_c89d24d9_cce2_48d8_a8da_59b07221f00f> (test identifier)
-
-AnnotationAssertion(rdfs:label <https://w3id.org/pmd/CTO_c89d24d9_cce2_48d8_a8da_59b07221f00f> "test identifier"@en)
-SubClassOf(<https://w3id.org/pmd/CTO_c89d24d9_cce2_48d8_a8da_59b07221f00f> <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000015>)
-
 # Class: <https://w3id.org/pmd/CTO_e9a40754_b4e0_4108_8c1a_18696b83059c> (creep rupture time value specification)
 
 AnnotationAssertion(rdfs:label <https://w3id.org/pmd/CTO_e9a40754_b4e0_4108_8c1a_18696b83059c> "creep rupture time value specification"@en)
 AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/CTO_e9a40754_b4e0_4108_8c1a_18696b83059c> "The specific time elapsed until the material physically fractured (ruptured) under the creep load.")
 SubClassOf(<https://w3id.org/pmd/CTO_e9a40754_b4e0_4108_8c1a_18696b83059c> <https://w3id.org/pmd/CTO_8b11ee4a_37f7_4e93_9627_f27d798f1007>)
 
-# Class: <https://w3id.org/pmd/CTO_efc8283e_2d08_4f02_b714_caad0975cdeb> (original gauge length value specification)
-
-AnnotationAssertion(rdfs:label <https://w3id.org/pmd/CTO_efc8283e_2d08_4f02_b714_caad0975cdeb> "original gauge length value specification"@en)
-AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/CTO_efc8283e_2d08_4f02_b714_caad0975cdeb> "The specific measurement of the specimen's width (diameter) in the reduced section, used to calculate the cross-sectional area and subsequently the stress applied.")
-SubClassOf(<https://w3id.org/pmd/CTO_efc8283e_2d08_4f02_b714_caad0975cdeb> <https://w3id.org/pmd/CTO_7a6a3420_fac3_4903_95bc_4354a06488f7>)
-
 # Class: <https://w3id.org/pmd/CTO_f87aab7f_ff44_4245_9602_55941bfd272b> (grain role)
 
 AnnotationAssertion(rdfs:label <https://w3id.org/pmd/CTO_f87aab7f_ff44_4245_9602_55941bfd272b> "grain role"@en)
 AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/CTO_f87aab7f_ff44_4245_9602_55941bfd272b> "A small initial load applied to align the specimen and remove \"slack\" from the fixture before the actual test starts.")
 SubClassOf(<https://w3id.org/pmd/CTO_f87aab7f_ff44_4245_9602_55941bfd272b> <http://purl.obolibrary.org/obo/BFO_0000023>)
-
-# Class: <https://w3id.org/pmd/CTO_fabc6e25_2cfb_4f98_84d8_76141fe8819c> (final gauge length after fracture)
-
-AnnotationAssertion(rdfs:label <https://w3id.org/pmd/CTO_fabc6e25_2cfb_4f98_84d8_76141fe8819c> "final gauge length after fracture"@en)
-AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/CTO_fabc6e25_2cfb_4f98_84d8_76141fe8819c> "Length between gauge length marks on the test piece measured after fracture, at ambient temperature.")
-SubClassOf(<https://w3id.org/pmd/CTO_fabc6e25_2cfb_4f98_84d8_76141fe8819c> <https://w3id.org/pmd/CTO_7a6a3420_fac3_4903_95bc_4354a06488f7>)
 
 # Class: <https://w3id.org/pmd/co/PMD_00000041> (creep rupture time)
 
