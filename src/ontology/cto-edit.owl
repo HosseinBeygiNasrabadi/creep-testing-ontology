@@ -59,7 +59,19 @@ Declaration(Class(<https://w3id.org/pmd/CTO_1000030>))
 Declaration(Class(<https://w3id.org/pmd/CTO_1000031>))
 Declaration(Class(<https://w3id.org/pmd/CTO_1000032>))
 Declaration(Class(<https://w3id.org/pmd/CTO_1000033>))
+Declaration(Class(<https://w3id.org/pmd/CTO_1000034>))
+Declaration(Class(<https://w3id.org/pmd/CTO_1000035>))
+Declaration(Class(<https://w3id.org/pmd/CTO_1000036>))
+Declaration(Class(<https://w3id.org/pmd/CTO_1000037>))
+Declaration(Class(<https://w3id.org/pmd/CTO_1000038>))
+Declaration(Class(<https://w3id.org/pmd/CTO_1000039>))
+Declaration(Class(<https://w3id.org/pmd/CTO_1000040>))
+Declaration(Class(<https://w3id.org/pmd/CTO_1000041>))
+Declaration(Class(<https://w3id.org/pmd/CTO_1000042>))
+Declaration(Class(<https://w3id.org/pmd/CTO_1000043>))
+Declaration(Class(<https://w3id.org/pmd/CTO_1000044>))
 Declaration(Class(<https://w3id.org/pmd/CTO_1c35081b_1983_47c1_88d9_cd38403f9f71>))
+Declaration(Class(<https://w3id.org/pmd/CTO_23c7ac41_f251_4268_87a7_4b68c79e5e0a>))
 Declaration(Class(<https://w3id.org/pmd/CTO_279faa82_82bc_4da3_9d18_0ebba279304c>))
 Declaration(Class(<https://w3id.org/pmd/CTO_3000000>))
 Declaration(Class(<https://w3id.org/pmd/CTO_3000001>))
@@ -76,6 +88,7 @@ Declaration(Class(<https://w3id.org/pmd/CTO_3000011>))
 Declaration(Class(<https://w3id.org/pmd/CTO_3000012>))
 Declaration(Class(<https://w3id.org/pmd/CTO_3000013>))
 Declaration(Class(<https://w3id.org/pmd/CTO_3000014>))
+Declaration(Class(<https://w3id.org/pmd/CTO_38566f2d_7726_402f_8381_bbed21d5e39a>))
 Declaration(Class(<https://w3id.org/pmd/CTO_455b18aa_c353_432a_8f14_d6deda476cd9>))
 Declaration(Class(<https://w3id.org/pmd/CTO_584b8138_68f7_4043_b23d_bac8e13ffe22>))
 Declaration(Class(<https://w3id.org/pmd/CTO_78de79d6_4d45_480f_8c4b_ab5014f74425>))
@@ -83,8 +96,9 @@ Declaration(Class(<https://w3id.org/pmd/CTO_7a6a3420_fac3_4903_95bc_4354a06488f7
 Declaration(Class(<https://w3id.org/pmd/CTO_7dddccc4_7ed3_48d9_9461_c10445fd1987>))
 Declaration(Class(<https://w3id.org/pmd/CTO_8b11ee4a_37f7_4e93_9627_f27d798f1007>))
 Declaration(Class(<https://w3id.org/pmd/CTO_8b3c7e12_95a6_4712_8a2b_6f4856769b2d>))
+Declaration(Class(<https://w3id.org/pmd/CTO_afa13ffb_1ddd_41c4_8aa7_66b140af7aa5>))
+Declaration(Class(<https://w3id.org/pmd/CTO_b85a0ce6_a676_4957_b708_6881f647f5c7>))
 Declaration(Class(<https://w3id.org/pmd/CTO_e9a40754_b4e0_4108_8c1a_18696b83059c>))
-Declaration(Class(<https://w3id.org/pmd/CTO_f87aab7f_ff44_4245_9602_55941bfd272b>))
 Declaration(Class(<https://w3id.org/pmd/co/PMD_00000041>))
 Declaration(Class(<https://w3id.org/pmd/co/PMD_00000043>))
 Declaration(Class(<https://w3id.org/pmd/co/PMD_00000044>))
@@ -347,10 +361,88 @@ AnnotationAssertion(rdfs:label <https://w3id.org/pmd/CTO_1000033> "creep testing
 AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/CTO_1000033> "The function realized by the testing equipment when it is used to perform a creep test.")
 SubClassOf(<https://w3id.org/pmd/CTO_1000033> <http://purl.obolibrary.org/obo/BFO_0000023>)
 
+# Class: <https://w3id.org/pmd/CTO_1000034> (grain role)
+
+AnnotationAssertion(rdfs:label <https://w3id.org/pmd/CTO_1000034> "grain role"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/CTO_1000034> "A small initial load applied to align the specimen and remove \"slack\" from the fixture before the actual test starts.")
+SubClassOf(<https://w3id.org/pmd/CTO_1000034> <http://purl.obolibrary.org/obo/BFO_0000023>)
+
+# Class: <https://w3id.org/pmd/CTO_1000035> (creep rate)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <https://w3id.org/pmd/CTO_1000035> "https://www.iso.org/standard/67737.html")
+AnnotationAssertion(rdfs:label <https://w3id.org/pmd/CTO_1000035> "creep rate"@de)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/CTO_1000035> "The speed at which creep strain develops during a creep test.")
+SubClassOf(<https://w3id.org/pmd/CTO_1000035> <https://w3id.org/pmd/CTO_b85a0ce6_a676_4957_b708_6881f647f5c7>)
+
+# Class: <https://w3id.org/pmd/CTO_1000036> (primary creep region)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <https://w3id.org/pmd/CTO_1000036> "https://www.iso.org/standard/67737.html")
+AnnotationAssertion(rdfs:label <https://w3id.org/pmd/CTO_1000036> "primary creep region"@de)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/CTO_1000036> "The stage of creep characterized by a decreasing creep rate as material hardening occurs.")
+SubClassOf(<https://w3id.org/pmd/CTO_1000036> <https://w3id.org/pmd/CTO_afa13ffb_1ddd_41c4_8aa7_66b140af7aa5>)
+
+# Class: <https://w3id.org/pmd/CTO_1000037> (secondary creep region)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <https://w3id.org/pmd/CTO_1000037> "https://www.iso.org/standard/67737.html")
+AnnotationAssertion(rdfs:label <https://w3id.org/pmd/CTO_1000037> "secondary creep region"@de)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/CTO_1000037> "The stage of creep where the creep rate becomes nearly constant and steady-state deformation dominates.")
+SubClassOf(<https://w3id.org/pmd/CTO_1000037> <https://w3id.org/pmd/CTO_afa13ffb_1ddd_41c4_8aa7_66b140af7aa5>)
+
+# Class: <https://w3id.org/pmd/CTO_1000038> (tertiary creep region)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <https://w3id.org/pmd/CTO_1000038> "https://www.iso.org/standard/67737.html")
+AnnotationAssertion(rdfs:label <https://w3id.org/pmd/CTO_1000038> "tertiary creep region"@de)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/CTO_1000038> "The final creep stage marked by accelerated creep rate leading to material failure.")
+SubClassOf(<https://w3id.org/pmd/CTO_1000038> <https://w3id.org/pmd/CTO_afa13ffb_1ddd_41c4_8aa7_66b140af7aa5>)
+
+# Class: <https://w3id.org/pmd/CTO_1000039> (creep threshold stress)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <https://w3id.org/pmd/CTO_1000039> "https://w3id.org/pmd/co/Stress")
+AnnotationAssertion(rdfs:label <https://w3id.org/pmd/CTO_1000039> "creep threshold stress"@de)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/CTO_1000039> "The theoretical lower limiting stress below which no measurable creep deformation occurs.")
+SubClassOf(<https://w3id.org/pmd/CTO_1000039> <https://w3id.org/pmd/CTO_38566f2d_7726_402f_8381_bbed21d5e39a>)
+
+# Class: <https://w3id.org/pmd/CTO_1000040> (creep activation energy)
+
+AnnotationAssertion(rdfs:label <https://w3id.org/pmd/CTO_1000040> "creep activation energy"@de)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/CTO_1000040> "The thermal energy barrier (Qc​) required to initiate the dominant creep mechanism (related to diffusion).")
+SubClassOf(<https://w3id.org/pmd/CTO_1000040> <https://w3id.org/pmd/co/PMD_0020142>)
+
+# Class: <https://w3id.org/pmd/CTO_1000041> (creep rupture stress)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <https://w3id.org/pmd/CTO_1000041> "https://www.iso.org/standard/67737.html")
+AnnotationAssertion(rdfs:label <https://w3id.org/pmd/CTO_1000041> "creep rupture stress"@de)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/CTO_1000041> "The stress capable of causing fracture at a specific time and temperature.")
+SubClassOf(<https://w3id.org/pmd/CTO_1000041> <https://w3id.org/pmd/CTO_38566f2d_7726_402f_8381_bbed21d5e39a>)
+
+# Class: <https://w3id.org/pmd/CTO_1000042> (grain boundary creep mechanism)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <https://w3id.org/pmd/CTO_1000042> "https://w3id.org/pmd/co/DeformationMechanism")
+AnnotationAssertion(rdfs:label <https://w3id.org/pmd/CTO_1000042> "grain boundary creep mechanism"@de)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/CTO_1000042> "Deformation caused by the sliding of grains past one another (often Coble creep).")
+SubClassOf(<https://w3id.org/pmd/CTO_1000042> <https://w3id.org/pmd/CTO_23c7ac41_f251_4268_87a7_4b68c79e5e0a>)
+
+# Class: <https://w3id.org/pmd/CTO_1000043> (dislocation creep mechanism)
+
+AnnotationAssertion(rdfs:label <https://w3id.org/pmd/CTO_1000043> "dislocation creep mechanism"@de)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/CTO_1000043> "Deformation caused by the movement (climb/glide) of dislocations through the crystal lattice (Power-law creep).")
+SubClassOf(<https://w3id.org/pmd/CTO_1000043> <https://w3id.org/pmd/CTO_23c7ac41_f251_4268_87a7_4b68c79e5e0a>)
+
+# Class: <https://w3id.org/pmd/CTO_1000044> (diffusional creep mechanism)
+
+AnnotationAssertion(rdfs:label <https://w3id.org/pmd/CTO_1000044> "diffusional creep mechanism"@de)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/CTO_1000044> "Deformation caused by the stress-directed diffusion of vacancies (Nabarro-Herring creep).")
+SubClassOf(<https://w3id.org/pmd/CTO_1000044> <https://w3id.org/pmd/CTO_23c7ac41_f251_4268_87a7_4b68c79e5e0a>)
+
 # Class: <https://w3id.org/pmd/CTO_1c35081b_1983_47c1_88d9_cd38403f9f71> (#material composition : pmd)
 
 AnnotationAssertion(rdfs:label <https://w3id.org/pmd/CTO_1c35081b_1983_47c1_88d9_cd38403f9f71> "#material composition : pmd"@de)
 SubClassOf(<https://w3id.org/pmd/CTO_1c35081b_1983_47c1_88d9_cd38403f9f71> <http://purl.obolibrary.org/obo/extra>)
+
+# Class: <https://w3id.org/pmd/CTO_23c7ac41_f251_4268_87a7_4b68c79e5e0a> (#Deformation Mechanism: pmd)
+
+AnnotationAssertion(rdfs:label <https://w3id.org/pmd/CTO_23c7ac41_f251_4268_87a7_4b68c79e5e0a> "#Deformation Mechanism: pmd"@de)
+SubClassOf(<https://w3id.org/pmd/CTO_23c7ac41_f251_4268_87a7_4b68c79e5e0a> <http://purl.obolibrary.org/obo/extra>)
 
 # Class: <https://w3id.org/pmd/CTO_279faa82_82bc_4da3_9d18_0ebba279304c> (soaking time value specification)
 
@@ -450,6 +542,11 @@ AnnotationAssertion(rdfs:label <https://w3id.org/pmd/CTO_3000014> "percentage ex
 AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/CTO_3000014> "Extension at test temperature expressed as a percentage of the reference length, Lr​.")
 SubClassOf(<https://w3id.org/pmd/CTO_3000014> <http://purl.obolibrary.org/obo/IAO_0000416>)
 
+# Class: <https://w3id.org/pmd/CTO_38566f2d_7726_402f_8381_bbed21d5e39a> (#stress : pmd)
+
+AnnotationAssertion(rdfs:label <https://w3id.org/pmd/CTO_38566f2d_7726_402f_8381_bbed21d5e39a> "#stress : pmd"@de)
+SubClassOf(<https://w3id.org/pmd/CTO_38566f2d_7726_402f_8381_bbed21d5e39a> <http://purl.obolibrary.org/obo/extra>)
+
 # Class: <https://w3id.org/pmd/CTO_455b18aa_c353_432a_8f14_d6deda476cd9> (test duration value specification)
 
 AnnotationAssertion(rdfs:label <https://w3id.org/pmd/CTO_455b18aa_c353_432a_8f14_d6deda476cd9> "test duration value specification"@en)
@@ -488,17 +585,21 @@ AnnotationAssertion(rdfs:label <https://w3id.org/pmd/CTO_8b3c7e12_95a6_4712_8a2b
 AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/CTO_8b3c7e12_95a6_4712_8a2b_6f4856769b2d> "The date and time at which the experimental process was completed.")
 SubClassOf(<https://w3id.org/pmd/CTO_8b3c7e12_95a6_4712_8a2b_6f4856769b2d> <http://purl.obolibrary.org/obo/IAO_0000027>)
 
+# Class: <https://w3id.org/pmd/CTO_afa13ffb_1ddd_41c4_8aa7_66b140af7aa5> (#process stage : pmd)
+
+AnnotationAssertion(rdfs:label <https://w3id.org/pmd/CTO_afa13ffb_1ddd_41c4_8aa7_66b140af7aa5> "#process stage : pmd"@de)
+SubClassOf(<https://w3id.org/pmd/CTO_afa13ffb_1ddd_41c4_8aa7_66b140af7aa5> <http://purl.obolibrary.org/obo/extra>)
+
+# Class: <https://w3id.org/pmd/CTO_b85a0ce6_a676_4957_b708_6881f647f5c7> (#rate : pmd)
+
+AnnotationAssertion(rdfs:label <https://w3id.org/pmd/CTO_b85a0ce6_a676_4957_b708_6881f647f5c7> "#rate : pmd"@de)
+SubClassOf(<https://w3id.org/pmd/CTO_b85a0ce6_a676_4957_b708_6881f647f5c7> <http://purl.obolibrary.org/obo/extra>)
+
 # Class: <https://w3id.org/pmd/CTO_e9a40754_b4e0_4108_8c1a_18696b83059c> (creep rupture time value specification)
 
 AnnotationAssertion(rdfs:label <https://w3id.org/pmd/CTO_e9a40754_b4e0_4108_8c1a_18696b83059c> "creep rupture time value specification"@en)
 AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/CTO_e9a40754_b4e0_4108_8c1a_18696b83059c> "The specific time elapsed until the material physically fractured (ruptured) under the creep load.")
 SubClassOf(<https://w3id.org/pmd/CTO_e9a40754_b4e0_4108_8c1a_18696b83059c> <https://w3id.org/pmd/CTO_8b11ee4a_37f7_4e93_9627_f27d798f1007>)
-
-# Class: <https://w3id.org/pmd/CTO_f87aab7f_ff44_4245_9602_55941bfd272b> (grain role)
-
-AnnotationAssertion(rdfs:label <https://w3id.org/pmd/CTO_f87aab7f_ff44_4245_9602_55941bfd272b> "grain role"@en)
-AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/CTO_f87aab7f_ff44_4245_9602_55941bfd272b> "A small initial load applied to align the specimen and remove \"slack\" from the fixture before the actual test starts.")
-SubClassOf(<https://w3id.org/pmd/CTO_f87aab7f_ff44_4245_9602_55941bfd272b> <http://purl.obolibrary.org/obo/BFO_0000023>)
 
 # Class: <https://w3id.org/pmd/co/PMD_00000041> (creep rupture time)
 
