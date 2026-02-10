@@ -57,6 +57,8 @@ Declaration(Class(<https://w3id.org/pmd/CTO_1000028>))
 Declaration(Class(<https://w3id.org/pmd/CTO_1000029>))
 Declaration(Class(<https://w3id.org/pmd/CTO_1000030>))
 Declaration(Class(<https://w3id.org/pmd/CTO_1000031>))
+Declaration(Class(<https://w3id.org/pmd/CTO_1000032>))
+Declaration(Class(<https://w3id.org/pmd/CTO_1000033>))
 Declaration(Class(<https://w3id.org/pmd/CTO_1c35081b_1983_47c1_88d9_cd38403f9f71>))
 Declaration(Class(<https://w3id.org/pmd/CTO_279faa82_82bc_4da3_9d18_0ebba279304c>))
 Declaration(Class(<https://w3id.org/pmd/CTO_3000000>))
@@ -328,9 +330,22 @@ SubClassOf(<https://w3id.org/pmd/CTO_1000030> <https://nfdi.fiz-karlsruhe.de/ont
 
 # Class: <https://w3id.org/pmd/CTO_1000031> (creep test piece material identifier)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <https://w3id.org/pmd/CTO_1000031> "https://w3id.org/nfdi4ing/metadata/identifier")
 AnnotationAssertion(rdfs:label <https://w3id.org/pmd/CTO_1000031> "creep test piece material identifier"@de)
 AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/CTO_1000031> "The specific code or heat number identifying the batch/lot of material the test piece was taken from.")
 SubClassOf(<https://w3id.org/pmd/CTO_1000031> <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000015>)
+
+# Class: <https://w3id.org/pmd/CTO_1000032> (creep test piece origin description)
+
+AnnotationAssertion(rdfs:label <https://w3id.org/pmd/CTO_1000032> "creep test piece origin description"@de)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/CTO_1000032> "Documentation describing the provenance of the test piece (e.g., location within the original ingot, orientation).")
+SubClassOf(<https://w3id.org/pmd/CTO_1000032> <http://purl.obolibrary.org/obo/IAO_0000030>)
+
+# Class: <https://w3id.org/pmd/CTO_1000033> (creep testing machine role)
+
+AnnotationAssertion(rdfs:label <https://w3id.org/pmd/CTO_1000033> "creep testing machine role"@de)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/CTO_1000033> "The function realized by the testing equipment when it is used to perform a creep test.")
+SubClassOf(<https://w3id.org/pmd/CTO_1000033> <http://purl.obolibrary.org/obo/BFO_0000023>)
 
 # Class: <https://w3id.org/pmd/CTO_1c35081b_1983_47c1_88d9_cd38403f9f71> (#material composition : pmd)
 
