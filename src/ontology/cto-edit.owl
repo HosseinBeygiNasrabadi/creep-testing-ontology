@@ -36,6 +36,14 @@ Declaration(Class(<https://w3id.org/pmd/CTO_1000006>))
 Declaration(Class(<https://w3id.org/pmd/CTO_1000007>))
 Declaration(Class(<https://w3id.org/pmd/CTO_1000008>))
 Declaration(Class(<https://w3id.org/pmd/CTO_1000009>))
+Declaration(Class(<https://w3id.org/pmd/CTO_1000010>))
+Declaration(Class(<https://w3id.org/pmd/CTO_1000011>))
+Declaration(Class(<https://w3id.org/pmd/CTO_1000012>))
+Declaration(Class(<https://w3id.org/pmd/CTO_1000013>))
+Declaration(Class(<https://w3id.org/pmd/CTO_1000014>))
+Declaration(Class(<https://w3id.org/pmd/CTO_1000015>))
+Declaration(Class(<https://w3id.org/pmd/CTO_1000016>))
+Declaration(Class(<https://w3id.org/pmd/CTO_1000017>))
 Declaration(Class(<https://w3id.org/pmd/CTO_279faa82_82bc_4da3_9d18_0ebba279304c>))
 Declaration(Class(<https://w3id.org/pmd/CTO_3000000>))
 Declaration(Class(<https://w3id.org/pmd/CTO_3000001>))
@@ -109,8 +117,8 @@ AnnotationAssertion(rdfs:label dcterms:title "title")
 
 # Class: <http://purl.obolibrary.org/obo/IAO_0000416> (#extension:tto)
 
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000416> "extension")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000416> "#extension:tto")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000416> "extension")
 SubClassOf(<http://purl.obolibrary.org/obo/IAO_0000416> <https://w3id.org/pmd/co/PMD_0040001>)
 
 # Class: <https://w3id.org/nfdi4ing/metadata/title> (<https://w3id.org/nfdi4ing/metadata/title>)
@@ -188,6 +196,53 @@ SubClassOf(<https://w3id.org/pmd/CTO_1000008> <https://w3id.org/pmd/CTO_1000003>
 AnnotationAssertion(rdfs:label <https://w3id.org/pmd/CTO_1000009> "data acquisition system"@en)
 AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/CTO_1000009> "The central unit collecting signals from load cells, extensometers, and thermocouples.")
 SubClassOf(<https://w3id.org/pmd/CTO_1000009> <https://w3id.org/pmd/co/PMD_0000602>)
+
+# Class: <https://w3id.org/pmd/CTO_1000010> (creep test piece role)
+
+AnnotationAssertion(rdfs:label <https://w3id.org/pmd/CTO_1000010> "creep test piece role"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/CTO_1000010> "The realizable entity that the specimen plays during the experiment (i.e., being the object under stress).")
+SubClassOf(<https://w3id.org/pmd/CTO_1000010> <http://purl.obolibrary.org/obo/BFO_0000023>)
+
+# Class: <https://w3id.org/pmd/CTO_1000011> (creep test piece material designation)
+
+AnnotationAssertion(rdfs:label <https://w3id.org/pmd/CTO_1000011> "creep test piece material designation"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/CTO_1000011> "The standardized alphanumeric code (e.g., \"IN718\" or \"316L\") that identifies the specific alloy or material type.")
+SubClassOf(<https://w3id.org/pmd/CTO_1000011> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001099>)
+
+# Class: <https://w3id.org/pmd/CTO_1000012> (#state specification : pmd)
+
+AnnotationAssertion(rdfs:label <https://w3id.org/pmd/CTO_1000012> "#state specification : pmd"@en)
+SubClassOf(<https://w3id.org/pmd/CTO_1000012> <http://purl.obolibrary.org/obo/extra>)
+
+# Class: <https://w3id.org/pmd/CTO_1000013> (Material state specification)
+
+AnnotationAssertion(rdfs:label <https://w3id.org/pmd/CTO_1000013> "Material state specification"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/CTO_1000013> "A descriptor defining the processing history or physical condition of the material before or after testing.")
+SubClassOf(<https://w3id.org/pmd/CTO_1000013> <https://w3id.org/pmd/CTO_1000012>)
+
+# Class: <https://w3id.org/pmd/CTO_1000014> (as manufactured)
+
+AnnotationAssertion(rdfs:label <https://w3id.org/pmd/CTO_1000014> "as manufactured"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/CTO_1000014> "The condition of the material immediately after the primary manufacturing process (casting/forging) without further treatment.")
+SubClassOf(<https://w3id.org/pmd/CTO_1000014> <https://w3id.org/pmd/CTO_1000013>)
+
+# Class: <https://w3id.org/pmd/CTO_1000015> (heat treated)
+
+AnnotationAssertion(rdfs:label <https://w3id.org/pmd/CTO_1000015> "heat treated"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/CTO_1000015> "The condition of the material resulting from a controlled heating and cooling process to alter its physical properties.")
+SubClassOf(<https://w3id.org/pmd/CTO_1000015> <https://w3id.org/pmd/CTO_1000013>)
+
+# Class: <https://w3id.org/pmd/CTO_1000016> (as tested)
+
+AnnotationAssertion(rdfs:label <https://w3id.org/pmd/CTO_1000016> "as tested"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/CTO_1000016> "The specific state of the material at the exact moment the test begins (including all pre-test preparations).")
+SubClassOf(<https://w3id.org/pmd/CTO_1000016> <https://w3id.org/pmd/CTO_1000013>)
+
+# Class: <https://w3id.org/pmd/CTO_1000017> (fractured)
+
+AnnotationAssertion(rdfs:label <https://w3id.org/pmd/CTO_1000017> "fractured"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/CTO_1000017> "The condition of the test piece after the creep rupture limit has been reached and the material has separated.")
+SubClassOf(<https://w3id.org/pmd/CTO_1000017> <https://w3id.org/pmd/CTO_1000013>)
 
 # Class: <https://w3id.org/pmd/CTO_279faa82_82bc_4da3_9d18_0ebba279304c> (soaking time value specification)
 
