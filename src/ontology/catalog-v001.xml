@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <uri id="Imports Wizard Entry" name="https://w3id.org/pmd/tto/3.0.0-alpha4" uri="file:/C:/Users/ASUS/Downloads/tto.ttl"/>
     <uri id="Imports Wizard Entry" name="https://w3id.org/pmd/cto/releases/2026-01-27/imports/tto_import.owl" uri="imports/tto_import.owl"/>
     <group id="odk-managed-catalog" prefer="public">
         <uri name="https://w3id.org/pmd/cto/imports/pmdco_import.owl" uri="imports/pmdco_import.owl"/>
