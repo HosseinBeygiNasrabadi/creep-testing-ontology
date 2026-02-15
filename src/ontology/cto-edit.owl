@@ -87,6 +87,7 @@ Declaration(Class(<https://w3id.org/pmd/CTO_1000057>))
 Declaration(Class(<https://w3id.org/pmd/CTO_1000058>))
 Declaration(Class(<https://w3id.org/pmd/CTO_1000059>))
 Declaration(Class(<https://w3id.org/pmd/CTO_1000060>))
+Declaration(Class(<https://w3id.org/pmd/CTO_1000061>))
 Declaration(Class(<https://w3id.org/pmd/CTO_1c35081b_1983_47c1_88d9_cd38403f9f71>))
 Declaration(Class(<https://w3id.org/pmd/CTO_1d323cda_ea25_4f4f_8112_1db2dd480d57>))
 Declaration(Class(<https://w3id.org/pmd/CTO_23c7ac41_f251_4268_87a7_4b68c79e5e0a>))
@@ -109,14 +110,12 @@ Declaration(Class(<https://w3id.org/pmd/CTO_3ed72964_0919_4a58_bc1c_e9c6e59e6bde
 Declaration(Class(<https://w3id.org/pmd/CTO_7a6a3420_fac3_4903_95bc_4354a06488f7>))
 Declaration(Class(<https://w3id.org/pmd/CTO_7dddccc4_7ed3_48d9_9461_c10445fd1987>))
 Declaration(Class(<https://w3id.org/pmd/CTO_8160e123_faad_4809_b92e_01ed26b088ce>))
-Declaration(Class(<https://w3id.org/pmd/CTO_8b11ee4a_37f7_4e93_9627_f27d798f1007>))
 Declaration(Class(<https://w3id.org/pmd/CTO_afa13ffb_1ddd_41c4_8aa7_66b140af7aa5>))
 Declaration(Class(<https://w3id.org/pmd/CTO_b85a0ce6_a676_4957_b708_6881f647f5c7>))
 Declaration(Class(<https://w3id.org/pmd/co/PMD_00000044>))
 Declaration(Class(<https://w3id.org/pmd/co/PMD_00000118>))
 Declaration(Class(<https://w3id.org/pmd/co/PMD_00000126>))
 Declaration(Class(<https://w3id.org/pmd/co/PMD_00000127>))
-Declaration(Class(<https://w3id.org/pmd/http://purl.obolibrary.org/obo/BFO_0000038>))
 Declaration(AnnotationProperty(dcterms:description))
 Declaration(AnnotationProperty(dcterms:license))
 Declaration(AnnotationProperty(dcterms:title))
@@ -524,18 +523,23 @@ SubClassOf(<https://w3id.org/pmd/CTO_1000057> <https://w3id.org/pmd/tto/TTO_0000
 
 AnnotationAssertion(rdfs:label <https://w3id.org/pmd/CTO_1000058> "creep rupture time value specification"@en)
 AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/CTO_1000058> "The specific time elapsed until the material physically fractured (ruptured) under the creep load.")
-SubClassOf(<https://w3id.org/pmd/CTO_1000058> <https://w3id.org/pmd/CTO_8b11ee4a_37f7_4e93_9627_f27d798f1007>)
+SubClassOf(<https://w3id.org/pmd/CTO_1000058> <https://w3id.org/pmd/CTO_1000061>)
 
 # Class: <https://w3id.org/pmd/CTO_1000059> (soaking time value specification)
 
 AnnotationAssertion(rdfs:label <https://w3id.org/pmd/CTO_1000059> "soaking time value specification"@en)
 AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/CTO_1000059> "The duration the specimen is held at the target temperature before the load is applied, ensuring the material is thermally stable and uniformly heated.")
-SubClassOf(<https://w3id.org/pmd/CTO_1000059> <https://w3id.org/pmd/CTO_8b11ee4a_37f7_4e93_9627_f27d798f1007>)
+SubClassOf(<https://w3id.org/pmd/CTO_1000059> <https://w3id.org/pmd/CTO_1000061>)
 
 # Class: <https://w3id.org/pmd/CTO_1000060> (test duration value specification)
 
 AnnotationAssertion(rdfs:label <https://w3id.org/pmd/CTO_1000060> "test duration value specification"@en)
-SubClassOf(<https://w3id.org/pmd/CTO_1000060> <https://w3id.org/pmd/CTO_8b11ee4a_37f7_4e93_9627_f27d798f1007>)
+SubClassOf(<https://w3id.org/pmd/CTO_1000060> <https://w3id.org/pmd/CTO_1000061>)
+
+# Class: <https://w3id.org/pmd/CTO_1000061> (time value specification)
+
+AnnotationAssertion(rdfs:label <https://w3id.org/pmd/CTO_1000061> "time value specification"@en)
+SubClassOf(<https://w3id.org/pmd/CTO_1000061> <http://purl.obolibrary.org/obo/OBI_0001931>)
 
 # Class: <https://w3id.org/pmd/CTO_1c35081b_1983_47c1_88d9_cd38403f9f71> (#material composition : pmd)
 
@@ -664,11 +668,6 @@ SubClassOf(<https://w3id.org/pmd/CTO_7dddccc4_7ed3_48d9_9461_c10445fd1987> <http
 AnnotationAssertion(rdfs:label <https://w3id.org/pmd/CTO_8160e123_faad_4809_b92e_01ed26b088ce> "#pmd:MicrostructureFeature"@de)
 SubClassOf(<https://w3id.org/pmd/CTO_8160e123_faad_4809_b92e_01ed26b088ce> <http://purl.obolibrary.org/obo/extra>)
 
-# Class: <https://w3id.org/pmd/CTO_8b11ee4a_37f7_4e93_9627_f27d798f1007> (#time value specification: pmd)
-
-AnnotationAssertion(rdfs:label <https://w3id.org/pmd/CTO_8b11ee4a_37f7_4e93_9627_f27d798f1007> "#time value specification: pmd"@en)
-SubClassOf(<https://w3id.org/pmd/CTO_8b11ee4a_37f7_4e93_9627_f27d798f1007> <https://w3id.org/pmd/http://purl.obolibrary.org/obo/BFO_0000038>)
-
 # Class: <https://w3id.org/pmd/CTO_afa13ffb_1ddd_41c4_8aa7_66b140af7aa5> (#process stage : pmd)
 
 AnnotationAssertion(rdfs:label <https://w3id.org/pmd/CTO_afa13ffb_1ddd_41c4_8aa7_66b140af7aa5> "#process stage : pmd"@de)
@@ -701,11 +700,6 @@ SubClassOf(<https://w3id.org/pmd/co/PMD_00000126> <https://w3id.org/pmd/co/PMD_0
 AnnotationAssertion(rdfs:label <https://w3id.org/pmd/co/PMD_00000127> "multiple test piece machine")
 AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/co/PMD_00000127> "Testing machine that permits straining of more than one test piece simultaneously.")
 SubClassOf(<https://w3id.org/pmd/co/PMD_00000127> <https://w3id.org/pmd/co/PMD_0000602>)
-
-# Class: <https://w3id.org/pmd/http://purl.obolibrary.org/obo/BFO_0000038> (time)
-
-AnnotationAssertion(rdfs:label <https://w3id.org/pmd/http://purl.obolibrary.org/obo/BFO_0000038> "time"@en)
-SubClassOf(<https://w3id.org/pmd/http://purl.obolibrary.org/obo/BFO_0000038> <https://w3id.org/pmd/co/PMD_0000589>)
 
 
 )
