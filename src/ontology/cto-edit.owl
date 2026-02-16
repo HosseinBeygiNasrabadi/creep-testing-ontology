@@ -90,6 +90,10 @@ Declaration(Class(<https://w3id.org/pmd/CTO_1000060>))
 Declaration(Class(<https://w3id.org/pmd/CTO_1000061>))
 Declaration(Class(<https://w3id.org/pmd/CTO_1000062>))
 Declaration(Class(<https://w3id.org/pmd/CTO_1000063>))
+Declaration(Class(<https://w3id.org/pmd/CTO_1000064>))
+Declaration(Class(<https://w3id.org/pmd/CTO_1000065>))
+Declaration(Class(<https://w3id.org/pmd/CTO_1000066>))
+Declaration(Class(<https://w3id.org/pmd/CTO_1000067>))
 Declaration(Class(<https://w3id.org/pmd/CTO_1c35081b_1983_47c1_88d9_cd38403f9f71>))
 Declaration(Class(<https://w3id.org/pmd/CTO_1d323cda_ea25_4f4f_8112_1db2dd480d57>))
 Declaration(Class(<https://w3id.org/pmd/CTO_23c7ac41_f251_4268_87a7_4b68c79e5e0a>))
@@ -555,6 +559,30 @@ SubClassOf(<https://w3id.org/pmd/CTO_1000062> <https://w3id.org/pmd/tto/TTO_0000
 AnnotationAssertion(rdfs:label <https://w3id.org/pmd/CTO_1000063> "creep strain rate datum"@en)
 AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/CTO_1000063> "A recorded measurement describing the rate of creep deformation.")
 SubClassOf(<https://w3id.org/pmd/CTO_1000063> <http://purl.obolibrary.org/obo/OBI_0001931>)
+
+# Class: <https://w3id.org/pmd/CTO_1000064> (calibration data description)
+
+AnnotationAssertion(rdfs:label <https://w3id.org/pmd/CTO_1000064> "calibration data description"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/CTO_1000064> "Reference to the verification certificates for force (ISO 7500-2) and extension (ISO 9513).")
+SubClassOf(<https://w3id.org/pmd/CTO_1000064> <http://purl.obolibrary.org/obo/IAO_0000030>)
+
+# Class: <https://w3id.org/pmd/CTO_1000065> (heating time)
+
+AnnotationAssertion(rdfs:label <https://w3id.org/pmd/CTO_1000065> "heating time"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/CTO_1000065> "Duration taken to heat the specimen to test temperature.")
+SubClassOf(<https://w3id.org/pmd/CTO_1000065> <http://purl.obolibrary.org/obo/extra>)
+
+# Class: <https://w3id.org/pmd/CTO_1000066> (soak time)
+
+AnnotationAssertion(rdfs:label <https://w3id.org/pmd/CTO_1000066> "soak time"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/CTO_1000066> "Duration the specimen is held at temperature before loading.")
+SubClassOf(<https://w3id.org/pmd/CTO_1000066> <http://purl.obolibrary.org/obo/extra>)
+
+# Class: <https://w3id.org/pmd/CTO_1000067> (test duration)
+
+AnnotationAssertion(rdfs:label <https://w3id.org/pmd/CTO_1000067> "test duration"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/CTO_1000067> "Total time elapsed from loading until the test end.")
+SubClassOf(<https://w3id.org/pmd/CTO_1000067> <http://purl.obolibrary.org/obo/extra>)
 
 # Class: <https://w3id.org/pmd/CTO_1c35081b_1983_47c1_88d9_cd38403f9f71> (#material composition : pmd)
 
