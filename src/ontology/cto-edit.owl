@@ -88,6 +88,8 @@ Declaration(Class(<https://w3id.org/pmd/CTO_1000058>))
 Declaration(Class(<https://w3id.org/pmd/CTO_1000059>))
 Declaration(Class(<https://w3id.org/pmd/CTO_1000060>))
 Declaration(Class(<https://w3id.org/pmd/CTO_1000061>))
+Declaration(Class(<https://w3id.org/pmd/CTO_1000062>))
+Declaration(Class(<https://w3id.org/pmd/CTO_1000063>))
 Declaration(Class(<https://w3id.org/pmd/CTO_1c35081b_1983_47c1_88d9_cd38403f9f71>))
 Declaration(Class(<https://w3id.org/pmd/CTO_1d323cda_ea25_4f4f_8112_1db2dd480d57>))
 Declaration(Class(<https://w3id.org/pmd/CTO_23c7ac41_f251_4268_87a7_4b68c79e5e0a>))
@@ -534,12 +536,25 @@ SubClassOf(<https://w3id.org/pmd/CTO_1000059> <https://w3id.org/pmd/CTO_1000061>
 # Class: <https://w3id.org/pmd/CTO_1000060> (test duration value specification)
 
 AnnotationAssertion(rdfs:label <https://w3id.org/pmd/CTO_1000060> "test duration value specification"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/CTO_1000060> "The total amount of time the test ran from the application of force until the test was stopped or the specimen failed.")
 SubClassOf(<https://w3id.org/pmd/CTO_1000060> <https://w3id.org/pmd/CTO_1000061>)
 
 # Class: <https://w3id.org/pmd/CTO_1000061> (time value specification)
 
 AnnotationAssertion(rdfs:label <https://w3id.org/pmd/CTO_1000061> "time value specification"@en)
 SubClassOf(<https://w3id.org/pmd/CTO_1000061> <http://purl.obolibrary.org/obo/OBI_0001931>)
+
+# Class: <https://w3id.org/pmd/CTO_1000062> (creep rupture elongation)
+
+AnnotationAssertion(rdfs:label <https://w3id.org/pmd/CTO_1000062> "creep rupture elongation"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/CTO_1000062> "The amount of elongation observed at the moment the specimen fails.")
+SubClassOf(<https://w3id.org/pmd/CTO_1000062> <https://w3id.org/pmd/tto/TTO_0000004>)
+
+# Class: <https://w3id.org/pmd/CTO_1000063> (creep strain rate datum)
+
+AnnotationAssertion(rdfs:label <https://w3id.org/pmd/CTO_1000063> "creep strain rate datum"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/CTO_1000063> "A recorded measurement describing the rate of creep deformation.")
+SubClassOf(<https://w3id.org/pmd/CTO_1000063> <http://purl.obolibrary.org/obo/OBI_0001931>)
 
 # Class: <https://w3id.org/pmd/CTO_1c35081b_1983_47c1_88d9_cd38403f9f71> (#material composition : pmd)
 
