@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+title: Creep Testing Ontology (CTO)
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: Ontology
+authors:
+  - given-names: Hossein
+    family-names: Beygi Nasrabadi
+  - given-names: Soheil
+    family-names: Molaei
+  - given-names: Jörg
+    family-names: Waitelonis
+repository: 'hhttps://github.com/HosseinBeygiNasrabadi/creep-testing-ontology'
+license: CCO-1.0
+version: v1.0.0
+date-released: '2026-xx-xx'

@@ -1,4 +1,17 @@
+https://w3id.org/pmd/tto/TTO_0000028
+https://w3id.org/pmd/tto/TTO_0000017
+https://w3id.org/pmd/tto/TTO_0000031
+https://w3id.org/pmd/tto/TTO_0000018
+https://w3id.org/pmd/tto/TTO_0000026
+https://w3id.org/pmd/tto/TTO_0000024
 https://w3id.org/pmd/tto/TTO_0000005 #extension
+https://w3id.org/pmd/tto/TTO_0000004
+https://w3id.org/pmd/tto/TTO_0000034
+https://w3id.org/pmd/tto/TTO_0000032
+https://w3id.org/pmd/tto/TTO_0000039
+https://w3id.org/pmd/tto/TTO_0000037
+https://w3id.org/pmd/tto/TTO_0000036
 https://w3id.org/pmd/tto/TTO_0000035 #percentage permanent elongation
 https://w3id.org/pmd/tto/TTO_0000038 #Percentage reduction of area
 https://w3id.org/pmd/tto/TTO_0000033 #percentage elongation after fracture
+

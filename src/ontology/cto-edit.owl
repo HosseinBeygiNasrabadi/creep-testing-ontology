@@ -9,11 +9,9 @@ Prefix(dcterms:=<http://purl.org/dc/terms/>)
 
 
 Ontology(<https://w3id.org/pmd/cto.owl>
-Import(<https://w3id.org/pmd/cto/imports/log_import.owl>)
 Import(<https://w3id.org/pmd/cto/imports/mwo_import.owl>)
 Import(<https://w3id.org/pmd/cto/imports/pmdco_import.owl>)
 Import(<https://w3id.org/pmd/cto/imports/tto_import.owl>)
-Import(<https://w3id.org/pmd/cto/releases/2026-01-27/imports/tto_import.owl>)
 Annotation(dcterms:creator "Soheil Molaei")
 Annotation(dcterms:creator "https://orcid.org/0000-0002-3092-0532")
 Annotation(dcterms:description "Creep Testing Ontology (CTO) has been developed for representing the creep testing process, testing equipment and setup requirements, test specimen characteristics, loading and environmental conditions (e.g. stress, temperature, atmosphere), time-dependent deformation behavior, and related testing parameters and measurement procedures according to DIN EN ISO 204 standard.")
@@ -99,7 +97,6 @@ Declaration(Class(<https://w3id.org/pmd/CTO_3000014>))
 Declaration(Class(<https://w3id.org/pmd/CTO_38566f2d_7726_402f_8381_bbed21d5e39a>))
 Declaration(Class(<https://w3id.org/pmd/CTO_3ed72964_0919_4a58_bc1c_e9c6e59e6bde>))
 Declaration(Class(<https://w3id.org/pmd/CTO_455b18aa_c353_432a_8f14_d6deda476cd9>))
-Declaration(Class(<https://w3id.org/pmd/CTO_584b8138_68f7_4043_b23d_bac8e13ffe22>))
 Declaration(Class(<https://w3id.org/pmd/CTO_7a6a3420_fac3_4903_95bc_4354a06488f7>))
 Declaration(Class(<https://w3id.org/pmd/CTO_7dddccc4_7ed3_48d9_9461_c10445fd1987>))
 Declaration(Class(<https://w3id.org/pmd/CTO_8160e123_faad_4809_b92e_01ed26b088ce>))
@@ -364,7 +361,7 @@ SubClassOf(<https://w3id.org/pmd/CTO_1000031> <https://nfdi.fiz-karlsruhe.de/ont
 
 AnnotationAssertion(rdfs:label <https://w3id.org/pmd/CTO_1000032> "creep test piece origin description"@de)
 AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/CTO_1000032> "Documentation describing the provenance of the test piece (e.g., location within the original ingot, orientation).")
-SubClassOf(<https://w3id.org/pmd/CTO_1000032> <http://purl.obolibrary.org/obo/IAO_0000030>)
+SubClassOf(<https://w3id.org/pmd/CTO_1000032> <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0001018>)
 
 # Class: <https://w3id.org/pmd/CTO_1000033> (creep testing machine role)
 
@@ -617,11 +614,6 @@ SubClassOf(<https://w3id.org/pmd/CTO_3ed72964_0919_4a58_bc1c_e9c6e59e6bde> <http
 
 AnnotationAssertion(rdfs:label <https://w3id.org/pmd/CTO_455b18aa_c353_432a_8f14_d6deda476cd9> "test duration value specification"@en)
 SubClassOf(<https://w3id.org/pmd/CTO_455b18aa_c353_432a_8f14_d6deda476cd9> <https://w3id.org/pmd/CTO_8b11ee4a_37f7_4e93_9627_f27d798f1007>)
-
-# Class: <https://w3id.org/pmd/CTO_584b8138_68f7_4043_b23d_bac8e13ffe22> (time measurment datum)
-
-AnnotationAssertion(rdfs:label <https://w3id.org/pmd/CTO_584b8138_68f7_4043_b23d_bac8e13ffe22> "time measurment datum"@en)
-SubClassOf(<https://w3id.org/pmd/CTO_584b8138_68f7_4043_b23d_bac8e13ffe22> <https://w3id.org/pmd/http://purl.obolibrary.org/obo/BFO_0000038>)
 
 # Class: <https://w3id.org/pmd/CTO_7a6a3420_fac3_4903_95bc_4354a06488f7> (#length value specification)
 

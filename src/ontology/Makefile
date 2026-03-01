@@ -10,7 +10,7 @@
 # More information: https://github.com/INCATools/ontology-development-kit/
 
 # Fingerprint of the configuration file when this Makefile was last generated
-CONFIG_HASH=                58b4b3c2ee616110d355586b8f03a43750503ab722578e2678c8b7fd783480c8
+CONFIG_HASH=                013fe3c7006843c1908524323f50508c0f5581c53ebed5b61d951975e8a31739
 
 
 # ----------------------------------------
@@ -187,7 +187,7 @@ all_main: $(MAIN_FILES)
 # ----------------------------------------
 
 
-IMPORTS =  pmdco mwo log tto
+IMPORTS =  pmdco mwo tto
 
 IMPORT_ROOTS = $(patsubst %, $(IMPORTDIR)/%_import, $(IMPORTS))
 IMPORT_OWL_FILES = $(foreach n,$(IMPORT_ROOTS), $(n).owl)
@@ -426,6 +426,12 @@ $(IMPORTDIR)/pmdco_import.owl: $(MIRRORDIR)/pmdco.owl | all_robot_plugins
 		 repair --merge-axiom-annotations true \
 		 $(ANNOTATE_CONVERT_FILE)
 
+## Module for ontology: tto (custom)
+$(IMPORTDIR)/tto_import.owl: $(MIRRORDIR)/tto.owl
+	@echo "ERROR: You have configured tto as a custom module;"
+	@echo "       This rule needs to be overwritten in cto.Makefile!"
+	@false
+
 endif # IMP=true
 
 .PHONY: refresh-imports
@@ -471,13 +477,6 @@ mirror-pmdco: | $(TMPDIR)
 .PRECIOUS: $(MIRRORDIR)/mwo.owl
 mirror-mwo: | $(TMPDIR)
 	$(ROBOT) convert -I https://raw.githubusercontent.com/ISE-FIZKarlsruhe/mwo/refs/heads/main/mwo.owl -o $(TMPDIR)/$@.owl
-
-
-## ONTOLOGY: log
-.PHONY: mirror-log
-.PRECIOUS: $(MIRRORDIR)/log.owl
-mirror-log: | $(TMPDIR)
-	$(ROBOT) convert -I http://raw.githubusercontent.com/materialdigital/logistics-application-ontology/refs/heads/main/log.owl -o $(TMPDIR)/$@.owl
 
 
 ## ONTOLOGY: tto
