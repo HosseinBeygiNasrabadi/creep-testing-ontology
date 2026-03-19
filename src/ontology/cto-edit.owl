@@ -23,6 +23,8 @@ Declaration(Class(<http://purl.obolibrary.org/obo/extra>))
 Declaration(Class(<https://w3id.org/pmd/CTO_0000000>))
 Declaration(Class(<https://w3id.org/pmd/CTO_0000001>))
 Declaration(Class(<https://w3id.org/pmd/CTO_0000002>))
+Declaration(Class(<https://w3id.org/pmd/CTO_0000008>))
+Declaration(Class(<https://w3id.org/pmd/CTO_0000009>))
 Declaration(Class(<https://w3id.org/pmd/CTO_1000000>))
 Declaration(Class(<https://w3id.org/pmd/CTO_1000001>))
 Declaration(Class(<https://w3id.org/pmd/CTO_1000002>))
@@ -45,7 +47,6 @@ Declaration(Class(<https://w3id.org/pmd/CTO_1000019>))
 Declaration(Class(<https://w3id.org/pmd/CTO_1000020>))
 Declaration(Class(<https://w3id.org/pmd/CTO_1000021>))
 Declaration(Class(<https://w3id.org/pmd/CTO_1000022>))
-Declaration(Class(<https://w3id.org/pmd/CTO_1000023>))
 Declaration(Class(<https://w3id.org/pmd/CTO_1000024>))
 Declaration(Class(<https://w3id.org/pmd/CTO_1000025>))
 Declaration(Class(<https://w3id.org/pmd/CTO_1000026>))
@@ -126,6 +127,7 @@ AnnotationAssertion(rdfs:label dcterms:title "title")
 
 
 
+
 ############################
 #   Classes
 ############################
@@ -145,6 +147,18 @@ SubClassOf(<https://w3id.org/pmd/CTO_0000001> <https://w3id.org/pmd/co/PMD_00600
 
 AnnotationAssertion(rdfs:label <https://w3id.org/pmd/CTO_0000002> "size value specification"@en)
 SubClassOf(<https://w3id.org/pmd/CTO_0000002> <http://purl.obolibrary.org/obo/OBI_0001931>)
+
+# Class: <https://w3id.org/pmd/CTO_0000008> (dataset DOI)
+
+AnnotationAssertion(rdfs:label <https://w3id.org/pmd/CTO_0000008> "dataset DOI"@en)
+EquivalentClasses(<https://w3id.org/pmd/CTO_0000008> ObjectIntersectionOf(<https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0001037> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000219> <https://w3id.org/pmd/CTO_0000009>)))
+SubClassOf(<https://w3id.org/pmd/CTO_0000008> <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0001037>)
+
+# Class: <https://w3id.org/pmd/CTO_0000009> (creep reference dataset)
+
+AnnotationAssertion(rdfs:label <https://w3id.org/pmd/CTO_0000009> "creep reference dataset"@en)
+EquivalentClasses(<https://w3id.org/pmd/CTO_0000009> ObjectIntersectionOf(<https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0001204> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000312> <https://w3id.org/pmd/co/PMD_0000589>)))
+SubClassOf(<https://w3id.org/pmd/CTO_0000009> <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0001204>)
 
 # Class: <https://w3id.org/pmd/CTO_1000000> (creep test standard)
 
@@ -281,13 +295,6 @@ AnnotationAssertion(rdfs:label <https://w3id.org/pmd/CTO_1000022> "precipitate s
 AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/CTO_1000022> "The quantitative measurement of the average size (diameter/length) of precipitate particles.")
 SubClassOf(<https://w3id.org/pmd/CTO_1000022> <https://w3id.org/pmd/CTO_0000002>)
 
-# Class: <https://w3id.org/pmd/CTO_1000023> (creep test piece chemical composition)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <https://w3id.org/pmd/CTO_1000023> "https://w3id.org/pmd/co/ChemicalComposition")
-AnnotationAssertion(rdfs:label <https://w3id.org/pmd/CTO_1000023> "creep test piece chemical composition")
-AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/CTO_1000023> "The breakdown of the material into its constituent elements and their respective percentages (wt% or at%).")
-SubClassOf(<https://w3id.org/pmd/CTO_1000023> <https://w3id.org/pmd/co/PMD_0000551>)
-
 # Class: <https://w3id.org/pmd/CTO_1000024> (extensometer gauge length value specification)
 
 AnnotationAssertion(rdfs:label <https://w3id.org/pmd/CTO_1000024> "extensometer gauge length value specification"@en)
@@ -323,7 +330,8 @@ SubClassOf(<https://w3id.org/pmd/CTO_1000028> <https://w3id.org/pmd/CTO_7a6a3420
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <https://w3id.org/pmd/CTO_1000030> "https://w3id.org/nfdi4ing/metadata/identifier")
 AnnotationAssertion(rdfs:label <https://w3id.org/pmd/CTO_1000030> "test identifier"@en)
 AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/CTO_1000030> "A unique alphanumeric string used to track and identify a specific test instance.")
-SubClassOf(<https://w3id.org/pmd/CTO_1000030> <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000015>)
+EquivalentClasses(<https://w3id.org/pmd/CTO_1000030> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/IAO_0020000> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000312> <http://purl.obolibrary.org/obo/OBI_0000070>)))
+SubClassOf(<https://w3id.org/pmd/CTO_1000030> <http://purl.obolibrary.org/obo/IAO_0020000>)
 
 # Class: <https://w3id.org/pmd/CTO_1000031> (creep test piece material identifier)
 
