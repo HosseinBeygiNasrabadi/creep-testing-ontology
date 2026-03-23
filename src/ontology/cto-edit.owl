@@ -52,6 +52,7 @@ Declaration(Class(<https://w3id.org/pmd/CTO_1000025>))
 Declaration(Class(<https://w3id.org/pmd/CTO_1000026>))
 Declaration(Class(<https://w3id.org/pmd/CTO_1000027>))
 Declaration(Class(<https://w3id.org/pmd/CTO_1000028>))
+Declaration(Class(<https://w3id.org/pmd/CTO_1000029>))
 Declaration(Class(<https://w3id.org/pmd/CTO_1000030>))
 Declaration(Class(<https://w3id.org/pmd/CTO_1000031>))
 Declaration(Class(<https://w3id.org/pmd/CTO_1000032>))
@@ -325,6 +326,12 @@ AnnotationAssertion(rdfs:label <https://w3id.org/pmd/CTO_1000028> "reference len
 AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/CTO_1000028> "The length used to calculate non-proportional extension, often distinct from elongation in specific creep contexts involving plastic deformation.")
 SubClassOf(<https://w3id.org/pmd/CTO_1000028> <https://w3id.org/pmd/CTO_7a6a3420_fac3_4903_95bc_4354a06488f7>)
 
+# Class: <https://w3id.org/pmd/CTO_1000029> (percentage elongation after fracture value specification)
+
+AnnotationAssertion(rdfs:label <https://w3id.org/pmd/CTO_1000029> "percentage elongation after fracture value specification"@en)
+EquivalentClasses(<https://w3id.org/pmd/CTO_1000029> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OBI_0001931> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0001927> <https://w3id.org/pmd/tto/TTO_0000033>)))
+SubClassOf(<https://w3id.org/pmd/CTO_1000029> <https://w3id.org/pmd/co/PMD_0025997>)
+
 # Class: <https://w3id.org/pmd/CTO_1000030> (test identifier)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <https://w3id.org/pmd/CTO_1000030> "https://w3id.org/nfdi4ing/metadata/identifier")
@@ -542,12 +549,14 @@ SubClassOf(<https://w3id.org/pmd/CTO_3000009> <https://w3id.org/pmd/CTO_0000001>
 
 AnnotationAssertion(rdfs:label <https://w3id.org/pmd/CTO_3000010> "percentage creep extension")
 AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/CTO_3000010> "Extension at loading determined as difference between ep​ and ei​.")
+EquivalentClasses(<https://w3id.org/pmd/CTO_3000010> ObjectIntersectionOf(<https://w3id.org/pmd/tto/TTO_0000034> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002353> <https://w3id.org/pmd/co/PMD_0000589>)))
 SubClassOf(<https://w3id.org/pmd/CTO_3000010> <https://w3id.org/pmd/tto/TTO_0000034>)
 
 # Class: <https://w3id.org/pmd/CTO_3000011> (percentage total extension)
 
 AnnotationAssertion(rdfs:label <https://w3id.org/pmd/CTO_3000011> "percentage total extension")
 AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/CTO_3000011> "Extension at the test force at time t and at test temperature, as a percentage of Lr​.")
+EquivalentClasses(<https://w3id.org/pmd/CTO_3000011> ObjectIntersectionOf(<https://w3id.org/pmd/tto/TTO_0000034> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002353> <https://w3id.org/pmd/co/PMD_0000589>)))
 SubClassOf(<https://w3id.org/pmd/CTO_3000011> <https://w3id.org/pmd/tto/TTO_0000034>)
 
 # Class: <https://w3id.org/pmd/CTO_3000012> (percentage anelastic extension)
@@ -587,12 +596,14 @@ SubClassOf(<https://w3id.org/pmd/CTO_8b11ee4a_37f7_4e93_9627_f27d798f1007> <http
 
 AnnotationAssertion(rdfs:label <https://w3id.org/pmd/CTO_e9a40754_b4e0_4108_8c1a_18696b83059c> "creep rupture time value specification"@en)
 AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/CTO_e9a40754_b4e0_4108_8c1a_18696b83059c> "The specific time elapsed until the material physically fractured (ruptured) under the creep load.")
+EquivalentClasses(<https://w3id.org/pmd/CTO_e9a40754_b4e0_4108_8c1a_18696b83059c> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OBI_0001931> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0001927> <http://purl.obolibrary.org/obo/BFO_0000038>)))
 SubClassOf(<https://w3id.org/pmd/CTO_e9a40754_b4e0_4108_8c1a_18696b83059c> <https://w3id.org/pmd/CTO_8b11ee4a_37f7_4e93_9627_f27d798f1007>)
 
 # Class: <https://w3id.org/pmd/co/PMD_00000116> (percentage initial total extension)
 
 AnnotationAssertion(rdfs:label <https://w3id.org/pmd/co/PMD_00000116> "percentage initial total extension")
 AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/co/PMD_00000116> "Extension at test temperature as a percentage of Lr​ at end of loading with initial stress.")
+EquivalentClasses(<https://w3id.org/pmd/co/PMD_00000116> ObjectIntersectionOf(<https://w3id.org/pmd/tto/TTO_0000034> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002353> <https://w3id.org/pmd/co/PMD_0000589>)))
 SubClassOf(<https://w3id.org/pmd/co/PMD_00000116> <https://w3id.org/pmd/tto/TTO_0000034>)
 
 # Class: <https://w3id.org/pmd/co/PMD_00000118> (percentage reduction of area after creep fracture)
@@ -605,12 +616,14 @@ SubClassOf(<https://w3id.org/pmd/co/PMD_00000118> <https://w3id.org/pmd/tto/TTO_
 
 AnnotationAssertion(rdfs:label <https://w3id.org/pmd/co/PMD_00000119> "percentage initial plastic extension")
 AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/co/PMD_00000119> "Extension at end of loading determined as difference between eti​ and ee​.")
+EquivalentClasses(<https://w3id.org/pmd/co/PMD_00000119> ObjectIntersectionOf(<https://w3id.org/pmd/tto/TTO_0000034> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002353> <https://w3id.org/pmd/co/PMD_0000589>)))
 SubClassOf(<https://w3id.org/pmd/co/PMD_00000119> <https://w3id.org/pmd/tto/TTO_0000034>)
 
 # Class: <https://w3id.org/pmd/co/PMD_00000121> (percentage plastic extension)
 
 AnnotationAssertion(rdfs:label <https://w3id.org/pmd/co/PMD_00000121> "percentage plastic extension")
 AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/co/PMD_00000121> "Extension at time t determined as difference between et​ and ee​.")
+EquivalentClasses(<https://w3id.org/pmd/co/PMD_00000121> ObjectIntersectionOf(<https://w3id.org/pmd/tto/TTO_0000034> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002353> <https://w3id.org/pmd/co/PMD_0000589>)))
 SubClassOf(<https://w3id.org/pmd/co/PMD_00000121> <https://w3id.org/pmd/tto/TTO_0000034>)
 
 # Class: <https://w3id.org/pmd/co/PMD_00000122> (percentage total ultimate extension)
