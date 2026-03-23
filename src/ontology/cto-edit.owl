@@ -25,6 +25,11 @@ Declaration(Class(<https://w3id.org/pmd/CTO_0000001>))
 Declaration(Class(<https://w3id.org/pmd/CTO_0000002>))
 Declaration(Class(<https://w3id.org/pmd/CTO_0000008>))
 Declaration(Class(<https://w3id.org/pmd/CTO_0000009>))
+Declaration(Class(<https://w3id.org/pmd/CTO_0000011>))
+Declaration(Class(<https://w3id.org/pmd/CTO_0000012>))
+Declaration(Class(<https://w3id.org/pmd/CTO_0000013>))
+Declaration(Class(<https://w3id.org/pmd/CTO_0000014>))
+Declaration(Class(<https://w3id.org/pmd/CTO_0000015>))
 Declaration(Class(<https://w3id.org/pmd/CTO_1000000>))
 Declaration(Class(<https://w3id.org/pmd/CTO_1000001>))
 Declaration(Class(<https://w3id.org/pmd/CTO_1000002>))
@@ -170,6 +175,34 @@ SubClassOf(<https://w3id.org/pmd/CTO_0000008> <https://nfdi.fiz-karlsruhe.de/ont
 AnnotationAssertion(rdfs:label <https://w3id.org/pmd/CTO_0000009> "creep reference dataset"@en)
 EquivalentClasses(<https://w3id.org/pmd/CTO_0000009> ObjectIntersectionOf(<https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0001204> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000312> <https://w3id.org/pmd/co/PMD_0000589>)))
 SubClassOf(<https://w3id.org/pmd/CTO_0000009> <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0001204>)
+
+# Class: <https://w3id.org/pmd/CTO_0000011> (Processing method description)
+
+AnnotationAssertion(rdfs:label <https://w3id.org/pmd/CTO_0000011> "Processing method description"@en)
+EquivalentClasses(<https://w3id.org/pmd/CTO_0000011> ObjectIntersectionOf(<https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0001018> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000219> <https://w3id.org/pmd/co/PMD_0000833>)))
+SubClassOf(<https://w3id.org/pmd/CTO_0000011> <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0001018>)
+
+# Class: <https://w3id.org/pmd/CTO_0000012> (solutionizing process)
+
+AnnotationAssertion(rdfs:label <https://w3id.org/pmd/CTO_0000012> "solutionizing process"@en)
+SubClassOf(<https://w3id.org/pmd/CTO_0000012> <https://w3id.org/pmd/co/PMD_0000779>)
+
+# Class: <https://w3id.org/pmd/CTO_0000013> (solutionizing process description)
+
+AnnotationAssertion(rdfs:label <https://w3id.org/pmd/CTO_0000013> "solutionizing process description"@en)
+EquivalentClasses(<https://w3id.org/pmd/CTO_0000013> ObjectIntersectionOf(<https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0001018> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000219> <https://w3id.org/pmd/CTO_0000012>)))
+SubClassOf(<https://w3id.org/pmd/CTO_0000013> <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0001018>)
+
+# Class: <https://w3id.org/pmd/CTO_0000014> (Aging process description)
+
+AnnotationAssertion(rdfs:label <https://w3id.org/pmd/CTO_0000014> "Aging process description"@en)
+EquivalentClasses(<https://w3id.org/pmd/CTO_0000014> ObjectIntersectionOf(<https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0001018> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000219> <https://w3id.org/pmd/co/PMD_0000513>)))
+SubClassOf(<https://w3id.org/pmd/CTO_0000014> <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0001018>)
+
+# Class: <https://w3id.org/pmd/CTO_0000015> (precipitate size)
+
+AnnotationAssertion(rdfs:label <https://w3id.org/pmd/CTO_0000015> "precipitate size"@en)
+SubClassOf(<https://w3id.org/pmd/CTO_0000015> <https://w3id.org/pmd/co/PMD_0020131>)
 
 # Class: <https://w3id.org/pmd/CTO_1000000> (creep test standard)
 
@@ -717,10 +750,9 @@ AnnotationAssertion(rdfs:label <https://w3id.org/pmd/co/PMD_00000127> "multiple 
 AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/co/PMD_00000127> "Testing machine that permits straining of more than one test piece simultaneously.")
 SubClassOf(<https://w3id.org/pmd/co/PMD_00000127> <https://w3id.org/pmd/co/PMD_0000602>)
 
-# Class: <https://w3id.org/pmd/co/PMD_0020154> (precipitation (phase))
+# Class: <https://w3id.org/pmd/co/PMD_0000779> (Wärmebehandlung)
 
-EquivalentClasses(<https://w3id.org/pmd/co/PMD_0020154> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OBI_0001931> ObjectSomeValuesFrom(<https://w3id.org/pmd/co/PMD_0000077> <https://w3id.org/pmd/co/PMD_0020154>)))
-EquivalentClasses(<https://w3id.org/pmd/co/PMD_0020154> ObjectIntersectionOf(<https://w3id.org/pmd/co/PMD_0020136> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000080> <http://purl.obolibrary.org/obo/BFO_0000040>)))
+EquivalentClasses(<https://w3id.org/pmd/co/PMD_0000779> ObjectIntersectionOf(<https://w3id.org/pmd/co/PMD_0000779> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000062> <https://w3id.org/pmd/co/PMD_0000833>)))
 
 # Class: <https://w3id.org/pmd/https://w3id.org/pmd/CTO_1000302> (uncertainty datum)
 
