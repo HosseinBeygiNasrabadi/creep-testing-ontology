@@ -179,29 +179,34 @@ SubClassOf(<https://w3id.org/pmd/CTO_0000009> <https://nfdi.fiz-karlsruhe.de/ont
 # Class: <https://w3id.org/pmd/CTO_0000011> (Processing method description)
 
 AnnotationAssertion(rdfs:label <https://w3id.org/pmd/CTO_0000011> "Processing method description"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/CTO_0000011> "A processing method description is an information content entity that details the comprehensive sequence of primary manufacturing, shaping, and thermo-mechanical treatments (e.g., casting, forging, rolling) used to produce the material in its specific tested state.")
 EquivalentClasses(<https://w3id.org/pmd/CTO_0000011> ObjectIntersectionOf(<https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0001018> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000219> <https://w3id.org/pmd/co/PMD_0000833>)))
 SubClassOf(<https://w3id.org/pmd/CTO_0000011> <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0001018>)
 
 # Class: <https://w3id.org/pmd/CTO_0000012> (solutionizing process)
 
 AnnotationAssertion(rdfs:label <https://w3id.org/pmd/CTO_0000012> "solutionizing process"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/CTO_0000012> "A solutionizing process is a physical heat treatment process in which a material is heated to a specific elevated temperature and held there for a sufficient duration to completely dissolve secondary alloying phases or precipitates into the primary solid solution matrix, typically followed by rapid cooling (quenching) to trap those elements in a supersaturated state prior to aging.")
 SubClassOf(<https://w3id.org/pmd/CTO_0000012> <https://w3id.org/pmd/co/PMD_0000779>)
 
 # Class: <https://w3id.org/pmd/CTO_0000013> (solutionizing process description)
 
 AnnotationAssertion(rdfs:label <https://w3id.org/pmd/CTO_0000013> "solutionizing process description"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/CTO_0000013> "A solutionizing process description is an information content entity that documents the specific time and temperature parameters of the solution heat treatment performed to fully dissolve secondary alloying phases into the primary solid solution matrix prior to quenching.")
 EquivalentClasses(<https://w3id.org/pmd/CTO_0000013> ObjectIntersectionOf(<https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0001018> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000219> <https://w3id.org/pmd/CTO_0000012>)))
 SubClassOf(<https://w3id.org/pmd/CTO_0000013> <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0001018>)
 
 # Class: <https://w3id.org/pmd/CTO_0000014> (Aging process description)
 
 AnnotationAssertion(rdfs:label <https://w3id.org/pmd/CTO_0000014> "Aging process description"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/CTO_0000014> "An aging process description is an information content entity that formally documents the specific parameters—such as target temperature, hold time, and cooling rate—of the precipitation hardening heat treatment applied to a material to increase its strength.")
 EquivalentClasses(<https://w3id.org/pmd/CTO_0000014> ObjectIntersectionOf(<https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0001018> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000219> <https://w3id.org/pmd/co/PMD_0000513>)))
 SubClassOf(<https://w3id.org/pmd/CTO_0000014> <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0001018>)
 
 # Class: <https://w3id.org/pmd/CTO_0000015> (precipitate size)
 
 AnnotationAssertion(rdfs:label <https://w3id.org/pmd/CTO_0000015> "precipitate size"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/CTO_0000015> "A precipitation size (more formally referred to in materials science as precipitate size) is a scalar value specification representing the quantitative measurement of the average physical dimensions—such as the diameter, length, or thickness—of the secondary phase particles that have formed within a material's primary matrix during the precipitation heat treatment process.")
 SubClassOf(<https://w3id.org/pmd/CTO_0000015> <https://w3id.org/pmd/co/PMD_0020131>)
 
 # Class: <https://w3id.org/pmd/CTO_1000000> (creep test standard)
@@ -527,6 +532,7 @@ SubClassOf(<https://w3id.org/pmd/CTO_1000051> <http://purl.obolibrary.org/obo/IA
 # Class: <https://w3id.org/pmd/CTO_1000052> (activation energy value specification)
 
 AnnotationAssertion(rdfs:label <https://w3id.org/pmd/CTO_1000052> "activation energy value specification"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/CTO_1000052> "An activation energy value specification is a scalar value specification representing the calculated quantitative measurement of the thermal energy barrier (typically denoted as Qc​) required to initiate and sustain the dominant thermally activated creep deformation mechanism within the material.")
 EquivalentClasses(<https://w3id.org/pmd/CTO_1000052> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OBI_0001931> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000058> <https://w3id.org/pmd/co/PMD_0020162>)))
 SubClassOf(<https://w3id.org/pmd/CTO_1000052> <http://purl.obolibrary.org/obo/OBI_0001931>)
 
@@ -545,36 +551,42 @@ SubClassOf(<https://w3id.org/pmd/CTO_1000054> <https://w3id.org/pmd/co/PMD_00259
 # Class: <https://w3id.org/pmd/CTO_1000055> (Percentage total extension value specification)
 
 AnnotationAssertion(rdfs:label <https://w3id.org/pmd/CTO_1000055> "Percentage total extension value specification"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/CTO_1000055> "A Percentage total extension value specification is a scalar value specification representing the overall, combined extension measured at any specific point in time during the test while the specimen is under load, expressed as a percentage of the reference gauge length.")
 EquivalentClasses(<https://w3id.org/pmd/CTO_1000055> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OBI_0001931> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0001927> <https://w3id.org/pmd/CTO_3000011>)))
 SubClassOf(<https://w3id.org/pmd/CTO_1000055> <https://w3id.org/pmd/CTO_0000000>)
 
 # Class: <https://w3id.org/pmd/CTO_1000056> (percentage initial total extension value specification)
 
 AnnotationAssertion(rdfs:label <https://w3id.org/pmd/CTO_1000056> "percentage initial total extension value specification"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/CTO_1000056> "A percentage initial total extension value specification is a scalar value specification representing the total extension recorded at the exact moment the full test force is initially applied (consisting of both the initial elastic and initial plastic extensions), expressed as a percentage of the reference gauge length.")
 EquivalentClasses(<https://w3id.org/pmd/CTO_1000056> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OBI_0001931> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0001927> <https://w3id.org/pmd/co/PMD_00000116>)))
 SubClassOf(<https://w3id.org/pmd/CTO_1000056> <https://w3id.org/pmd/CTO_0000000>)
 
 # Class: <https://w3id.org/pmd/CTO_1000057> (percentage elastic extension value specification)
 
 AnnotationAssertion(rdfs:label <https://w3id.org/pmd/CTO_1000057> "percentage elastic extension value specification"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/CTO_1000057> "A percentage elastic extension value specification is a scalar value specification representing the measured portion of the extension that is fully recoverable upon unloading, which is proportional to the applied initial stress, and expressed as a percentage of the reference gauge length.")
 EquivalentClasses(<https://w3id.org/pmd/CTO_1000057> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OBI_0001931> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0001927> <https://w3id.org/pmd/CTO_3000013>)))
 SubClassOf(<https://w3id.org/pmd/CTO_1000057> <https://w3id.org/pmd/CTO_0000000>)
 
 # Class: <https://w3id.org/pmd/CTO_1000058> (percentage initial plastic extension value specification)
 
 AnnotationAssertion(rdfs:label <https://w3id.org/pmd/CTO_1000058> "percentage initial plastic extension value specification"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/CTO_1000058> "A percentage initial plastic extension value specification is a scalar value specification representing the non-recoverable (plastic) portion of the extension recorded at the exact moment the full test load is initially applied, expressed as a percentage of the reference gauge length.")
 EquivalentClasses(<https://w3id.org/pmd/CTO_1000058> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OBI_0001931> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0001927> <https://w3id.org/pmd/co/PMD_00000119>)))
 SubClassOf(<https://w3id.org/pmd/CTO_1000058> <https://w3id.org/pmd/CTO_0000000>)
 
 # Class: <https://w3id.org/pmd/CTO_1000059> (percentage plastic extension value specification)
 
 AnnotationAssertion(rdfs:label <https://w3id.org/pmd/CTO_1000059> "percentage plastic extension value specification"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/CTO_1000059> "A percentage plastic extension value specification is a scalar value specification representing the unrecoverable, permanent portion of the extension at any given time, calculated as the total extension minus the elastic extension, and expressed as a percentage of the reference gauge length.")
 EquivalentClasses(<https://w3id.org/pmd/CTO_1000059> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OBI_0001931> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0001927> <https://w3id.org/pmd/co/PMD_00000121>)))
 SubClassOf(<https://w3id.org/pmd/CTO_1000059> <https://w3id.org/pmd/CTO_0000000>)
 
 # Class: <https://w3id.org/pmd/CTO_1000060> (percentage creep extension value specification)
 
 AnnotationAssertion(rdfs:label <https://w3id.org/pmd/CTO_1000060> "percentage creep extension value specification"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/CTO_1000060> "A percentage creep extension value specification is a scalar value specification representing the time-dependent portion of the extension that accumulates gradually during the creep test, calculated as the total extension minus the initial total extension, and expressed as a percentage of the reference gauge length.")
 EquivalentClasses(<https://w3id.org/pmd/CTO_1000060> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OBI_0001931> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0001927> <https://w3id.org/pmd/CTO_3000010>)))
 SubClassOf(<https://w3id.org/pmd/CTO_1000060> <https://w3id.org/pmd/CTO_0000000>)
 
@@ -757,11 +769,13 @@ EquivalentClasses(<https://w3id.org/pmd/co/PMD_0000779> ObjectIntersectionOf(<ht
 # Class: <https://w3id.org/pmd/https://w3id.org/pmd/CTO_1000302> (uncertainty datum)
 
 AnnotationAssertion(rdfs:label <https://w3id.org/pmd/https://w3id.org/pmd/CTO_1000302> "uncertainty datum")
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/https://w3id.org/pmd/CTO_1000302> "An uncertainty datum is a quantitative information entity that specifies the calculated margin of error or the estimated range of values within which the true value of a specific recorded measurement (such as temperature, applied force, or extension) is statistically expected to lie, typically calculated according to standard laboratory practices (such as ISO 204 Annex E).")
 SubClassOf(<https://w3id.org/pmd/https://w3id.org/pmd/CTO_1000302> <http://purl.obolibrary.org/obo/IAO_0000027>)
 
 # Class: <https://w3id.org/pmd/https://w3id.org/pmd/CTO_1000303> (deformation mechanism specification datum)
 
 AnnotationAssertion(rdfs:label <https://w3id.org/pmd/https://w3id.org/pmd/CTO_1000303> "deformation mechanism specification datum")
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/https://w3id.org/pmd/CTO_1000303> "A deformation mechanism specification datum is an information entity that identifies and records the specific microstructural or crystallographic process—such as dislocation creep, diffusional flow, or grain boundary sliding—that is determined to be the primary physical cause of the deformation observed in the material during the test.")
 SubClassOf(<https://w3id.org/pmd/https://w3id.org/pmd/CTO_1000303> <https://w3id.org/pmd/co/PMD_0060009>)
 
 # Class: <https://w3id.org/pmd/https://w3id.org/pmd/https://w3id.org/pmd/CTO_1000304> (stress)
