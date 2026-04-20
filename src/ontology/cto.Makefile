@@ -17,6 +17,23 @@ $(IMPORTDIR)/mwo_import.owl: $(MIRRORDIR)/mwo.owl $(IMPORTDIR)/mwo_terms.txt \
 		 $(ANNOTATE_CONVERT_FILE)
 
 
+$(IMPORTDIR)/tto_import.owl: $(MIRRORDIR)/tto.owl $(IMPORTDIR)/tto_terms.txt $(IMPORTSEED) | all_robot_plugins
+
+	$(ROBOT) annotate --input $< --remove-annotations \
+	 odk:normalize --add-source true \
+	 extract --term-file $(IMPORTDIR)/tto_terms.txt \
+	         --force true --copy-ontology-annotations true \
+	         --individuals include \
+	         --intermediates minimal \
+	         --method SUBSET \
+	 remove $(foreach p, $(ANNOTATION_PROPERTIES), --term $(p)) \
+	        --term-file $(IMPORTDIR)/tto_terms.txt  \
+	        --select complement --select annotation-properties \
+	 odk:normalize --base-iri https://w3id.org/pmd/cto \
+	               --subset-decls true --synonym-decls true \
+	 repair --merge-axiom-annotations true \
+	 $(ANNOTATE_CONVERT_FILE)
+	
 #############################################################################
 # lets add some additional annotations to the release artefacts
 #############################################################################
