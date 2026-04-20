@@ -299,7 +299,7 @@ SubClassOf(<https://w3id.org/pmd/CTO_1000014> <https://w3id.org/pmd/CTO_1000013>
 # Class: <https://w3id.org/pmd/CTO_1000015> (heat treated)
 
 AnnotationAssertion(rdfs:label <https://w3id.org/pmd/CTO_1000015> "heat treated"@en)
-AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/CTO_1000015> "The condition of the material resulting from a controlled heating and cooling process to alter its physical properties.")
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/CTO_1000015> "The condition of the material resulting from a controlled heating and cooling process to alters its physical properties.")
 SubClassOf(<https://w3id.org/pmd/CTO_1000015> <https://w3id.org/pmd/CTO_1000013>)
 
 # Class: <https://w3id.org/pmd/CTO_1000016> (as tested)
