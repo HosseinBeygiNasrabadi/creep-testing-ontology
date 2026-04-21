@@ -33,28 +33,26 @@ Declaration(Class(<https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000206>))
 Declaration(Class(<https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0001018>))
 Declaration(Class(<https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0001037>))
 Declaration(Class(<https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0001204>))
-Declaration(Class(<https://w3id.org/pmd/CTO_0000000>))
 Declaration(Class(<https://w3id.org/pmd/CTO_0000001>))
-Declaration(Class(<https://w3id.org/pmd/CTO_0000002>))
+Declaration(Class(<https://w3id.org/pmd/CTO_0000003>))
+Declaration(Class(<https://w3id.org/pmd/CTO_0000004>))
+Declaration(Class(<https://w3id.org/pmd/CTO_0000005>))
+Declaration(Class(<https://w3id.org/pmd/CTO_0000006>))
+Declaration(Class(<https://w3id.org/pmd/CTO_0000007>))
 Declaration(Class(<https://w3id.org/pmd/CTO_0000008>))
 Declaration(Class(<https://w3id.org/pmd/CTO_0000009>))
+Declaration(Class(<https://w3id.org/pmd/CTO_0000010>))
 Declaration(Class(<https://w3id.org/pmd/CTO_0000011>))
 Declaration(Class(<https://w3id.org/pmd/CTO_0000012>))
 Declaration(Class(<https://w3id.org/pmd/CTO_0000013>))
 Declaration(Class(<https://w3id.org/pmd/CTO_0000014>))
-Declaration(Class(<https://w3id.org/pmd/CTO_0000015>))
 Declaration(Class(<https://w3id.org/pmd/CTO_1000000>))
 Declaration(Class(<https://w3id.org/pmd/CTO_1000001>))
 Declaration(Class(<https://w3id.org/pmd/CTO_1000002>))
 Declaration(Class(<https://w3id.org/pmd/CTO_1000003>))
-Declaration(Class(<https://w3id.org/pmd/CTO_1000004>))
-Declaration(Class(<https://w3id.org/pmd/CTO_1000005>))
-Declaration(Class(<https://w3id.org/pmd/CTO_1000006>))
-Declaration(Class(<https://w3id.org/pmd/CTO_1000007>))
 Declaration(Class(<https://w3id.org/pmd/CTO_1000008>))
 Declaration(Class(<https://w3id.org/pmd/CTO_1000009>))
 Declaration(Class(<https://w3id.org/pmd/CTO_1000010>))
-Declaration(Class(<https://w3id.org/pmd/CTO_1000011>))
 Declaration(Class(<https://w3id.org/pmd/CTO_1000013>))
 Declaration(Class(<https://w3id.org/pmd/CTO_1000014>))
 Declaration(Class(<https://w3id.org/pmd/CTO_1000015>))
@@ -63,14 +61,8 @@ Declaration(Class(<https://w3id.org/pmd/CTO_1000017>))
 Declaration(Class(<https://w3id.org/pmd/CTO_1000018>))
 Declaration(Class(<https://w3id.org/pmd/CTO_1000019>))
 Declaration(Class(<https://w3id.org/pmd/CTO_1000020>))
-Declaration(Class(<https://w3id.org/pmd/CTO_1000021>))
-Declaration(Class(<https://w3id.org/pmd/CTO_1000022>))
-Declaration(Class(<https://w3id.org/pmd/CTO_1000024>))
-Declaration(Class(<https://w3id.org/pmd/CTO_1000025>))
-Declaration(Class(<https://w3id.org/pmd/CTO_1000026>))
 Declaration(Class(<https://w3id.org/pmd/CTO_1000027>))
 Declaration(Class(<https://w3id.org/pmd/CTO_1000028>))
-Declaration(Class(<https://w3id.org/pmd/CTO_1000029>))
 Declaration(Class(<https://w3id.org/pmd/CTO_1000030>))
 Declaration(Class(<https://w3id.org/pmd/CTO_1000032>))
 Declaration(Class(<https://w3id.org/pmd/CTO_1000033>))
@@ -91,35 +83,12 @@ Declaration(Class(<https://w3id.org/pmd/CTO_1000047>))
 Declaration(Class(<https://w3id.org/pmd/CTO_1000048>))
 Declaration(Class(<https://w3id.org/pmd/CTO_1000049>))
 Declaration(Class(<https://w3id.org/pmd/CTO_1000051>))
-Declaration(Class(<https://w3id.org/pmd/CTO_1000052>))
-Declaration(Class(<https://w3id.org/pmd/CTO_1000053>))
-Declaration(Class(<https://w3id.org/pmd/CTO_1000054>))
-Declaration(Class(<https://w3id.org/pmd/CTO_1000055>))
-Declaration(Class(<https://w3id.org/pmd/CTO_1000056>))
-Declaration(Class(<https://w3id.org/pmd/CTO_1000057>))
-Declaration(Class(<https://w3id.org/pmd/CTO_1000058>))
-Declaration(Class(<https://w3id.org/pmd/CTO_1000059>))
-Declaration(Class(<https://w3id.org/pmd/CTO_1000060>))
 Declaration(Class(<https://w3id.org/pmd/CTO_1000062>))
-Declaration(Class(<https://w3id.org/pmd/CTO_1000063>))
 Declaration(Class(<https://w3id.org/pmd/CTO_1000064>))
-Declaration(Class(<https://w3id.org/pmd/CTO_1000065>))
-Declaration(Class(<https://w3id.org/pmd/CTO_1000066>))
-Declaration(Class(<https://w3id.org/pmd/CTO_3000000>))
-Declaration(Class(<https://w3id.org/pmd/CTO_3000001>))
-Declaration(Class(<https://w3id.org/pmd/CTO_3000002>))
-Declaration(Class(<https://w3id.org/pmd/CTO_3000003>))
-Declaration(Class(<https://w3id.org/pmd/CTO_3000004>))
-Declaration(Class(<https://w3id.org/pmd/CTO_3000005>))
-Declaration(Class(<https://w3id.org/pmd/CTO_3000006>))
-Declaration(Class(<https://w3id.org/pmd/CTO_3000007>))
-Declaration(Class(<https://w3id.org/pmd/CTO_3000008>))
-Declaration(Class(<https://w3id.org/pmd/CTO_3000009>))
 Declaration(Class(<https://w3id.org/pmd/CTO_3000010>))
 Declaration(Class(<https://w3id.org/pmd/CTO_3000011>))
 Declaration(Class(<https://w3id.org/pmd/CTO_3000012>))
 Declaration(Class(<https://w3id.org/pmd/CTO_3000013>))
-Declaration(Class(<https://w3id.org/pmd/CTO_7dddccc4_7ed3_48d9_9461_c10445fd1987>))
 Declaration(Class(<https://w3id.org/pmd/co/PMD_0000008>))
 Declaration(Class(<https://w3id.org/pmd/co/PMD_00000116>))
 Declaration(Class(<https://w3id.org/pmd/co/PMD_00000118>))
@@ -143,7 +112,6 @@ Declaration(Class(<https://w3id.org/pmd/co/PMD_0020162>))
 Declaration(Class(<https://w3id.org/pmd/co/PMD_0025997>))
 Declaration(Class(<https://w3id.org/pmd/co/PMD_0060008>))
 Declaration(Class(<https://w3id.org/pmd/co/PMD_0060009>))
-Declaration(Class(<https://w3id.org/pmd/https://w3id.org/pmd/CTO_1000302>))
 Declaration(Class(<https://w3id.org/pmd/https://w3id.org/pmd/CTO_1000303>))
 Declaration(Class(<https://w3id.org/pmd/https://w3id.org/pmd/https://w3id.org/pmd/CTO_1000304>))
 Declaration(Class(<https://w3id.org/pmd/tto/TTO_0000033>))
@@ -186,28 +154,40 @@ AnnotationAssertion(rdfs:label dcterms:title "title")
 #   Classes
 ############################
 
-# Class: <https://w3id.org/pmd/CTO_0000000> (extension value specification)
+# Class: <https://w3id.org/pmd/CTO_0000001> (object identifier)
 
-AnnotationAssertion(rdfs:label <https://w3id.org/pmd/CTO_0000000> "extension value specification"@en)
-SubClassOf(<https://w3id.org/pmd/CTO_0000000> <http://purl.obolibrary.org/obo/OBI_0001931>)
+AnnotationAssertion(rdfs:label <https://w3id.org/pmd/CTO_0000001> "object identifier"@en)
+SubClassOf(<https://w3id.org/pmd/CTO_0000001> <http://purl.obolibrary.org/obo/IAO_0020000>)
 
-# Class: <https://w3id.org/pmd/CTO_0000001> (testing recipe)
+# Class: <https://w3id.org/pmd/CTO_0000003> (equation textual entity)
 
-AnnotationAssertion(rdfs:label <https://w3id.org/pmd/CTO_0000001> "testing recipe"@en)
-AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/CTO_0000001> "")
-SubClassOf(<https://w3id.org/pmd/CTO_0000001> <https://w3id.org/pmd/co/PMD_0060008>)
+AnnotationAssertion(rdfs:label <https://w3id.org/pmd/CTO_0000003> "equation textual entity"@en)
+SubClassOf(<https://w3id.org/pmd/CTO_0000003> <http://purl.obolibrary.org/obo/IAO_0000300>)
 
-# Class: <https://w3id.org/pmd/CTO_0000002> (size value specification)
+# Class: <https://w3id.org/pmd/CTO_0000004> (farcture mechanism)
 
-AnnotationAssertion(rdfs:label <https://w3id.org/pmd/CTO_0000002> "size value specification"@en)
-SubClassOf(<https://w3id.org/pmd/CTO_0000002> <http://purl.obolibrary.org/obo/OBI_0001931>)
+AnnotationAssertion(rdfs:label <https://w3id.org/pmd/CTO_0000004> "farcture mechanism"@en)
+SubClassOf(<https://w3id.org/pmd/CTO_0000004> <http://purl.obolibrary.org/obo/OBI_0001930>)
 
-# Class: <https://w3id.org/pmd/CTO_0000008> (dataset DOI)
+# Class: <https://w3id.org/pmd/CTO_0000005> (percentage elongation after creep fracture)
 
-AnnotationAssertion(rdfs:label <https://w3id.org/pmd/CTO_0000008> "dataset DOI"@en)
-AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/CTO_0000008> "A persistent, universally unique alphanumeric string assigned by a registration agency to ensure the dataset remains permanently findable, accessible, and citable on the web.")
-EquivalentClasses(<https://w3id.org/pmd/CTO_0000008> ObjectIntersectionOf(<https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0001037> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000219> <https://w3id.org/pmd/CTO_0000009>)))
-SubClassOf(<https://w3id.org/pmd/CTO_0000008> <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0001037>)
+AnnotationAssertion(rdfs:label <https://w3id.org/pmd/CTO_0000005> "percentage elongation after creep fracture"@en)
+SubClassOf(<https://w3id.org/pmd/CTO_0000005> <https://w3id.org/pmd/tto/TTO_0000033>)
+
+# Class: <https://w3id.org/pmd/CTO_0000006> (creep test machine type)
+
+AnnotationAssertion(rdfs:label <https://w3id.org/pmd/CTO_0000006> "creep test machine type"@en)
+SubClassOf(<https://w3id.org/pmd/CTO_0000006> <https://w3id.org/pmd/CTO_1000008>)
+
+# Class: <https://w3id.org/pmd/CTO_0000007> (delta precipitate role)
+
+AnnotationAssertion(rdfs:label <https://w3id.org/pmd/CTO_0000007> "delta precipitate role"@en)
+SubClassOf(<https://w3id.org/pmd/CTO_0000007> <https://w3id.org/pmd/co/PMD_0020002>)
+
+# Class: <https://w3id.org/pmd/CTO_0000008> (gamma precipitate role)
+
+AnnotationAssertion(rdfs:label <https://w3id.org/pmd/CTO_0000008> "gamma precipitate role"@en)
+SubClassOf(<https://w3id.org/pmd/CTO_0000008> <https://w3id.org/pmd/co/PMD_0020002>)
 
 # Class: <https://w3id.org/pmd/CTO_0000009> (creep reference dataset)
 
@@ -215,44 +195,36 @@ AnnotationAssertion(rdfs:label <https://w3id.org/pmd/CTO_0000009> "creep referen
 EquivalentClasses(<https://w3id.org/pmd/CTO_0000009> ObjectIntersectionOf(<https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0001204> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000312> <https://w3id.org/pmd/co/PMD_0000589>)))
 SubClassOf(<https://w3id.org/pmd/CTO_0000009> <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0001204>)
 
-# Class: <https://w3id.org/pmd/CTO_0000011> (Processing method description)
+# Class: <https://w3id.org/pmd/CTO_0000010> (gamma prime precipitate role)
 
-AnnotationAssertion(rdfs:label <https://w3id.org/pmd/CTO_0000011> "Processing method description"@en)
-AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/CTO_0000011> "A processing method description is an information content entity that details the comprehensive sequence of primary manufacturing, shaping, and thermo-mechanical treatments (e.g., casting, forging, rolling) used to produce the material in its specific tested state.")
-EquivalentClasses(<https://w3id.org/pmd/CTO_0000011> ObjectIntersectionOf(<https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0001018> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000219> <https://w3id.org/pmd/co/PMD_0000833>)))
-SubClassOf(<https://w3id.org/pmd/CTO_0000011> <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0001018>)
+AnnotationAssertion(rdfs:label <https://w3id.org/pmd/CTO_0000010> "gamma prime precipitate role"@en)
+SubClassOf(<https://w3id.org/pmd/CTO_0000010> <https://w3id.org/pmd/co/PMD_0020002>)
 
-# Class: <https://w3id.org/pmd/CTO_0000012> (solutionizing process)
+# Class: <https://w3id.org/pmd/CTO_0000011> (loading process)
 
-AnnotationAssertion(rdfs:label <https://w3id.org/pmd/CTO_0000012> "solutionizing process"@en)
+AnnotationAssertion(rdfs:label <https://w3id.org/pmd/CTO_0000011> "loading process"@en)
+SubClassOf(<https://w3id.org/pmd/CTO_0000011> <https://w3id.org/pmd/co/PMD_0000522>)
+
+# Class: <https://w3id.org/pmd/CTO_0000012> (solutionizing heat treatment process)
+
+AnnotationAssertion(rdfs:label <https://w3id.org/pmd/CTO_0000012> "solutionizing heat treatment process"@en)
 AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/CTO_0000012> "A solutionizing process is a physical heat treatment process in which a material is heated to a specific elevated temperature and held there for a sufficient duration to completely dissolve secondary alloying phases or precipitates into the primary solid solution matrix, typically followed by rapid cooling (quenching) to trap those elements in a supersaturated state prior to aging.")
 SubClassOf(<https://w3id.org/pmd/CTO_0000012> <https://w3id.org/pmd/co/PMD_0000779>)
 
-# Class: <https://w3id.org/pmd/CTO_0000013> (solutionizing process description)
+# Class: <https://w3id.org/pmd/CTO_0000013> (stress rupture time)
 
-AnnotationAssertion(rdfs:label <https://w3id.org/pmd/CTO_0000013> "solutionizing process description"@en)
-AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/CTO_0000013> "A solutionizing process description is an information content entity that documents the specific time and temperature parameters of the solution heat treatment performed to fully dissolve secondary alloying phases into the primary solid solution matrix prior to quenching.")
-EquivalentClasses(<https://w3id.org/pmd/CTO_0000013> ObjectIntersectionOf(<https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0001018> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000219> <https://w3id.org/pmd/CTO_0000012>)))
-SubClassOf(<https://w3id.org/pmd/CTO_0000013> <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0001018>)
+AnnotationAssertion(rdfs:label <https://w3id.org/pmd/CTO_0000013> "stress rupture time"@en)
+SubClassOf(<https://w3id.org/pmd/CTO_0000013> <http://purl.obolibrary.org/obo/BFO_0000202>)
 
-# Class: <https://w3id.org/pmd/CTO_0000014> (Aging process description)
+# Class: <https://w3id.org/pmd/CTO_0000014> (stress exponent)
 
-AnnotationAssertion(rdfs:label <https://w3id.org/pmd/CTO_0000014> "Aging process description"@en)
-AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/CTO_0000014> "An aging process description is an information content entity that formally documents the specific parameters—such as target temperature, hold time, and cooling rate—of the precipitation hardening heat treatment applied to a material to increase its strength.")
-EquivalentClasses(<https://w3id.org/pmd/CTO_0000014> ObjectIntersectionOf(<https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0001018> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000219> <https://w3id.org/pmd/co/PMD_0000513>)))
-SubClassOf(<https://w3id.org/pmd/CTO_0000014> <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0001018>)
-
-# Class: <https://w3id.org/pmd/CTO_0000015> (precipitate size)
-
-AnnotationAssertion(rdfs:label <https://w3id.org/pmd/CTO_0000015> "precipitate size"@en)
-AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/CTO_0000015> "A precipitation size (more formally referred to in materials science as precipitate size) is a scalar value specification representing the quantitative measurement of the average physical dimensions—such as the diameter, length, or thickness—of the secondary phase particles that have formed within a material's primary matrix during the precipitation heat treatment process.")
-SubClassOf(<https://w3id.org/pmd/CTO_0000015> <https://w3id.org/pmd/co/PMD_0020131>)
+AnnotationAssertion(rdfs:label <https://w3id.org/pmd/CTO_0000014> "stress exponent"@en)
+SubClassOf(<https://w3id.org/pmd/CTO_0000014> <https://w3id.org/pmd/co/PMD_0000848>)
 
 # Class: <https://w3id.org/pmd/CTO_1000000> (creep test standard)
 
 AnnotationAssertion(rdfs:label <https://w3id.org/pmd/CTO_1000000> "creep test standard"@en)
 AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/CTO_1000000> "The specific normative reference (e.g., ISO 204) governing the uniaxial creep test procedure.")
-EquivalentClasses(<https://w3id.org/pmd/CTO_1000000> ObjectIntersectionOf(<https://w3id.org/pmd/CTO_1000000> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000058> <http://purl.obolibrary.org/obo/OBI_0000260>)))
 SubClassOf(<https://w3id.org/pmd/CTO_1000000> <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000206>)
 
 # Class: <https://w3id.org/pmd/CTO_1000001> (creep test machine heating system)
@@ -269,41 +241,16 @@ AnnotationAssertion(rdfs:label <https://w3id.org/pmd/CTO_1000002> "creep test ma
 AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/CTO_1000002> "The force transducer used to measure the applied load, verified to ISO 7500-2, Class 1 or better.")
 SubClassOf(<https://w3id.org/pmd/CTO_1000002> <https://w3id.org/pmd/co/PMD_0000820>)
 
-# Class: <https://w3id.org/pmd/CTO_1000003> (device designation)
+# Class: <https://w3id.org/pmd/CTO_1000003> (device identifier)
 
-AnnotationAssertion(rdfs:label <https://w3id.org/pmd/CTO_1000003> "device designation"@en)
+AnnotationAssertion(rdfs:label <https://w3id.org/pmd/CTO_1000003> "device identifier"@en)
 AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/CTO_1000003> "A device designation is an information entity that serves as a unique alphanumeric identifier, serial number, or specific technical classification assigned to a distinct piece of measuring or testing equipment.")
-SubClassOf(<https://w3id.org/pmd/CTO_1000003> <http://purl.obolibrary.org/obo/IAO_0020000>)
-
-# Class: <https://w3id.org/pmd/CTO_1000004> (creep test machine identifier)
-
-AnnotationAssertion(rdfs:label <https://w3id.org/pmd/CTO_1000004> "creep test machine identifier"@en)
-AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/CTO_1000004> "The unique serial number or asset tag assigned to the specific testing rig.")
-SubClassOf(<https://w3id.org/pmd/CTO_1000004> <https://w3id.org/pmd/CTO_1000003>)
-
-# Class: <https://w3id.org/pmd/CTO_1000005> (load cell id)
-
-AnnotationAssertion(rdfs:label <https://w3id.org/pmd/CTO_1000005> "load cell id"@en)
-AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/CTO_1000005> "The unique serial number for the load cell sensor.")
-SubClassOf(<https://w3id.org/pmd/CTO_1000005> <https://w3id.org/pmd/CTO_1000003>)
-
-# Class: <https://w3id.org/pmd/CTO_1000006> (extensometer id)
-
-AnnotationAssertion(rdfs:label <https://w3id.org/pmd/CTO_1000006> "extensometer id"@en)
-AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/CTO_1000006> "The unique serial number for the extensometer.")
-SubClassOf(<https://w3id.org/pmd/CTO_1000006> <https://w3id.org/pmd/CTO_1000003>)
-
-# Class: <https://w3id.org/pmd/CTO_1000007> (temperature sensor id)
-
-AnnotationAssertion(rdfs:label <https://w3id.org/pmd/CTO_1000007> "temperature sensor id"@en)
-AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/CTO_1000007> "The unique identifier for the specific thermocouple used.")
-SubClassOf(<https://w3id.org/pmd/CTO_1000007> <https://w3id.org/pmd/CTO_1000003>)
+SubClassOf(<https://w3id.org/pmd/CTO_1000003> <https://w3id.org/pmd/CTO_0000001>)
 
 # Class: <https://w3id.org/pmd/CTO_1000008> (device type specification)
 
 AnnotationAssertion(rdfs:label <https://w3id.org/pmd/CTO_1000008> "device type specification"@en)
-AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/CTO_1000008> "The technical classification of the furnace (e.g., \"3-Zone Resistance Furnace\").")
-SubClassOf(<https://w3id.org/pmd/CTO_1000008> <https://w3id.org/pmd/CTO_1000003>)
+SubClassOf(<https://w3id.org/pmd/CTO_1000008> <http://purl.obolibrary.org/obo/OBI_0001930>)
 
 # Class: <https://w3id.org/pmd/CTO_1000009> (data acquisition system)
 
@@ -315,19 +262,13 @@ SubClassOf(<https://w3id.org/pmd/CTO_1000009> <https://w3id.org/pmd/co/PMD_00006
 
 AnnotationAssertion(rdfs:label <https://w3id.org/pmd/CTO_1000010> "creep test piece role"@en)
 AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/CTO_1000010> "The realizable entity that the specimen plays during the experiment (i.e., being the object under stress).")
-SubClassOf(<https://w3id.org/pmd/CTO_1000010> <http://purl.obolibrary.org/obo/BFO_0000023>)
+SubClassOf(<https://w3id.org/pmd/CTO_1000010> <https://w3id.org/pmd/co/PMD_0000975>)
 
-# Class: <https://w3id.org/pmd/CTO_1000011> (creep test piece material designation)
+# Class: <https://w3id.org/pmd/CTO_1000013> (material state)
 
-AnnotationAssertion(rdfs:label <https://w3id.org/pmd/CTO_1000011> "creep test piece material designation"@en)
-AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/CTO_1000011> "The standardized alphanumeric code (e.g., \"IN718\" or \"316L\") that identifies the specific alloy or material type.")
-SubClassOf(<https://w3id.org/pmd/CTO_1000011> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001099>)
-
-# Class: <https://w3id.org/pmd/CTO_1000013> (Material state specification)
-
-AnnotationAssertion(rdfs:label <https://w3id.org/pmd/CTO_1000013> "Material state specification"@en)
+AnnotationAssertion(rdfs:label <https://w3id.org/pmd/CTO_1000013> "material state"@en)
 AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/CTO_1000013> "A descriptor defining the processing history or physical condition of the material before or after testing.")
-SubClassOf(<https://w3id.org/pmd/CTO_1000013> <https://w3id.org/pmd/co/PMD_0060009>)
+SubClassOf(<https://w3id.org/pmd/CTO_1000013> <http://purl.obolibrary.org/obo/OBI_0001930>)
 
 # Class: <https://w3id.org/pmd/CTO_1000014> (as manufactured)
 
@@ -371,77 +312,36 @@ AnnotationAssertion(rdfs:label <https://w3id.org/pmd/CTO_1000020> "aged"@en)
 AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/CTO_1000020> "State resulting from precipitation hardening (holding at an intermediate temperature) to increase strength.")
 SubClassOf(<https://w3id.org/pmd/CTO_1000020> <https://w3id.org/pmd/CTO_1000015>)
 
-# Class: <https://w3id.org/pmd/CTO_1000021> (precipitate fraction value specification)
+# Class: <https://w3id.org/pmd/CTO_1000027> (reference length to calculate percentage elongation)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <https://w3id.org/pmd/CTO_1000021> "https://www.iso.org/standard/65757.html")
-AnnotationAssertion(rdfs:label <https://w3id.org/pmd/CTO_1000021> "precipitate fraction value specification"@en)
-AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/CTO_1000021> "The quantitative measurement of the volume fraction of precipitate particles in the matrix.")
-EquivalentClasses(<https://w3id.org/pmd/CTO_1000021> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OBI_0001931> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0001927> <https://w3id.org/pmd/co/PMD_0020154>)))
-SubClassOf(<https://w3id.org/pmd/CTO_1000021> <https://w3id.org/pmd/co/PMD_0025997>)
-
-# Class: <https://w3id.org/pmd/CTO_1000022> (precipitate size value specification)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <https://w3id.org/pmd/CTO_1000022> "https://www.iso.org/standard/65757.html")
-AnnotationAssertion(rdfs:label <https://w3id.org/pmd/CTO_1000022> "precipitate size value specification"@en)
-AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/CTO_1000022> "The quantitative measurement of the average size (diameter/length) of precipitate particles.")
-EquivalentClasses(<https://w3id.org/pmd/CTO_1000022> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OBI_0001931> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0001927> <https://w3id.org/pmd/co/PMD_0020154>)))
-SubClassOf(<https://w3id.org/pmd/CTO_1000022> <https://w3id.org/pmd/CTO_0000002>)
-
-# Class: <https://w3id.org/pmd/CTO_1000024> (extensometer gauge length value specification)
-
-AnnotationAssertion(rdfs:label <https://w3id.org/pmd/CTO_1000024> "extensometer gauge length value specification"@en)
-AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/CTO_1000024> "The specific distance between the two contact points of the extensometer (the sensor measuring deformation) attached to the specimen.")
-SubClassOf(<https://w3id.org/pmd/CTO_1000024> <https://w3id.org/pmd/CTO_1000066>)
-
-# Class: <https://w3id.org/pmd/CTO_1000025> (original gauge length value specification)
-
-AnnotationAssertion(rdfs:label <https://w3id.org/pmd/CTO_1000025> "original gauge length value specification"@en)
-AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/CTO_1000025> "The specific measurement of the specimen's width (diameter) in the reduced section, used to calculate the cross-sectional area and subsequently the stress applied.")
-SubClassOf(<https://w3id.org/pmd/CTO_1000025> <https://w3id.org/pmd/CTO_1000066>)
-
-# Class: <https://w3id.org/pmd/CTO_1000026> (parallel length value specification)
-
-AnnotationAssertion(rdfs:label <https://w3id.org/pmd/CTO_1000026> "parallel length value specification"@en)
-AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/CTO_1000026> "The length of the reduced section of the specimen  where the diameter is uniform and the majority of the deformation is expected to occur.")
-SubClassOf(<https://w3id.org/pmd/CTO_1000026> <https://w3id.org/pmd/CTO_1000066>)
-
-# Class: <https://w3id.org/pmd/CTO_1000027> (reference length to calculate percentage elongations value specification)
-
-AnnotationAssertion(rdfs:label <https://w3id.org/pmd/CTO_1000027> "reference length to calculate percentage elongations value specification"@en)
+AnnotationAssertion(rdfs:label <https://w3id.org/pmd/CTO_1000027> "reference length to calculate percentage elongation"@en)
 AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/CTO_1000027> "The standard length used for the calculation of ductility (elongation) at the end of the test, often defined by standards relative to the diameter (e.g., $5d$).")
-SubClassOf(<https://w3id.org/pmd/CTO_1000027> <https://w3id.org/pmd/CTO_1000066>)
+SubClassOf(<https://w3id.org/pmd/CTO_1000027> <https://w3id.org/pmd/co/PMD_0040001>)
 
-# Class: <https://w3id.org/pmd/CTO_1000028> (reference length to calculate percentage extensions value specification)
+# Class: <https://w3id.org/pmd/CTO_1000028> (reference length to calculate percentage extension)
 
-AnnotationAssertion(rdfs:label <https://w3id.org/pmd/CTO_1000028> "reference length to calculate percentage extensions value specification"@en)
+AnnotationAssertion(rdfs:label <https://w3id.org/pmd/CTO_1000028> "reference length to calculate percentage extension"@en)
 AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/CTO_1000028> "The length used to calculate non-proportional extension, often distinct from elongation in specific creep contexts involving plastic deformation.")
-SubClassOf(<https://w3id.org/pmd/CTO_1000028> <https://w3id.org/pmd/CTO_1000066>)
+SubClassOf(<https://w3id.org/pmd/CTO_1000028> <https://w3id.org/pmd/co/PMD_0040001>)
 
-# Class: <https://w3id.org/pmd/CTO_1000029> (percentage elongation after fracture value specification)
-
-AnnotationAssertion(rdfs:label <https://w3id.org/pmd/CTO_1000029> "percentage elongation after fracture value specification"@en)
-EquivalentClasses(<https://w3id.org/pmd/CTO_1000029> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OBI_0001931> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0001927> <https://w3id.org/pmd/tto/TTO_0000033>)))
-SubClassOf(<https://w3id.org/pmd/CTO_1000029> <https://w3id.org/pmd/co/PMD_0025997>)
-
-# Class: <https://w3id.org/pmd/CTO_1000030> (test identifier)
+# Class: <https://w3id.org/pmd/CTO_1000030> (assay identifier)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <https://w3id.org/pmd/CTO_1000030> "https://w3id.org/nfdi4ing/metadata/identifier")
-AnnotationAssertion(rdfs:label <https://w3id.org/pmd/CTO_1000030> "test identifier"@en)
+AnnotationAssertion(rdfs:label <https://w3id.org/pmd/CTO_1000030> "assay identifier"@en)
 AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/CTO_1000030> "A unique alphanumeric string used to track and identify a specific test instance.")
 EquivalentClasses(<https://w3id.org/pmd/CTO_1000030> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/IAO_0020000> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000312> <http://purl.obolibrary.org/obo/OBI_0000070>)))
 SubClassOf(<https://w3id.org/pmd/CTO_1000030> <http://purl.obolibrary.org/obo/IAO_0020000>)
 
-# Class: <https://w3id.org/pmd/CTO_1000032> (creep test piece origin description)
+# Class: <https://w3id.org/pmd/CTO_1000032> (test piece origin)
 
-AnnotationAssertion(rdfs:label <https://w3id.org/pmd/CTO_1000032> "creep test piece origin description"@en)
-AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/CTO_1000032> "Documentation describing the provenance of the test piece (e.g., location within the original ingot, orientation).")
-SubClassOf(<https://w3id.org/pmd/CTO_1000032> <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0001018>)
+AnnotationAssertion(rdfs:label <https://w3id.org/pmd/CTO_1000032> "test piece origin"@en)
+SubClassOf(<https://w3id.org/pmd/CTO_1000032> <http://purl.obolibrary.org/obo/BFO_0000028>)
 
 # Class: <https://w3id.org/pmd/CTO_1000033> (creep testing machine role)
 
 AnnotationAssertion(rdfs:label <https://w3id.org/pmd/CTO_1000033> "creep testing machine role"@en)
 AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/CTO_1000033> "The function realized by the testing equipment when it is used to perform a creep test.")
-SubClassOf(<https://w3id.org/pmd/CTO_1000033> <http://purl.obolibrary.org/obo/BFO_0000023>)
+SubClassOf(<https://w3id.org/pmd/CTO_1000033> <https://w3id.org/pmd/co/PMD_0000603>)
 
 # Class: <https://w3id.org/pmd/CTO_1000034> (grain role)
 
@@ -488,7 +388,7 @@ SubClassOf(<https://w3id.org/pmd/CTO_1000039> <https://w3id.org/pmd/https://w3id
 
 AnnotationAssertion(rdfs:label <https://w3id.org/pmd/CTO_1000040> "creep activation energy"@en)
 AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/CTO_1000040> "The thermal energy barrier (Qc​) required to initiate the dominant creep mechanism (related to diffusion).")
-SubClassOf(<https://w3id.org/pmd/CTO_1000040> <https://w3id.org/pmd/co/PMD_0020142>)
+SubClassOf(<https://w3id.org/pmd/CTO_1000040> <https://w3id.org/pmd/co/PMD_0020162>)
 
 # Class: <https://w3id.org/pmd/CTO_1000041> (creep rupture stress)
 
@@ -520,14 +420,14 @@ SubClassOf(<https://w3id.org/pmd/CTO_1000044> <https://w3id.org/pmd/https://w3id
 
 AnnotationAssertion(rdfs:label <https://w3id.org/pmd/CTO_1000045> "steady-state creep rate equation"@en)
 AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/CTO_1000045> "The mathematical formula describing the secondary creep rate (e.g., Norton's Law).")
-SubClassOf(<https://w3id.org/pmd/CTO_1000045> <http://purl.obolibrary.org/obo/IAO_0000300>)
+SubClassOf(<https://w3id.org/pmd/CTO_1000045> <https://w3id.org/pmd/CTO_0000003>)
 
 # Class: <https://w3id.org/pmd/CTO_1000046> (creep test uncertainty)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <https://w3id.org/pmd/CTO_1000046> "https://www.iso.org/standard/67737.html")
 AnnotationAssertion(rdfs:label <https://w3id.org/pmd/CTO_1000046> "creep test uncertainty")
 AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/CTO_1000046> "The estimated range of values within which the true value of the measurement lies (ISO 204 Annex E).")
-SubClassOf(<https://w3id.org/pmd/CTO_1000046> <https://w3id.org/pmd/https://w3id.org/pmd/CTO_1000302>)
+SubClassOf(<https://w3id.org/pmd/CTO_1000046> <https://w3id.org/pmd/co/PMD_0001036>)
 
 # Class: <https://w3id.org/pmd/CTO_1000047> (creep modulus)
 
@@ -541,11 +441,11 @@ AnnotationAssertion(rdfs:label <https://w3id.org/pmd/CTO_1000048> "creep curve"@
 AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/CTO_1000048> "The graphical or tabular representation of strain (ε) versus time (t) for a specific test.")
 SubClassOf(<https://w3id.org/pmd/CTO_1000048> <https://w3id.org/pmd/co/PMD_0000502>)
 
-# Class: <https://w3id.org/pmd/CTO_1000049> (creep fracture surface)
+# Class: <https://w3id.org/pmd/CTO_1000049> (fracture surface)
 
 AnnotationAssertion(dcterms:source <https://w3id.org/pmd/CTO_1000049> "https://www.iso.org/standard/67737.html")
-AnnotationAssertion(rdfs:label <https://w3id.org/pmd/CTO_1000049> "creep fracture surface")
-AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/CTO_1000049> "The specific topography of the failure surface (e.g., intergranular voids) characteristic of creep rupture.")
+AnnotationAssertion(rdfs:label <https://w3id.org/pmd/CTO_1000049> "fracture surface")
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/CTO_1000049> "The specific topography of the failure surface (e.g., intergranular voids).")
 SubClassOf(<https://w3id.org/pmd/CTO_1000049> <https://w3id.org/pmd/co/PMD_0000965>)
 
 # Class: <https://w3id.org/pmd/CTO_1000051> (date process ended)
@@ -555,161 +455,16 @@ AnnotationAssertion(rdfs:label <https://w3id.org/pmd/CTO_1000051> "date process 
 AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/CTO_1000051> "The date and time at which the experimental process was completed.")
 SubClassOf(<https://w3id.org/pmd/CTO_1000051> <http://purl.obolibrary.org/obo/IAO_0000027>)
 
-# Class: <https://w3id.org/pmd/CTO_1000052> (activation energy value specification)
+# Class: <https://w3id.org/pmd/CTO_1000062> (test duration)
 
-AnnotationAssertion(rdfs:label <https://w3id.org/pmd/CTO_1000052> "activation energy value specification"@en)
-AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/CTO_1000052> "An activation energy value specification is a scalar value specification representing the calculated quantitative measurement of the thermal energy barrier (typically denoted as Qc​) required to initiate and sustain the dominant thermally activated creep deformation mechanism within the material.")
-EquivalentClasses(<https://w3id.org/pmd/CTO_1000052> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OBI_0001931> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000058> <https://w3id.org/pmd/co/PMD_0020162>)))
-SubClassOf(<https://w3id.org/pmd/CTO_1000052> <http://purl.obolibrary.org/obo/OBI_0001931>)
+AnnotationAssertion(rdfs:label <https://w3id.org/pmd/CTO_1000062> "test duration"@en)
+SubClassOf(<https://w3id.org/pmd/CTO_1000062> <http://purl.obolibrary.org/obo/BFO_0000202>)
 
-# Class: <https://w3id.org/pmd/CTO_1000053> (percentage permanent elongation value specification)
+# Class: <https://w3id.org/pmd/CTO_1000064> (soaking time)
 
-AnnotationAssertion(rdfs:label <https://w3id.org/pmd/CTO_1000053> "percentage permanent elongation value specification"@en)
-EquivalentClasses(<https://w3id.org/pmd/CTO_1000053> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OBI_0001931> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0001927> <https://w3id.org/pmd/tto/TTO_0000035>)))
-SubClassOf(<https://w3id.org/pmd/CTO_1000053> <http://purl.obolibrary.org/obo/OBI_0001931>)
-
-# Class: <https://w3id.org/pmd/CTO_1000054> (percentage reduction of area after creep fraction value)
-
-AnnotationAssertion(rdfs:label <https://w3id.org/pmd/CTO_1000054> "percentage reduction of area after creep fraction value"@en)
-EquivalentClasses(<https://w3id.org/pmd/CTO_1000054> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OBI_0001931> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0001927> <https://w3id.org/pmd/tto/TTO_0000038>)))
-SubClassOf(<https://w3id.org/pmd/CTO_1000054> <https://w3id.org/pmd/co/PMD_0025997>)
-
-# Class: <https://w3id.org/pmd/CTO_1000055> (Percentage total extension value specification)
-
-AnnotationAssertion(rdfs:label <https://w3id.org/pmd/CTO_1000055> "Percentage total extension value specification"@en)
-AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/CTO_1000055> "A Percentage total extension value specification is a scalar value specification representing the overall, combined extension measured at any specific point in time during the test while the specimen is under load, expressed as a percentage of the reference gauge length.")
-EquivalentClasses(<https://w3id.org/pmd/CTO_1000055> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OBI_0001931> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0001927> <https://w3id.org/pmd/CTO_3000011>)))
-SubClassOf(<https://w3id.org/pmd/CTO_1000055> <https://w3id.org/pmd/CTO_0000000>)
-
-# Class: <https://w3id.org/pmd/CTO_1000056> (percentage initial total extension value specification)
-
-AnnotationAssertion(rdfs:label <https://w3id.org/pmd/CTO_1000056> "percentage initial total extension value specification"@en)
-AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/CTO_1000056> "A percentage initial total extension value specification is a scalar value specification representing the total extension recorded at the exact moment the full test force is initially applied (consisting of both the initial elastic and initial plastic extensions), expressed as a percentage of the reference gauge length.")
-EquivalentClasses(<https://w3id.org/pmd/CTO_1000056> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OBI_0001931> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0001927> <https://w3id.org/pmd/co/PMD_00000116>)))
-SubClassOf(<https://w3id.org/pmd/CTO_1000056> <https://w3id.org/pmd/CTO_0000000>)
-
-# Class: <https://w3id.org/pmd/CTO_1000057> (percentage elastic extension value specification)
-
-AnnotationAssertion(rdfs:label <https://w3id.org/pmd/CTO_1000057> "percentage elastic extension value specification"@en)
-AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/CTO_1000057> "A percentage elastic extension value specification is a scalar value specification representing the measured portion of the extension that is fully recoverable upon unloading, which is proportional to the applied initial stress, and expressed as a percentage of the reference gauge length.")
-EquivalentClasses(<https://w3id.org/pmd/CTO_1000057> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OBI_0001931> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0001927> <https://w3id.org/pmd/CTO_3000013>)))
-SubClassOf(<https://w3id.org/pmd/CTO_1000057> <https://w3id.org/pmd/CTO_0000000>)
-
-# Class: <https://w3id.org/pmd/CTO_1000058> (percentage initial plastic extension value specification)
-
-AnnotationAssertion(rdfs:label <https://w3id.org/pmd/CTO_1000058> "percentage initial plastic extension value specification"@en)
-AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/CTO_1000058> "A percentage initial plastic extension value specification is a scalar value specification representing the non-recoverable (plastic) portion of the extension recorded at the exact moment the full test load is initially applied, expressed as a percentage of the reference gauge length.")
-EquivalentClasses(<https://w3id.org/pmd/CTO_1000058> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OBI_0001931> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0001927> <https://w3id.org/pmd/co/PMD_00000119>)))
-SubClassOf(<https://w3id.org/pmd/CTO_1000058> <https://w3id.org/pmd/CTO_0000000>)
-
-# Class: <https://w3id.org/pmd/CTO_1000059> (percentage plastic extension value specification)
-
-AnnotationAssertion(rdfs:label <https://w3id.org/pmd/CTO_1000059> "percentage plastic extension value specification"@en)
-AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/CTO_1000059> "A percentage plastic extension value specification is a scalar value specification representing the unrecoverable, permanent portion of the extension at any given time, calculated as the total extension minus the elastic extension, and expressed as a percentage of the reference gauge length.")
-EquivalentClasses(<https://w3id.org/pmd/CTO_1000059> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OBI_0001931> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0001927> <https://w3id.org/pmd/co/PMD_00000121>)))
-SubClassOf(<https://w3id.org/pmd/CTO_1000059> <https://w3id.org/pmd/CTO_0000000>)
-
-# Class: <https://w3id.org/pmd/CTO_1000060> (percentage creep extension value specification)
-
-AnnotationAssertion(rdfs:label <https://w3id.org/pmd/CTO_1000060> "percentage creep extension value specification"@en)
-AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/CTO_1000060> "A percentage creep extension value specification is a scalar value specification representing the time-dependent portion of the extension that accumulates gradually during the creep test, calculated as the total extension minus the initial total extension, and expressed as a percentage of the reference gauge length.")
-EquivalentClasses(<https://w3id.org/pmd/CTO_1000060> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OBI_0001931> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0001927> <https://w3id.org/pmd/CTO_3000010>)))
-SubClassOf(<https://w3id.org/pmd/CTO_1000060> <https://w3id.org/pmd/CTO_0000000>)
-
-# Class: <https://w3id.org/pmd/CTO_1000062> (test duration value specification)
-
-AnnotationAssertion(rdfs:label <https://w3id.org/pmd/CTO_1000062> "test duration value specification"@en)
-AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/CTO_1000062> "A test duration value specification is a scalar value specification representing the total measured time elapsed from the initial application of the test force until the formal completion, rupture, or termination of the test.")
-SubClassOf(<https://w3id.org/pmd/CTO_1000062> <https://w3id.org/pmd/CTO_1000065>)
-
-# Class: <https://w3id.org/pmd/CTO_1000063> (creep rupture time value specification)
-
-AnnotationAssertion(rdfs:label <https://w3id.org/pmd/CTO_1000063> "creep rupture time value specification"@en)
-AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/CTO_1000063> "The specific time elapsed until the material physically fractured (ruptured) under the creep load.")
-EquivalentClasses(<https://w3id.org/pmd/CTO_1000063> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OBI_0001931> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0001927> <http://purl.obolibrary.org/obo/BFO_0000038>)))
-SubClassOf(<https://w3id.org/pmd/CTO_1000063> <https://w3id.org/pmd/CTO_1000065>)
-
-# Class: <https://w3id.org/pmd/CTO_1000064> (soaking time value specification)
-
-AnnotationAssertion(rdfs:label <https://w3id.org/pmd/CTO_1000064> "soaking time value specification"@en)
+AnnotationAssertion(rdfs:label <https://w3id.org/pmd/CTO_1000064> "soaking time"@en)
 AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/CTO_1000064> "The duration the specimen is held at the target temperature before the load is applied, ensuring the material is thermally stable and uniformly heated.")
-SubClassOf(<https://w3id.org/pmd/CTO_1000064> <https://w3id.org/pmd/CTO_1000065>)
-
-# Class: <https://w3id.org/pmd/CTO_1000065> (time value specification)
-
-AnnotationAssertion(rdfs:label <https://w3id.org/pmd/CTO_1000065> "time value specification"@en)
-AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/CTO_1000065> "A time value specification is a general scalar value specification that quantifies a specific duration or a distinct point in time during a process, consisting of a single numerical value and a temporal unit (such as hours or seconds).")
-SubClassOf(<https://w3id.org/pmd/CTO_1000065> <http://purl.obolibrary.org/obo/OBI_0001931>)
-
-# Class: <https://w3id.org/pmd/CTO_1000066> (length value specification)
-
-AnnotationAssertion(rdfs:label <https://w3id.org/pmd/CTO_1000066> "length value specification"@en)
-AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/CTO_1000066> "A length value specification is a scalar value specification representing the quantitative measurement of a one-dimensional linear physical extent, such as the diameter, thickness, width, or gauge length of a test piece.")
-SubClassOf(<https://w3id.org/pmd/CTO_1000066> <http://purl.obolibrary.org/obo/OBI_0001931>)
-
-# Class: <https://w3id.org/pmd/CTO_3000000> (planned extension limit)
-
-AnnotationAssertion(rdfs:label <https://w3id.org/pmd/CTO_3000000> "planned extension limit"@en)
-AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/CTO_3000000> "The maximum elongation (strain) allowed before the machine automatically stops the test to prevent damage or if the target is reached.")
-SubClassOf(<https://w3id.org/pmd/CTO_3000000> <https://w3id.org/pmd/CTO_0000001>)
-
-# Class: <https://w3id.org/pmd/CTO_3000001> (planned initial stress)
-
-AnnotationAssertion(rdfs:label <https://w3id.org/pmd/CTO_3000001> "planned initial stress"@en)
-AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/CTO_3000001> "The calculated stress applied to the specimen at the very start of the test.")
-EquivalentClasses(<https://w3id.org/pmd/CTO_3000001> ObjectIntersectionOf(<https://w3id.org/pmd/co/PMD_0060008> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000058> <http://purl.obolibrary.org/obo/OBI_0000260>)))
-SubClassOf(<https://w3id.org/pmd/CTO_3000001> <https://w3id.org/pmd/CTO_0000001>)
-
-# Class: <https://w3id.org/pmd/CTO_3000002> (planned interruption course)
-
-AnnotationAssertion(rdfs:label <https://w3id.org/pmd/CTO_3000002> "planned interruption course"@en)
-AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/CTO_3000002> "A schedule for pausing the test to take manual measurements or inspect the specimen (e.g., cooling down and reheating).")
-SubClassOf(<https://w3id.org/pmd/CTO_3000002> <https://w3id.org/pmd/CTO_0000001>)
-
-# Class: <https://w3id.org/pmd/CTO_3000003> (planned loading control type)
-
-AnnotationAssertion(rdfs:label <https://w3id.org/pmd/CTO_3000003> "planned loading control type"@en)
-AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/CTO_3000003> "The feedback mechanism used to control the machine, typically Force Control (for creep) or Strain Control (for fatigue/relaxation).")
-SubClassOf(<https://w3id.org/pmd/CTO_3000003> <https://w3id.org/pmd/CTO_0000001>)
-
-# Class: <https://w3id.org/pmd/CTO_3000004> (planned loading type)
-
-AnnotationAssertion(rdfs:label <https://w3id.org/pmd/CTO_3000004> "planned loading type"@en)
-AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/CTO_3000004> "The method of applying force, such as \"Constant Load\" (force remains the same) or \"Constant Stress\" (load is adjusted as the specimen cross-section changes).")
-SubClassOf(<https://w3id.org/pmd/CTO_3000004> <https://w3id.org/pmd/CTO_0000001>)
-
-# Class: <https://w3id.org/pmd/CTO_3000005> (planned preload)
-
-AnnotationAssertion(rdfs:label <https://w3id.org/pmd/CTO_3000005> "planned preload"@en)
-AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/CTO_3000005> "A small initial load applied to align the specimen and remove \"slack\" from the fixture before the actual test starts.")
-SubClassOf(<https://w3id.org/pmd/CTO_3000005> <https://w3id.org/pmd/CTO_0000001>)
-
-# Class: <https://w3id.org/pmd/CTO_3000006> (planned temperature)
-
-AnnotationAssertion(rdfs:label <https://w3id.org/pmd/CTO_3000006> "planned temperature"@en)
-AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/CTO_3000006> "The target temperature at which the specimen is maintained throughout the test (critical in creep testing as creep is temperature-dependent).")
-EquivalentClasses(<https://w3id.org/pmd/CTO_3000006> ObjectIntersectionOf(<https://w3id.org/pmd/co/PMD_0060008> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000058> <http://purl.obolibrary.org/obo/OBI_0000260>)))
-SubClassOf(<https://w3id.org/pmd/CTO_3000006> <https://w3id.org/pmd/CTO_0000001>)
-
-# Class: <https://w3id.org/pmd/CTO_3000007> (planned test ending criterion)
-
-AnnotationAssertion(rdfs:label <https://w3id.org/pmd/CTO_3000007> "planned test ending criterion"@en)
-AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/CTO_3000007> "The condition that triggers the end of the test, such as specimen rupture, reaching a specific strain (e.g., 1%), or a set duration.")
-SubClassOf(<https://w3id.org/pmd/CTO_3000007> <https://w3id.org/pmd/CTO_0000001>)
-
-# Class: <https://w3id.org/pmd/CTO_3000008> (planned test force)
-
-AnnotationAssertion(rdfs:label <https://w3id.org/pmd/CTO_3000008> "planned test force"@en)
-AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/CTO_3000008> "The specific magnitude of force (Load) to be applied to the specimen.")
-SubClassOf(<https://w3id.org/pmd/CTO_3000008> <https://w3id.org/pmd/CTO_0000001>)
-
-# Class: <https://w3id.org/pmd/CTO_3000009> (planned time limit)
-
-AnnotationAssertion(rdfs:label <https://w3id.org/pmd/CTO_3000009> "planned test type"@en)
-AnnotationAssertion(rdfs:label <https://w3id.org/pmd/CTO_3000009> "planned time limit"@en)
-AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/CTO_3000009> "The maximum duration the test is allowed to run if failure does not occur first.")
-AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/CTO_3000009> "The specific category of test, such as \"Tensile Creep,\" \"Compressive Creep,\" or \"Creep Rupture.\"")
-SubClassOf(<https://w3id.org/pmd/CTO_3000009> <https://w3id.org/pmd/CTO_0000001>)
+SubClassOf(<https://w3id.org/pmd/CTO_1000064> <http://purl.obolibrary.org/obo/BFO_0000202>)
 
 # Class: <https://w3id.org/pmd/CTO_3000010> (percentage creep extension)
 
@@ -736,12 +491,6 @@ SubClassOf(<https://w3id.org/pmd/CTO_3000012> <https://w3id.org/pmd/tto/TTO_0000
 AnnotationAssertion(rdfs:label <https://w3id.org/pmd/CTO_3000013> "percentage elastic extension")
 AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/CTO_3000013> "Extension at test temperature expressed as a percentage of Lr​, proportional to initial stress Ro​.")
 SubClassOf(<https://w3id.org/pmd/CTO_3000013> <https://w3id.org/pmd/tto/TTO_0000034>)
-
-# Class: <https://w3id.org/pmd/CTO_7dddccc4_7ed3_48d9_9461_c10445fd1987> (project title)
-
-AnnotationAssertion(rdfs:label <https://w3id.org/pmd/CTO_7dddccc4_7ed3_48d9_9461_c10445fd1987> "project title"@en)
-AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/CTO_7dddccc4_7ed3_48d9_9461_c10445fd1987> "The formal name or heading of the research project under which the test is performed")
-SubClassOf(<https://w3id.org/pmd/CTO_7dddccc4_7ed3_48d9_9461_c10445fd1987> <http://purl.obolibrary.org/obo/IAO_0000300>)
 
 # Class: <https://w3id.org/pmd/co/PMD_00000116> (percentage initial total extension)
 
@@ -780,34 +529,24 @@ SubClassOf(<https://w3id.org/pmd/co/PMD_00000122> <https://w3id.org/pmd/tto/TTO_
 
 AnnotationAssertion(rdfs:label <https://w3id.org/pmd/co/PMD_00000126> "single test piece machine")
 AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/co/PMD_00000126> "Testing machine that permits straining of a single test piece.")
-SubClassOf(<https://w3id.org/pmd/co/PMD_00000126> <https://w3id.org/pmd/co/PMD_0000602>)
+SubClassOf(<https://w3id.org/pmd/co/PMD_00000126> <https://w3id.org/pmd/CTO_0000006>)
 
 # Class: <https://w3id.org/pmd/co/PMD_00000127> (multiple test piece machine)
 
 AnnotationAssertion(rdfs:label <https://w3id.org/pmd/co/PMD_00000127> "multiple test piece machine")
 AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/co/PMD_00000127> "Testing machine that permits straining of more than one test piece simultaneously.")
-SubClassOf(<https://w3id.org/pmd/co/PMD_00000127> <https://w3id.org/pmd/co/PMD_0000602>)
+SubClassOf(<https://w3id.org/pmd/co/PMD_00000127> <https://w3id.org/pmd/CTO_0000006>)
 
-# Class: <https://w3id.org/pmd/co/PMD_0000779> (Wärmebehandlung)
+# Class: <https://w3id.org/pmd/https://w3id.org/pmd/CTO_1000303> (deformation mechanism)
 
-EquivalentClasses(<https://w3id.org/pmd/co/PMD_0000779> ObjectIntersectionOf(<https://w3id.org/pmd/co/PMD_0000779> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000062> <https://w3id.org/pmd/co/PMD_0000833>)))
-
-# Class: <https://w3id.org/pmd/https://w3id.org/pmd/CTO_1000302> (uncertainty datum)
-
-AnnotationAssertion(rdfs:label <https://w3id.org/pmd/https://w3id.org/pmd/CTO_1000302> "uncertainty datum")
-AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/https://w3id.org/pmd/CTO_1000302> "An uncertainty datum is a quantitative information entity that specifies the calculated margin of error or the estimated range of values within which the true value of a specific recorded measurement (such as temperature, applied force, or extension) is statistically expected to lie, typically calculated according to standard laboratory practices (such as ISO 204 Annex E).")
-SubClassOf(<https://w3id.org/pmd/https://w3id.org/pmd/CTO_1000302> <http://purl.obolibrary.org/obo/IAO_0000027>)
-
-# Class: <https://w3id.org/pmd/https://w3id.org/pmd/CTO_1000303> (deformation mechanism specification datum)
-
-AnnotationAssertion(rdfs:label <https://w3id.org/pmd/https://w3id.org/pmd/CTO_1000303> "deformation mechanism specification datum")
+AnnotationAssertion(rdfs:label <https://w3id.org/pmd/https://w3id.org/pmd/CTO_1000303> "deformation mechanism")
 AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/https://w3id.org/pmd/CTO_1000303> "A deformation mechanism specification datum is an information entity that identifies and records the specific microstructural or crystallographic process—such as dislocation creep, diffusional flow, or grain boundary sliding—that is determined to be the primary physical cause of the deformation observed in the material during the test.")
-SubClassOf(<https://w3id.org/pmd/https://w3id.org/pmd/CTO_1000303> <https://w3id.org/pmd/co/PMD_0060009>)
+SubClassOf(<https://w3id.org/pmd/https://w3id.org/pmd/CTO_1000303> <http://purl.obolibrary.org/obo/OBI_0001930>)
 
 # Class: <https://w3id.org/pmd/https://w3id.org/pmd/https://w3id.org/pmd/CTO_1000304> (stress)
 
 AnnotationAssertion(rdfs:label <https://w3id.org/pmd/https://w3id.org/pmd/https://w3id.org/pmd/CTO_1000304> "stress")
-SubClassOf(<https://w3id.org/pmd/https://w3id.org/pmd/https://w3id.org/pmd/CTO_1000304> <http://purl.obolibrary.org/obo/BFO_0000019>)
+SubClassOf(<https://w3id.org/pmd/https://w3id.org/pmd/https://w3id.org/pmd/CTO_1000304> <https://w3id.org/pmd/co/PMD_0000848>)
 
 
 )

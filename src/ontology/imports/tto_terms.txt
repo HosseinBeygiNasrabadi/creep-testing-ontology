@@ -12,5 +12,12 @@ https://w3id.org/pmd/tto/TTO_0000032
 https://w3id.org/pmd/tto/TTO_0000033
 https://w3id.org/pmd/tto/TTO_0000035
 
+https://w3id.org/pmd/tto/TTO_0000019 #length
+https://w3id.org/pmd/tto/TTO_0000017
+https://w3id.org/pmd/tto/TTO_0000018
+https://w3id.org/pmd/tto/TTO_0000028
+https://w3id.org/pmd/tto/TTO_0000031
+
 
 https://w3id.org/pmd/co/PMD_0000848 #mechanical property
+https://w3id.org/pmd/co/PMD_0040001 #length

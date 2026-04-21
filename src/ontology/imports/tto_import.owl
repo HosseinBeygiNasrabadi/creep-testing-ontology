@@ -7,13 +7,19 @@ Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
 
 Ontology(<https://w3id.org/pmd/cto/imports/tto_import.owl>
-<https://w3id.org/pmd/cto/releases/2026-04-20/imports/tto_import.owl>
+<https://w3id.org/pmd/cto/releases/2026-04-21/imports/tto_import.owl>
 Annotation(<http://purl.org/dc/elements/1.1/source> <https://w3id.org/pmd/tto/3.0.0>)
-Annotation(owl:versionInfo "2026-04-20")
+Annotation(owl:versionInfo "2026-04-21")
 
 Declaration(Class(<https://w3id.org/pmd/co/PMD_0000848>))
+Declaration(Class(<https://w3id.org/pmd/co/PMD_0040001>))
 Declaration(Class(<https://w3id.org/pmd/tto/TTO_0000004>))
 Declaration(Class(<https://w3id.org/pmd/tto/TTO_0000005>))
+Declaration(Class(<https://w3id.org/pmd/tto/TTO_0000017>))
+Declaration(Class(<https://w3id.org/pmd/tto/TTO_0000018>))
+Declaration(Class(<https://w3id.org/pmd/tto/TTO_0000019>))
+Declaration(Class(<https://w3id.org/pmd/tto/TTO_0000028>))
+Declaration(Class(<https://w3id.org/pmd/tto/TTO_0000031>))
 Declaration(Class(<https://w3id.org/pmd/tto/TTO_0000032>))
 Declaration(Class(<https://w3id.org/pmd/tto/TTO_0000033>))
 Declaration(Class(<https://w3id.org/pmd/tto/TTO_0000034>))
@@ -44,6 +50,10 @@ AnnotationAssertion(rdfs:label rdfs:label "label"@en)
 
 AnnotationAssertion(rdfs:label <https://w3id.org/pmd/co/PMD_0000848> "mechanical property"@en)
 
+# Class: <https://w3id.org/pmd/co/PMD_0040001> (length)
+
+AnnotationAssertion(rdfs:label <https://w3id.org/pmd/co/PMD_0040001> "length"@en)
+
 # Class: <https://w3id.org/pmd/tto/TTO_0000004> (elongation)
 
 AnnotationAssertion(rdfs:label <https://w3id.org/pmd/tto/TTO_0000004> "Verlängerung"@de)
@@ -55,6 +65,36 @@ SubClassOf(<https://w3id.org/pmd/tto/TTO_0000004> <https://w3id.org/pmd/co/PMD_0
 AnnotationAssertion(rdfs:label <https://w3id.org/pmd/tto/TTO_0000005> "Verlängerung (der Extensometer-Messlänge)"@de)
 AnnotationAssertion(rdfs:label <https://w3id.org/pmd/tto/TTO_0000005> "extension"@en)
 SubClassOf(<https://w3id.org/pmd/tto/TTO_0000005> <https://w3id.org/pmd/co/PMD_0000848>)
+
+# Class: <https://w3id.org/pmd/tto/TTO_0000017> (extensometer gauge length)
+
+AnnotationAssertion(rdfs:label <https://w3id.org/pmd/tto/TTO_0000017> "Extensometer-Messlänge"@de)
+AnnotationAssertion(rdfs:label <https://w3id.org/pmd/tto/TTO_0000017> "extensometer gauge length"@en)
+SubClassOf(<https://w3id.org/pmd/tto/TTO_0000017> <https://w3id.org/pmd/tto/TTO_0000019>)
+
+# Class: <https://w3id.org/pmd/tto/TTO_0000018> (final gauge length after fracture)
+
+AnnotationAssertion(rdfs:label <https://w3id.org/pmd/tto/TTO_0000018> "Messlänge nach dem Bruch"@de)
+AnnotationAssertion(rdfs:label <https://w3id.org/pmd/tto/TTO_0000018> "final gauge length after fracture"@en)
+SubClassOf(<https://w3id.org/pmd/tto/TTO_0000018> <https://w3id.org/pmd/tto/TTO_0000019>)
+
+# Class: <https://w3id.org/pmd/tto/TTO_0000019> (gauge length)
+
+AnnotationAssertion(rdfs:label <https://w3id.org/pmd/tto/TTO_0000019> "Messlänge"@de)
+AnnotationAssertion(rdfs:label <https://w3id.org/pmd/tto/TTO_0000019> "gauge length"@en)
+SubClassOf(<https://w3id.org/pmd/tto/TTO_0000019> <https://w3id.org/pmd/co/PMD_0040001>)
+
+# Class: <https://w3id.org/pmd/tto/TTO_0000028> (original gauge length)
+
+AnnotationAssertion(rdfs:label <https://w3id.org/pmd/tto/TTO_0000028> "Anfangsmesslänge"@de)
+AnnotationAssertion(rdfs:label <https://w3id.org/pmd/tto/TTO_0000028> "original gauge length"@en)
+SubClassOf(<https://w3id.org/pmd/tto/TTO_0000028> <https://w3id.org/pmd/tto/TTO_0000019>)
+
+# Class: <https://w3id.org/pmd/tto/TTO_0000031> (Parallele Länge)
+
+AnnotationAssertion(rdfs:label <https://w3id.org/pmd/tto/TTO_0000031> "Parallele Länge"@de)
+AnnotationAssertion(rdfs:label <https://w3id.org/pmd/tto/TTO_0000031> "parallel length"@en)
+SubClassOf(<https://w3id.org/pmd/tto/TTO_0000031> <https://w3id.org/pmd/co/PMD_0040001>)
 
 # Class: <https://w3id.org/pmd/tto/TTO_0000032> (percentage elongation)
 

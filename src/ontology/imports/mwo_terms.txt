@@ -1,6 +1,5 @@
 http://purls.helmholtz-metadaten.de/mwo/MWO_0001099 #material designation
 
-https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000015 #identifier
 
 http://purl.obolibrary.org/obo/IAO_0000030 #information content entity
 http://purl.obolibrary.org/obo/IAO_0000033 #directive information entity
@@ -12,6 +11,12 @@ https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000203 #specification
 https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0001018 #textual description
 https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0001037 #DOI
 http://purl.obolibrary.org/obo/IAO_0000578 #CRI
+http://purl.obolibrary.org/obo/IAO_0020000 #identifier
 
 https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0001204 #Reference dataset
 https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000009 #Dataset
+
+#https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0001209 # Journal article
+#https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000190 #publication
+#https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000022 #document
+
