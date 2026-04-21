@@ -38,14 +38,15 @@ Declaration(Class(<https://w3id.org/pmd/CTO_0000003>))
 Declaration(Class(<https://w3id.org/pmd/CTO_0000004>))
 Declaration(Class(<https://w3id.org/pmd/CTO_0000005>))
 Declaration(Class(<https://w3id.org/pmd/CTO_0000006>))
-Declaration(Class(<https://w3id.org/pmd/CTO_0000007>))
-Declaration(Class(<https://w3id.org/pmd/CTO_0000008>))
 Declaration(Class(<https://w3id.org/pmd/CTO_0000009>))
-Declaration(Class(<https://w3id.org/pmd/CTO_0000010>))
 Declaration(Class(<https://w3id.org/pmd/CTO_0000011>))
 Declaration(Class(<https://w3id.org/pmd/CTO_0000012>))
 Declaration(Class(<https://w3id.org/pmd/CTO_0000013>))
 Declaration(Class(<https://w3id.org/pmd/CTO_0000014>))
+Declaration(Class(<https://w3id.org/pmd/CTO_0000015>))
+Declaration(Class(<https://w3id.org/pmd/CTO_0000016>))
+Declaration(Class(<https://w3id.org/pmd/CTO_0000017>))
+Declaration(Class(<https://w3id.org/pmd/CTO_0000018>))
 Declaration(Class(<https://w3id.org/pmd/CTO_1000000>))
 Declaration(Class(<https://w3id.org/pmd/CTO_1000001>))
 Declaration(Class(<https://w3id.org/pmd/CTO_1000002>))
@@ -66,7 +67,6 @@ Declaration(Class(<https://w3id.org/pmd/CTO_1000028>))
 Declaration(Class(<https://w3id.org/pmd/CTO_1000030>))
 Declaration(Class(<https://w3id.org/pmd/CTO_1000032>))
 Declaration(Class(<https://w3id.org/pmd/CTO_1000033>))
-Declaration(Class(<https://w3id.org/pmd/CTO_1000034>))
 Declaration(Class(<https://w3id.org/pmd/CTO_1000035>))
 Declaration(Class(<https://w3id.org/pmd/CTO_1000036>))
 Declaration(Class(<https://w3id.org/pmd/CTO_1000037>))
@@ -179,26 +179,11 @@ SubClassOf(<https://w3id.org/pmd/CTO_0000005> <https://w3id.org/pmd/tto/TTO_0000
 AnnotationAssertion(rdfs:label <https://w3id.org/pmd/CTO_0000006> "creep test machine type"@en)
 SubClassOf(<https://w3id.org/pmd/CTO_0000006> <https://w3id.org/pmd/CTO_1000008>)
 
-# Class: <https://w3id.org/pmd/CTO_0000007> (delta precipitate role)
-
-AnnotationAssertion(rdfs:label <https://w3id.org/pmd/CTO_0000007> "delta precipitate role"@en)
-SubClassOf(<https://w3id.org/pmd/CTO_0000007> <https://w3id.org/pmd/co/PMD_0020002>)
-
-# Class: <https://w3id.org/pmd/CTO_0000008> (gamma precipitate role)
-
-AnnotationAssertion(rdfs:label <https://w3id.org/pmd/CTO_0000008> "gamma precipitate role"@en)
-SubClassOf(<https://w3id.org/pmd/CTO_0000008> <https://w3id.org/pmd/co/PMD_0020002>)
-
 # Class: <https://w3id.org/pmd/CTO_0000009> (creep reference dataset)
 
 AnnotationAssertion(rdfs:label <https://w3id.org/pmd/CTO_0000009> "creep reference dataset"@en)
 EquivalentClasses(<https://w3id.org/pmd/CTO_0000009> ObjectIntersectionOf(<https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0001204> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000312> <https://w3id.org/pmd/co/PMD_0000589>)))
 SubClassOf(<https://w3id.org/pmd/CTO_0000009> <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0001204>)
-
-# Class: <https://w3id.org/pmd/CTO_0000010> (gamma prime precipitate role)
-
-AnnotationAssertion(rdfs:label <https://w3id.org/pmd/CTO_0000010> "gamma prime precipitate role"@en)
-SubClassOf(<https://w3id.org/pmd/CTO_0000010> <https://w3id.org/pmd/co/PMD_0020002>)
 
 # Class: <https://w3id.org/pmd/CTO_0000011> (loading process)
 
@@ -220,6 +205,26 @@ SubClassOf(<https://w3id.org/pmd/CTO_0000013> <http://purl.obolibrary.org/obo/BF
 
 AnnotationAssertion(rdfs:label <https://w3id.org/pmd/CTO_0000014> "stress exponent"@en)
 SubClassOf(<https://w3id.org/pmd/CTO_0000014> <https://w3id.org/pmd/co/PMD_0000848>)
+
+# Class: <https://w3id.org/pmd/CTO_0000015> (precipitate)
+
+AnnotationAssertion(rdfs:label <https://w3id.org/pmd/CTO_0000015> "precipitate"@en)
+SubClassOf(<https://w3id.org/pmd/CTO_0000015> <http://purl.obolibrary.org/obo/BFO_0000030>)
+
+# Class: <https://w3id.org/pmd/CTO_0000016> (delta pricipitate)
+
+AnnotationAssertion(rdfs:label <https://w3id.org/pmd/CTO_0000016> "delta pricipitate"@en)
+SubClassOf(<https://w3id.org/pmd/CTO_0000016> <https://w3id.org/pmd/CTO_0000015>)
+
+# Class: <https://w3id.org/pmd/CTO_0000017> (gamma pricipitate)
+
+AnnotationAssertion(rdfs:label <https://w3id.org/pmd/CTO_0000017> "gamma pricipitate"@en)
+SubClassOf(<https://w3id.org/pmd/CTO_0000017> <https://w3id.org/pmd/CTO_0000015>)
+
+# Class: <https://w3id.org/pmd/CTO_0000018> (gamma prime pricipitate)
+
+AnnotationAssertion(rdfs:label <https://w3id.org/pmd/CTO_0000018> "gamma prime pricipitate"@en)
+SubClassOf(<https://w3id.org/pmd/CTO_0000018> <https://w3id.org/pmd/CTO_0000015>)
 
 # Class: <https://w3id.org/pmd/CTO_1000000> (creep test standard)
 
@@ -342,12 +347,6 @@ SubClassOf(<https://w3id.org/pmd/CTO_1000032> <http://purl.obolibrary.org/obo/BF
 AnnotationAssertion(rdfs:label <https://w3id.org/pmd/CTO_1000033> "creep testing machine role"@en)
 AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/CTO_1000033> "The function realized by the testing equipment when it is used to perform a creep test.")
 SubClassOf(<https://w3id.org/pmd/CTO_1000033> <https://w3id.org/pmd/co/PMD_0000603>)
-
-# Class: <https://w3id.org/pmd/CTO_1000034> (grain role)
-
-AnnotationAssertion(rdfs:label <https://w3id.org/pmd/CTO_1000034> "grain role"@en)
-AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/CTO_1000034> "The specific function or part played by a single crystallite (grain) within the polycrystalline aggregate structure.")
-SubClassOf(<https://w3id.org/pmd/CTO_1000034> <http://purl.obolibrary.org/obo/BFO_0000023>)
 
 # Class: <https://w3id.org/pmd/CTO_1000035> (creep rate)
 
