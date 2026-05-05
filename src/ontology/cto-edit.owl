@@ -256,18 +256,21 @@ SubClassOf(<https://w3id.org/pmd/cto/CTO_0000015> <http://purl.obolibrary.org/ob
 
 AnnotationAssertion(rdfs:label <https://w3id.org/pmd/cto/CTO_0000016> "delta pricipitate"@en)
 AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/cto/CTO_0000016> "A delta precipitate is a precipitate that is a specific phase (typically δ-phase) formed within a material under particular thermodynamic and processing conditions.")
+EquivalentClasses(<https://w3id.org/pmd/cto/CTO_0000016> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/BFO_0000040> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002350> <https://w3id.org/pmd/co/PMD_0000857>)))
 SubClassOf(<https://w3id.org/pmd/cto/CTO_0000016> <https://w3id.org/pmd/cto/CTO_0000015>)
 
 # Class: <https://w3id.org/pmd/cto/CTO_0000017> (gamma pricipitate)
 
 AnnotationAssertion(rdfs:label <https://w3id.org/pmd/cto/CTO_0000017> "gamma pricipitate"@en)
 AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/cto/CTO_0000017> "A gamma precipitate is a precipitate that is a γ-phase formed within a material, typically contributing to its mechanical properties.")
+EquivalentClasses(<https://w3id.org/pmd/cto/CTO_0000017> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/BFO_0000040> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002350> <https://w3id.org/pmd/co/PMD_0000857>)))
 SubClassOf(<https://w3id.org/pmd/cto/CTO_0000017> <https://w3id.org/pmd/cto/CTO_0000015>)
 
 # Class: <https://w3id.org/pmd/cto/CTO_0000018> (gamma prime pricipitate)
 
 AnnotationAssertion(rdfs:label <https://w3id.org/pmd/cto/CTO_0000018> "gamma prime pricipitate"@en)
 AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/cto/CTO_0000018> "A gamma prime precipitate is a precipitate that is a γ′-phase formed within a material, typically strengthening it by hindering dislocation motion.")
+EquivalentClasses(<https://w3id.org/pmd/cto/CTO_0000018> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/BFO_0000040> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002350> <https://w3id.org/pmd/co/PMD_0000857>)))
 SubClassOf(<https://w3id.org/pmd/cto/CTO_0000018> <https://w3id.org/pmd/cto/CTO_0000015>)
 
 # Class: <https://w3id.org/pmd/cto/CTO_1000001> (creep test machine heating system)
