@@ -33,6 +33,7 @@ Declaration(Class(<https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000206>))
 Declaration(Class(<https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0001018>))
 Declaration(Class(<https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0001037>))
 Declaration(Class(<https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0001204>))
+Declaration(Class(<https://w3id.org/pmd/CTO_1000000>))
 Declaration(Class(<https://w3id.org/pmd/co/PMD_0000008>))
 Declaration(Class(<https://w3id.org/pmd/co/PMD_0000513>))
 Declaration(Class(<https://w3id.org/pmd/co/PMD_0000589>))
@@ -70,9 +71,15 @@ Declaration(Class(<https://w3id.org/pmd/cto/CTO_0000018>))
 Declaration(Class(<https://w3id.org/pmd/cto/CTO_1000001>))
 Declaration(Class(<https://w3id.org/pmd/cto/CTO_1000002>))
 Declaration(Class(<https://w3id.org/pmd/cto/CTO_1000003>))
+Declaration(Class(<https://w3id.org/pmd/cto/CTO_1000004>))
+Declaration(Class(<https://w3id.org/pmd/cto/CTO_1000005>))
+Declaration(Class(<https://w3id.org/pmd/cto/CTO_1000006>))
+Declaration(Class(<https://w3id.org/pmd/cto/CTO_1000007>))
 Declaration(Class(<https://w3id.org/pmd/cto/CTO_1000008>))
 Declaration(Class(<https://w3id.org/pmd/cto/CTO_1000009>))
 Declaration(Class(<https://w3id.org/pmd/cto/CTO_1000010>))
+Declaration(Class(<https://w3id.org/pmd/cto/CTO_1000011>))
+Declaration(Class(<https://w3id.org/pmd/cto/CTO_1000012>))
 Declaration(Class(<https://w3id.org/pmd/cto/CTO_1000013>))
 Declaration(Class(<https://w3id.org/pmd/cto/CTO_1000014>))
 Declaration(Class(<https://w3id.org/pmd/cto/CTO_1000015>))
@@ -81,6 +88,11 @@ Declaration(Class(<https://w3id.org/pmd/cto/CTO_1000017>))
 Declaration(Class(<https://w3id.org/pmd/cto/CTO_1000018>))
 Declaration(Class(<https://w3id.org/pmd/cto/CTO_1000019>))
 Declaration(Class(<https://w3id.org/pmd/cto/CTO_1000020>))
+Declaration(Class(<https://w3id.org/pmd/cto/CTO_1000021>))
+Declaration(Class(<https://w3id.org/pmd/cto/CTO_1000022>))
+Declaration(Class(<https://w3id.org/pmd/cto/CTO_1000023>))
+Declaration(Class(<https://w3id.org/pmd/cto/CTO_1000024>))
+Declaration(Class(<https://w3id.org/pmd/cto/CTO_1000025>))
 Declaration(Class(<https://w3id.org/pmd/cto/CTO_1000027>))
 Declaration(Class(<https://w3id.org/pmd/cto/CTO_1000028>))
 Declaration(Class(<https://w3id.org/pmd/cto/CTO_1000030>))
@@ -153,6 +165,12 @@ AnnotationAssertion(rdfs:label dcterms:title "title")
 ############################
 #   Classes
 ############################
+
+# Class: <https://w3id.org/pmd/CTO_1000000> (creep publication DOI)
+
+AnnotationAssertion(rdfs:label <https://w3id.org/pmd/CTO_1000000> "creep publication DOI"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/CTO_1000000> "The unique, persistent alphanumeric string, typically beginning with \"10.\", used to identify the specific academic journal article, dataset, or report from which the creep data is extracted.")
+SubClassOf(<https://w3id.org/pmd/CTO_1000000> <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0001037>)
 
 # Class: <https://w3id.org/pmd/cto/CTO_0000001> (object identifier)
 
@@ -296,6 +314,30 @@ AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3
 EquivalentClasses(<https://w3id.org/pmd/cto/CTO_1000003> ObjectIntersectionOf(<https://w3id.org/pmd/cto/CTO_0000001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> <https://w3id.org/pmd/co/PMD_0000602>)))
 SubClassOf(<https://w3id.org/pmd/cto/CTO_1000003> <https://w3id.org/pmd/cto/CTO_0000001>)
 
+# Class: <https://w3id.org/pmd/cto/CTO_1000004> (creep test piece identifier)
+
+AnnotationAssertion(rdfs:label <https://w3id.org/pmd/cto/CTO_1000004> "creep test piece identifier"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/cto/CTO_1000004> "The specific internal label, serial number, or study code (e.g., \"Specimen A-1\" or \"HT-2\") assigned by the authors to identify the exact physical specimen placed in the testing machine, distinguishing it from the broader material name.")
+SubClassOf(<https://w3id.org/pmd/cto/CTO_1000004> <https://w3id.org/pmd/cto/CTO_0000001>)
+
+# Class: <https://w3id.org/pmd/cto/CTO_1000005> (creep test piece manufacturing description)
+
+AnnotationAssertion(rdfs:label <https://w3id.org/pmd/cto/CTO_1000005> "creep test piece manufacturing description"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/cto/CTO_1000005> "A textual summary detailing the primary forming and synthesis processes used to create the raw material before specific heat treatments, often utilizing terms like vacuum induction melting (VIM), hot rolled, forged, additively manufactured, or cast.")
+SubClassOf(<https://w3id.org/pmd/cto/CTO_1000005> <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0001018>)
+
+# Class: <https://w3id.org/pmd/cto/CTO_1000006> (creep test piece solutionizing description)
+
+AnnotationAssertion(rdfs:label <https://w3id.org/pmd/cto/CTO_1000006> "creep test piece solutionizing description"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/cto/CTO_1000006> "A textual summary of the high-temperature heat treatment step designed to dissolve precipitates into a solid solution, characterized by keywords like \"solution treated\" or \"homogenized\" followed by a specific temperature, duration, and quenching method.")
+SubClassOf(<https://w3id.org/pmd/cto/CTO_1000006> <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0001018>)
+
+# Class: <https://w3id.org/pmd/cto/CTO_1000007> (creep test piece aging description)
+
+AnnotationAssertion(rdfs:label <https://w3id.org/pmd/cto/CTO_1000007> "creep test piece aging description"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/cto/CTO_1000007> "A textual summary of the lower-temperature heat treatment applied after solutionizing to induce precipitation hardening, commonly denoted by terms like \"aged\" or \"tempered\" alongside temperature and time specifications.")
+SubClassOf(<https://w3id.org/pmd/cto/CTO_1000007> <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0001018>)
+
 # Class: <https://w3id.org/pmd/cto/CTO_1000008> (device type specification)
 
 AnnotationAssertion(rdfs:label <https://w3id.org/pmd/cto/CTO_1000008> "device type specification"@en)
@@ -314,6 +356,18 @@ AnnotationAssertion(rdfs:label <https://w3id.org/pmd/cto/CTO_1000010> "creep tes
 AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/cto/CTO_1000010> "The realizable entity that the specimen plays during the experiment (i.e., being the object under stress).")
 EquivalentClasses(<https://w3id.org/pmd/cto/CTO_1000010> ObjectIntersectionOf(<https://w3id.org/pmd/co/PMD_0000975> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000081> <https://w3id.org/pmd/cto/CTO_0000008>)))
 SubClassOf(<https://w3id.org/pmd/cto/CTO_1000010> <https://w3id.org/pmd/co/PMD_0000975>)
+
+# Class: <https://w3id.org/pmd/cto/CTO_1000011> (creep test piece delta precipitate fraction value)
+
+AnnotationAssertion(rdfs:label <https://w3id.org/pmd/cto/CTO_1000011> "creep test piece delta precipitate fraction value"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/cto/CTO_1000011> "The quantitative volume or area fraction of the delta (δ) phase precipitates within the material microstructure, usually expressed as a percentage (%) or volume fraction (vol%).")
+SubClassOf(<https://w3id.org/pmd/cto/CTO_1000011> <http://purl.obolibrary.org/obo/OBI_0001931>)
+
+# Class: <https://w3id.org/pmd/cto/CTO_1000012> (creep test piece delta precipitate size value)
+
+AnnotationAssertion(rdfs:label <https://w3id.org/pmd/cto/CTO_1000012> "creep test piece delta precipitate size value"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/cto/CTO_1000012> "The physical dimensional measurement, such as length, thickness, or diameter, of the delta (δ) phase precipitates, typically reported in nanometers (nm) or micrometers (µm).")
+SubClassOf(<https://w3id.org/pmd/cto/CTO_1000012> <http://purl.obolibrary.org/obo/OBI_0001931>)
 
 # Class: <https://w3id.org/pmd/cto/CTO_1000013> (material state)
 
@@ -363,6 +417,36 @@ SubClassOf(<https://w3id.org/pmd/cto/CTO_1000019> <https://w3id.org/pmd/cto/CTO_
 AnnotationAssertion(rdfs:label <https://w3id.org/pmd/cto/CTO_1000020> "aged"@en)
 AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/cto/CTO_1000020> "State resulting from precipitation hardening (holding at an intermediate temperature) to increase strength.")
 SubClassOf(<https://w3id.org/pmd/cto/CTO_1000020> <https://w3id.org/pmd/cto/CTO_1000015>)
+
+# Class: <https://w3id.org/pmd/cto/CTO_1000021> (creep test piece gamma precipitate fraction value)
+
+AnnotationAssertion(rdfs:label <https://w3id.org/pmd/cto/CTO_1000021> "creep test piece gamma precipitate fraction value"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/cto/CTO_1000021> "The quantitative volume or area fraction of the gamma (γ) precipitates, or secondary gamma phases, present in the microstructure, usually expressed as a percentage (%) or volume fraction (vol%).")
+SubClassOf(<https://w3id.org/pmd/cto/CTO_1000021> <http://purl.obolibrary.org/obo/OBI_0001931>)
+
+# Class: <https://w3id.org/pmd/cto/CTO_1000022> (creep test piece gamma precipitate size value)
+
+AnnotationAssertion(rdfs:label <https://w3id.org/pmd/cto/CTO_1000022> "creep test piece gamma precipitate size value"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/cto/CTO_1000022> "The physical dimensional measurement of the gamma (γ) precipitates, typically reported in nanometers (nm) or micrometers (µm).")
+SubClassOf(<https://w3id.org/pmd/cto/CTO_1000022> <http://purl.obolibrary.org/obo/OBI_0001931>)
+
+# Class: <https://w3id.org/pmd/cto/CTO_1000023> (creep test piece gamma prime precipitate fraction value)
+
+AnnotationAssertion(rdfs:label <https://w3id.org/pmd/cto/CTO_1000023> "creep test piece gamma prime precipitate fraction value"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/cto/CTO_1000023> "The quantitative volume or area fraction of the strengthening gamma-prime (γ') precipitates within the material, usually expressed as a percentage (%) or volume fraction (vol%).")
+SubClassOf(<https://w3id.org/pmd/cto/CTO_1000023> <http://purl.obolibrary.org/obo/OBI_0001931>)
+
+# Class: <https://w3id.org/pmd/cto/CTO_1000024> (creep test piece gamma prime precipitate size value)
+
+AnnotationAssertion(rdfs:label <https://w3id.org/pmd/cto/CTO_1000024> "creep test piece gamma prime precipitate size value"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/cto/CTO_1000024> "The physical dimensional measurement, such as diameter or edge length, of the gamma-prime (γ') precipitates, typically reported in nanometers (nm) or micrometers (µm).")
+SubClassOf(<https://w3id.org/pmd/cto/CTO_1000024> <http://purl.obolibrary.org/obo/OBI_0001931>)
+
+# Class: <https://w3id.org/pmd/cto/CTO_1000025> (percentage initial total extension value)
+
+AnnotationAssertion(rdfs:label <https://w3id.org/pmd/cto/CTO_1000025> "percentage initial total extension value"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/cto/CTO_1000025> "The immediate total percentage strain (%) observed the exact moment the mechanical stress is fully applied, strictly measured before any time-dependent creep deformation begins.")
+SubClassOf(<https://w3id.org/pmd/cto/CTO_1000025> <http://purl.obolibrary.org/obo/OBI_0001931>)
 
 # Class: <https://w3id.org/pmd/cto/CTO_1000027> (reference length to calculate percentage elongation)
 
