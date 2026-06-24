@@ -30,7 +30,7 @@ jobs:
           java -jar widoco.jar -ontFile src/ontology/cto-edit.owl -outFolder ./_site -uniteSections -includeAnnotationProperties -lang en -getOntologyMetadata -noPlaceHolderText -rewriteAll -webVowl
       - name: Add default entry point
         run: |
-          mv ./_site/doc/* ./_site/
+          ls -la ./_site/
           cp ./_site/index-en.html ./_site/index.html
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
