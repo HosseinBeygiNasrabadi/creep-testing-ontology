@@ -1,20 +1,6 @@
 ifneq ($(MIR), false)
 ifneq ($(IMP), false)
 
-$(IMPORTDIR)/mwo_import.owl: $(MIRRORDIR)/mwo.owl $(IMPORTDIR)/mwo_terms.txt \
-            $(IMPORTSEED) | all_robot_plugins
-	$(ROBOT) annotate --input $< --remove-annotations \
-		...
-
-$(IMPORTDIR)/tto_import.owl: $(MIRRORDIR)/tto.owl $(IMPORTDIR)/tto_terms.txt $(IMPORTSEED) | all_robot_plugins
-	$(ROBOT) annotate --input $< --remove-annotations \
-		...
-
-endif
-endif
-
-
-
 ## Default module type (slme)
 $(IMPORTDIR)/mwo_import.owl: $(MIRRORDIR)/mwo.owl $(IMPORTDIR)/mwo_terms.txt \
 			   $(IMPORTSEED) | all_robot_plugins
@@ -50,7 +36,10 @@ $(IMPORTDIR)/tto_import.owl: $(MIRRORDIR)/tto.owl $(IMPORTDIR)/tto_terms.txt $(I
 	               --subset-decls true --synonym-decls true \
 	 repair --merge-axiom-annotations true \
 	 $(ANNOTATE_CONVERT_FILE)
-	
+
+endif
+endif
+
 #############################################################################
 # lets add some additional annotations to the release artefacts
 #############################################################################
@@ -70,4 +59,4 @@ update-ontology-annotations:
 	$(ROBOT) annotate --input ../../cto-full.owl $(ALL_ANNOTATIONS) --output ../../cto-full.owl && \
 	$(ROBOT) annotate --input ../../cto-full.ttl $(ALL_ANNOTATIONS) --output ../../cto-full.ttl && \
 	$(ROBOT) annotate --input ../../cto-base.owl $(ALL_ANNOTATIONS) --output ../../cto-base.owl && \
-	$(ROBOT) annotate --input ../../cto-base.ttl $(ALL_ANNOTATIONS) --output ../../cto-base.ttl 
+	$(ROBOT) annotate --input ../../cto-base.ttl $(ALL_ANNOTATIONS) --output ../../cto-base.ttl
