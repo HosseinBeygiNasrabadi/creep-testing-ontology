@@ -21,18 +21,25 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+
       - name: Setup Pages
         uses: actions/configure-pages@v5
+
       - name: Build HTML with WIDOCO
         run: |
           wget -O widoco.jar https://github.com/dgarijo/Widoco/releases/download/v1.4.25/widoco-1.4.25-jar-with-dependencies_JDK-11.jar
           mkdir ./_site
           java -jar widoco.jar -ontFile cto-full.owl -outFolder ./_site -uniteSections -includeAnnotationProperties -lang en -getOntologyMetadata -noPlaceHolderText -rewriteAll -webVowl
+
       - name: Add default entry point
         run: |
           mv ./_site/doc/* ./_site/
           ls -la ./_site/
           cp ./_site/index-en.html ./_site/index.html || cp ./_site/index-*.html ./_site/index.html
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v4
+
   deploy:
     environment:
       name: github-pages
