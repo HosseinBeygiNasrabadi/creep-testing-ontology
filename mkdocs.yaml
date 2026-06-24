@@ -1,0 +1,12 @@
+site_name: Creep Testing Ontology
+theme: readthedocs
+
+nav:
+#  - Welcome: index.md
+  - Introduction: intro.md
+#  - Ontology structure: ontology.md
+#  - Patterns and use cases: patterns.md
+#  - Versions: versions.md
+#  - Contributing: contributing.md
+#  - Acknowledgements: acknowledgements.md
+#  - References and publications: refs.md
