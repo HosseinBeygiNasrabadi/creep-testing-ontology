@@ -7,17 +7,39 @@ Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
 
 Ontology(<https://w3id.org/pmd/cto/imports/mwo_import.owl>
-<https://w3id.org/pmd/cto/releases/2026-04-21/imports/mwo_import.owl>
-Annotation(<http://purl.org/dc/elements/1.1/source> <http://purls.helmholtz-metadaten.de/mwo/mwo.owl/3.0.1>)
-Annotation(owl:versionInfo "2026-04-21")
+<https://w3id.org/pmd/cto/releases/1.0.0/imports/mwo_import.owl>
+Annotation(<http://purl.org/dc/elements/1.1/source> <http://purls.helmholtz-metadaten.de/mwo/3.0.2>)
+Annotation(owl:versionInfo "1.0.0")
 
+Declaration(Class(<http://purl.obolibrary.org/obo/IAO_0000027>))
 Declaration(Class(<http://purl.obolibrary.org/obo/IAO_0000030>))
 Declaration(Class(<http://purl.obolibrary.org/obo/IAO_0000033>))
 Declaration(Class(<http://purl.obolibrary.org/obo/IAO_0000300>))
+Declaration(Class(<http://purl.obolibrary.org/obo/IAO_0000310>))
 Declaration(Class(<http://purl.obolibrary.org/obo/IAO_0000578>))
 Declaration(Class(<http://purl.obolibrary.org/obo/IAO_0000590>))
 Declaration(Class(<http://purl.obolibrary.org/obo/IAO_0020000>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0001930>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0001933>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0002471>))
+Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001012>))
+Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001013>))
+Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001015>))
+Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001016>))
+Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001020>))
+Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001021>))
+Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001023>))
+Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001024>))
+Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001036>))
+Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001037>))
+Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001038>))
+Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001039>))
+Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001040>))
+Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001041>))
+Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001042>))
+Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001043>))
 Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001099>))
+Declaration(Class(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001204>))
 Declaration(Class(<https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000009>))
 Declaration(Class(<https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000203>))
 Declaration(Class(<https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000206>))
@@ -48,6 +70,14 @@ AnnotationAssertion(rdfs:label rdfs:label "label")
 #   Classes
 ############################
 
+# Class: <http://purl.obolibrary.org/obo/IAO_0000027> (data entity)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IAO_0000027> "An information content entity that is intended to be a truthful statement about something (modulo, e.g., measurement precision or other systematic errors) and is constructed/acquired by a method which reliably tends to produce (approximately) truthful statements."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IAO_0000027> "An information content entity that is intended to be one or more truthful statement(s) about something (modulo, e.g., measurement precision or other systematic errors) and is constructed/acquired by a method which reliably tends to produce (approximately) truthful statements."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000027> "data entity"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000027> "data item"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/IAO_0000027> <http://purl.obolibrary.org/obo/IAO_0000030>)
+
 # Class: <http://purl.obolibrary.org/obo/IAO_0000030> (information content entity)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IAO_0000030> "A generically dependent continuant that is about some thing."@en)
@@ -67,6 +97,12 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.ob
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000300> "textual entity"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/IAO_0000300> <http://purl.obolibrary.org/obo/IAO_0000030>)
 
+# Class: <http://purl.obolibrary.org/obo/IAO_0000310> (document)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IAO_0000310> "A collection of information content entities intended to be understood together as a whole"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000310> "document"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/IAO_0000310> <http://purl.obolibrary.org/obo/IAO_0000030>)
+
 # Class: <http://purl.obolibrary.org/obo/IAO_0000578> (centrally registered identifier)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IAO_0000578> "An information content entity that consists of a CRID symbol and additional information about the CRID registry to which it belongs."@en)
@@ -85,25 +121,126 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.ob
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0020000> "identifier"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/IAO_0020000> <http://purl.obolibrary.org/obo/IAO_0000030>)
 
-# Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001099> (material designation)
+# Class: <http://purl.obolibrary.org/obo/OBI_0001930> (categorical value specification)
 
-AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001099> "material designation"@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OBI_0001930> "A value specification that is specifies one category out of a fixed number of nominal categories"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBI_0001930> "categorical value specification")
+SubClassOf(<http://purl.obolibrary.org/obo/OBI_0001930> <http://purl.obolibrary.org/obo/OBI_0001933>)
+
+# Class: <http://purl.obolibrary.org/obo/OBI_0001933> (value specification)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OBI_0001933> "An information content entity that specifies a value within a classification scheme or on a quantitative scale."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBI_0001933> "value specification")
+SubClassOf(<http://purl.obolibrary.org/obo/OBI_0001933> <http://purl.obolibrary.org/obo/IAO_0000030>)
+
+# Class: <http://purl.obolibrary.org/obo/OBI_0002471> (date process started)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OBI_0002471> "A data item that is the date when a process was initiated."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBI_0002471> "date process started"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/OBI_0002471> <http://purl.obolibrary.org/obo/IAO_0000027>)
+
+# Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001012> (date process ended)
+
+AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001012> "date process ended"@en)
+SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001012> <http://purl.obolibrary.org/obo/IAO_0000027>)
+
+# Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001013> (assay identifier)
+
+AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001013> "assay identifier"@en)
+SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001013> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001204>)
+
+# Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001015> (object identifier)
+
+AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001015> "object identifier"@en)
+SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001015> <http://purl.obolibrary.org/obo/IAO_0020000>)
+
+# Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001016> (device identifier)
+
+AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001016> "device identifier"@en)
+SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001016> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001015>)
+
+# Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001020> (equation textual entity)
+
+AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001020> "equation textual entity"@en)
+SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001020> <http://purl.obolibrary.org/obo/IAO_0000300>)
+
+# Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001021> (material deformation mechanism)
+
+AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001021> "material deformation mechanism"@en)
+SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001021> <http://purl.obolibrary.org/obo/OBI_0001930>)
+
+# Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001023> (device type specification)
+
+AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001023> "device type specification"@en)
+SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001023> <http://purl.obolibrary.org/obo/OBI_0001930>)
+
+# Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001024> (material failure mechanism)
+
+AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001024> "material failure mechanism"@en)
+SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001024> <http://purl.obolibrary.org/obo/OBI_0001930>)
+
+# Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001036> (material state)
+
+AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001036> "material state"@en)
+SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001036> <http://purl.obolibrary.org/obo/OBI_0001930>)
+
+# Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001037> (as manufactured material state)
+
+AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001037> "as manufactured material state"@en)
+SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001037> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001036>)
+
+# Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001038> (as tested material state)
+
+AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001038> "as tested material state"@en)
+SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001038> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001036>)
+
+# Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001039> (fractured material state)
+
+AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001039> "fractured material state"@en)
+SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001039> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001036>)
+
+# Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001040> (heat treated material state)
+
+AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001040> "heat treated material state"@en)
+SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001040> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001037>)
+
+# Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001041> (aged material state)
+
+AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001041> "aged material state"@en)
+SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001041> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001040>)
+
+# Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001042> (annealed material state)
+
+AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001042> "annealed material state"@en)
+SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001042> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001040>)
+
+# Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001043> (normalized material state)
+
+AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001043> "normalized material state"@en)
+SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001043> <http://purls.helmholtz-metadaten.de/mwo/MWO_0001040>)
+
+# Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001099> (material identifier)
+
+AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001099> "material identifier"@en)
 SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001099> <http://purl.obolibrary.org/obo/IAO_0020000>)
 
-# Class: <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000009> (dataset)
+# Class: <http://purls.helmholtz-metadaten.de/mwo/MWO_0001204> (process identifier)
 
-AnnotationAssertion(rdfs:label <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000009> "dataset"@en)
-SubClassOf(<https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000009> <http://purl.obolibrary.org/obo/IAO_0000030>)
+AnnotationAssertion(rdfs:label <http://purls.helmholtz-metadaten.de/mwo/MWO_0001204> "process identifier"@en)
+SubClassOf(<http://purls.helmholtz-metadaten.de/mwo/MWO_0001204> <http://purl.obolibrary.org/obo/IAO_0020000>)
 
-# Class: <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000203> (specification)
+# Class: <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000009> (obsolete dataset)
 
-AnnotationAssertion(rdfs:label <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000203> "specification"@en)
-SubClassOf(<https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000203> <http://purl.obolibrary.org/obo/IAO_0000033>)
+AnnotationAssertion(rdfs:label <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000009> "obsolete dataset"@en)
+
+# Class: <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000203> (obsolete specification)
+
+AnnotationAssertion(rdfs:label <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000203> "obsolete specification"@en)
 
 # Class: <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000206> (standard)
 
 AnnotationAssertion(rdfs:label <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000206> "standard"@en)
-SubClassOf(<https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000206> <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000203>)
+SubClassOf(<https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000206> <http://purl.obolibrary.org/obo/IAO_0000310>)
 
 # Class: <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0001018> (textual description)
 
@@ -118,7 +255,7 @@ SubClassOf(<https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0001037> <http://purl.ob
 # Class: <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0001204> (reference dataset)
 
 AnnotationAssertion(rdfs:label <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0001204> "reference dataset"@en)
-SubClassOf(<https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0001204> <https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000009>)
+SubClassOf(<https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0001204> <http://purl.obolibrary.org/obo/IAO_0000027>)
 
 
 )

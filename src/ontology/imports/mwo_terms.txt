@@ -20,3 +20,26 @@ https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000009 #Dataset
 #https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000190 #publication
 #https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000022 #document
 
+http://purl.obolibrary.org/obo/OBI_0001930 #categorical value specification
+http://purl.obolibrary.org/obo/IAO_0000027 #data item
+http://purl.obolibrary.org/obo/OBI_0001933 #value specification
+http://purl.obolibrary.org/obo/IAO_0000310 #document
+http://purl.obolibrary.org/obo/OBI_0002471 #date process started
+http://purls.helmholtz-metadaten.de/mwo/MWO_0001012 #date process ended
+http://purls.helmholtz-metadaten.de/mwo/MWO_0001204 #process identifier
+http://purls.helmholtz-metadaten.de/mwo/MWO_0001013 #assay identifier
+http://purls.helmholtz-metadaten.de/mwo/MWO_0001015 #object identifier
+http://purls.helmholtz-metadaten.de/mwo/MWO_0001016 #device identifier
+http://purls.helmholtz-metadaten.de/mwo/MWO_0001020 #equation textual entity
+http://purls.helmholtz-metadaten.de/mwo/MWO_0001021 #material deformation mechanism
+http://purls.helmholtz-metadaten.de/mwo/MWO_0001023 #device type specification
+http://purls.helmholtz-metadaten.de/mwo/MWO_0001036 # material state
+http://purls.helmholtz-metadaten.de/mwo/MWO_0001037 # as manufactured
+http://purls.helmholtz-metadaten.de/mwo/MWO_0001038 # as tested
+http://purls.helmholtz-metadaten.de/mwo/MWO_0001039 #fractured
+http://purls.helmholtz-metadaten.de/mwo/MWO_0001040 #heat treated
+http://purls.helmholtz-metadaten.de/mwo/MWO_0001041 # aged
+http://purls.helmholtz-metadaten.de/mwo/MWO_0001042 #annealed
+http://purls.helmholtz-metadaten.de/mwo/MWO_0001043 #normalized
+http://purls.helmholtz-metadaten.de/mwo/MWO_0001024 #failure mechanism
+

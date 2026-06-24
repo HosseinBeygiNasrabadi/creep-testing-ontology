@@ -11,7 +11,7 @@ $(IMPORTDIR)/mwo_import.owl: $(MIRRORDIR)/mwo.owl $(IMPORTDIR)/mwo_terms.txt \
 		 remove $(foreach p, $(ANNOTATION_PROPERTIES), --term $(p)) \
 		        --term-file $(IMPORTDIR)/mwo_terms.txt  \
 		        --select complement --select annotation-properties \
-		 odk:normalize --base-iri https://w3id.org/pmd/ao \
+		 odk:normalize --base-iri https://w3id.org/pmd/cto \
 		               --subset-decls true --synonym-decls true \
 		 repair --merge-axiom-annotations true \
 		 $(ANNOTATE_CONVERT_FILE)
@@ -38,7 +38,7 @@ $(IMPORTDIR)/tto_import.owl: $(MIRRORDIR)/tto.owl $(IMPORTDIR)/tto_terms.txt $(I
 # lets add some additional annotations to the release artefacts
 #############################################################################
 
-CITATION="'Hossein Beygi Nasrabadi, Sojeil Molaei, and Jörg Waitelonis. Creep Testing Ontology (VCTO). Revision: v$(VERSION). Retrieved from: https://github.com/HosseinBeygiNasrabadi/creep-testing-ontology/$(VERSION)'"
+CITATION="'Hossein Beygi Nasrabadi, Soheil Molaei, and Jörg Waitelonis. Creep Testing Ontology (CTO). Revision: v$(VERSION). Retrieved from: https://github.com/HosseinBeygiNasrabadi/creep-testing-ontology/$(VERSION)'"
 
 ALL_ANNOTATIONS=--ontology-iri https://w3id.org/pmd/cto/ -V https://w3id.org/pmd/cto/$(VERSION) \
 	--annotation http://purl.org/dc/terms/created "$(TODAY)" \
