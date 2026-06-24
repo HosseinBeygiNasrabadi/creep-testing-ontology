@@ -1,0 +1,1306 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="https://w3id.org/pmd/cto/"
+     xml:base="https://w3id.org/pmd/cto/"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+     xmlns:terms="http://purl.org/dc/terms/">
+    <owl:Ontology rdf:about="https://w3id.org/pmd/cto/">
+        <owl:versionIRI rdf:resource="https://w3id.org/pmd/cto/1.0.0"/>
+        <terms:bibliographicCitation>Hossein Beygi Nasrabadi, Soheil Molaei, and Jörg Waitelonis. Creep Testing Ontology (CTO). Revision: v1.0.0. Retrieved from: https://github.com/HosseinBeygiNasrabadi/creep-testing-ontology/1.0.0</terms:bibliographicCitation>
+        <terms:created>2026-06-24</terms:created>
+        <terms:creator>Hossein Beygi Nasrabadi (https://orcid.org/0000-0002-3092-0532)</terms:creator>
+        <terms:creator>Soheil Molaei</terms:creator>
+        <terms:description>Creep Testing Ontology (CTO) has been developed for representing the creep testing process, testing equipment and setup requirements, test specimen characteristics, loading and environmental conditions (e.g. stress, temperature, atmosphere), time-dependent deformation behavior, and related testing parameters and measurement procedures according to DIN EN ISO 204 standard.</terms:description>
+        <terms:license rdf:resource="https://creativecommons.org/licenses/unspecified"/>
+        <terms:title>Creep Testing Ontology</terms:title>
+        <rdfs:comment>Reused ontologies: BFO, RO, OBI, IAO, PMDco, NFDIcore, MWO, TTO</rdfs:comment>
+        <owl:versionInfo>1.0.0</owl:versionInfo>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000112 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000112"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000115 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000116 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000116"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000119 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000119">
+        <obo:IAO_0000115 xml:lang="en">Formal citation, e.g. identifier in external database to indicate / attribute source(s) for the definition. Free text indicate / attribute source(s) for the definition. EXAMPLE: Author Name, URI, MeSH Term C04, PUBMED ID, Wiki uri on 31.01.2007</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">formal citation, e.g. identifier in external database to indicate / attribute source(s) for the definition. Free text indicate / attribute source(s) for the definition. EXAMPLE: Author Name, URI, MeSH Term C04, PUBMED ID, Wiki uri on 31.01.2007</obo:IAO_0000115>
+        <obo:IAO_0000119>Discussion on obo-discuss mailing-list, see http://bit.ly/hgm99w</obo:IAO_0000119>
+        <obo:IAO_0000119 xml:lang="en">Discussion on obo-discuss mailing-list, see http://bit.ly/hgm99w</obo:IAO_0000119>
+        <obo:IAO_0000119 xml:lang="en">GROUP:OBI:&lt;http://purl.obolibrary.org/obo/obi&gt;</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">definition source</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.org/dc/terms/bibliographicCitation -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/bibliographicCitation"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/created -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/created"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/creator -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/creator"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/description -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/description">
+        <rdfs:label>description</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.org/dc/terms/license -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/license">
+        <rdfs:label>dcterms:license</rdfs:label>
+        <rdfs:label>license</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.org/dc/terms/source -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/source"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/title -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/title">
+        <rdfs:label>title</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#comment -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#comment"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#definition -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#definition"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#example -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#example"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000050 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000050">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <obo:IAO_0000112 xml:lang="en">my brain is part of my body (continuant parthood, two material entities)</obo:IAO_0000112>
+        <obo:IAO_0000112 xml:lang="en">my stomach cavity is part of my stomach (continuant parthood, immaterial entity is part of material entity)</obo:IAO_0000112>
+        <obo:IAO_0000112 xml:lang="en">this day is part of this year (occurrent parthood)</obo:IAO_0000112>
+        <obo:IAO_0000115 xml:lang="en">a core relation that holds between a part and its whole</obo:IAO_0000115>
+        <obo:IAO_0000116 xml:lang="en">Everything is part of itself. Any part of any part of a thing is itself part of that thing. Two distinct things cannot be part of each other.</obo:IAO_0000116>
+        <obo:IAO_0000116 xml:lang="en">Occurrents are not subject to change and so parthood between occurrents holds for all the times that the part exists. Many continuants are subject to change, so parthood between continuants will only hold at certain times, but this is difficult to specify in OWL. See http://purl.obolibrary.org/obo/ro/docs/temporal-semantics/</obo:IAO_0000116>
+        <obo:IAO_0000116 xml:lang="en">Parthood requires the part and the whole to have compatible classes: only an occurrent can be part of an occurrent; only a process can be part of a process; only a continuant can be part of a continuant; only an independent continuant can be part of an independent continuant; only an immaterial entity can be part of an immaterial entity; only a specifically dependent continuant can be part of a specifically dependent continuant; only a generically dependent continuant can be part of a generically dependent continuant. (This list is not exhaustive.)
+
+A continuant cannot be part of an occurrent: use &apos;participates in&apos;. An occurrent cannot be part of a continuant: use &apos;has participant&apos;. A material entity cannot be part of an immaterial entity: use &apos;has location&apos;. A specifically dependent continuant cannot be part of an independent continuant: use &apos;inheres in&apos;. An independent continuant cannot be part of a specifically dependent continuant: use &apos;bearer of&apos;.</obo:IAO_0000116>
+        <rdfs:label xml:lang="en">part of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000054 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000054">
+        <rdfs:label xml:lang="en">has realization</rdfs:label>
+        <rdfs:label xml:lang="en">realized in</rdfs:label>
+        <skos:definition xml:lang="en">b has realization c =Def c realizes b</skos:definition>
+        <skos:example xml:lang="en">As for realizes</skos:example>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000062 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000062">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <obo:IAO_0000115 xml:lang="en">x is preceded by y if and only if the time point at which y ends is before or equivalent to the time point at which x starts. Formally: x preceded by y iff ω(y) &lt;= α(x), where α is a function that maps a process to a start point, and ω is a function that maps a process to an end point.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">preceded by</rdfs:label>
+        <skos:definition xml:lang="en">b preceded by c =Def b precedes c</skos:definition>
+        <skos:example xml:lang="en">The temporal region occupied by the second half of the match is preceded by the temporal region occupied by the first half of the match</skos:example>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000199 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000199">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:label xml:lang="en">occupies temporal region</rdfs:label>
+        <skos:definition xml:lang="en">p occupies temporal region t =Def p is a process or process boundary &amp; the spatiotemporal region occupied by p temporally projects onto t</skos:definition>
+        <skos:example xml:lang="en">The Second World War occupies the temporal region September 1, 1939 - September 2, 1945</skos:example>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/COB_0000081 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/COB_0000081">
+        <rdfs:label xml:lang="en">intended to realize</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000136 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000136">
+        <owl:inverseOf rdf:resource="https://w3id.org/pmd/co/PMD_0000004"/>
+        <obo:IAO_0000112 xml:lang="en">This document is about information artifacts and their representations</obo:IAO_0000112>
+        <obo:IAO_0000115 xml:lang="en">A (currently) primitive relation that relates an information artifact to an entity.</obo:IAO_0000115>
+        <obo:IAO_0000116 xml:lang="en">7/6/2009 Alan Ruttenberg. Following discussion with Jonathan Rees, and introduction of &quot;mentions&quot; relation. Weaken the is_about relationship to be primitive. 
+
+We will try to build it back up by elaborating the various subproperties that are more precisely defined.
+
+Some currently missing phenomena that should be considered &quot;about&quot; are predications - &quot;The only person who knows the answer is sitting beside me&quot; , Allegory, Satire, and other literary forms that can be topical without explicitly mentioning the topic.</obo:IAO_0000116>
+        <obo:IAO_0000119 xml:lang="en">Smith, Ceusters, Ruttenberg, 2000 years of philosophy</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">is about</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000219 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000219">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+        <obo:IAO_0000112 xml:lang="en">A person&apos;s name denotes the person. A variable name in a computer program denotes some piece of memory. Lexically equivalent strings can denote different things, for instance &quot;Alan&quot; can denote different people. In each case of use, there is a case of the denotation relation obtaining, between &quot;Alan&quot; and the person that is being named.</obo:IAO_0000112>
+        <obo:IAO_0000115 xml:lang="en">A primitive, instance-level, relation obtaining between an information content entity and some portion of reality. Denotation is what happens when someone creates an information content entity E in order to specifically refer to something. The only relation between E and the thing is that E can be used to &apos;pick out&apos; the thing. This relation connects those two together. Freedictionary.com sense 3: To signify directly; refer to specifically</obo:IAO_0000115>
+        <obo:IAO_0000116 xml:lang="en">2009-11-10 Alan Ruttenberg. Old definition said the following to emphasize the generic nature of this relation. We no longer have &apos;specifically denotes&apos;, which would have been primitive, so make this relation primitive.
+g denotes r =def 
+r is a portion of reality
+there is some c that is a concretization of g 
+every c that is a concretization of g specifically denotes r</obo:IAO_0000116>
+        <obo:IAO_0000119 xml:lang="en">Conversations with Barry Smith, Werner Ceusters, Bjoern Peters, Michel Dumontier, Melanie Courtot, James Malone, Bill Hogan</obo:IAO_0000119>
+        <rdfs:comment xml:lang="en"></rdfs:comment>
+        <rdfs:label xml:lang="en">denotes</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000419 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000419">
+        <obo:IAO_0000115 xml:lang="en">inverse of the relation of is quality specification of</obo:IAO_0000115>
+        <obo:IAO_0000116 xml:lang="en">2009/10/19 Alan Ruttenberg. Named &apos;junk&apos; relation useful in restrictions, but not a real instance relationship</obo:IAO_0000116>
+        <rdfs:label xml:lang="en">quality is specified as</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0000312 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/OBI_0000312">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0000056"/>
+        <obo:IAO_0000115 xml:lang="en">A relation between a completely executed planned process and a continuant participating in that process. The presence of the continuant at the end of the process is explicitly specified in the objective specification which the process realizes the concretization of.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">is specified output of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0001927 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/OBI_0001927">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+        <obo:IAO_0000115 xml:lang="en">A relation between a value specification and an entity which the specification is about.</obo:IAO_0000115>
+        <rdfs:label>specifies value of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0000052 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0000052">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <obo:IAO_0000112 xml:lang="en">this fragility is a characteristic of this vase</obo:IAO_0000112>
+        <obo:IAO_0000112 xml:lang="en">this red color is a characteristic of this apple</obo:IAO_0000112>
+        <obo:IAO_0000115 xml:lang="en">a relation between a specifically dependent continuant (the characteristic) and any other entity (the bearer), in which the characteristic depends on the bearer for its existence.</obo:IAO_0000115>
+        <rdfs:comment>Note that this relation was previously called &quot;inheres in&quot;, but was changed to be called &quot;characteristic of&quot; because BFO2 uses &quot;inheres in&quot; in a more restricted fashion. This relation differs from BFO2:inheres_in in two respects: (1) it does not impose a range constraint, and thus it allows qualities of processes, as well as of information entities, whereas BFO2 restricts inheres_in to only apply to independent continuants (2) it is declared functional, i.e. something can only be a characteristic of one thing.</rdfs:comment>
+        <rdfs:label xml:lang="en">characteristic of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0000056 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0000056">
+        <obo:IAO_0000112 xml:lang="en">this blood clot participates in this blood coagulation</obo:IAO_0000112>
+        <obo:IAO_0000112 xml:lang="en">this input material (or this output material) participates in this process</obo:IAO_0000112>
+        <obo:IAO_0000112 xml:lang="en">this investigator participates in this investigation</obo:IAO_0000112>
+        <obo:IAO_0000115 xml:lang="en">a relation between a continuant and a process, in which the continuant is somehow involved in the process</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">participates in</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0000058 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0000058">
+        <obo:IAO_0000112 xml:lang="en">A journal article is an information artifact that inheres in some number of printed journals. For each copy of the printed journal there is some quality that carries the journal article, such as a pattern of ink. The journal article (a generically dependent continuant) is concretized as the quality (a specifically dependent continuant), and both depend on that copy of the printed journal (an independent continuant).</obo:IAO_0000112>
+        <obo:IAO_0000112 xml:lang="en">An investigator reads a protocol and forms a plan to carry out an assay. The plan is a realizable entity (a specifically dependent continuant) that concretizes the protocol (a generically dependent continuant), and both depend on the investigator (an independent continuant). The plan is then realized by the assay (a process).</obo:IAO_0000112>
+        <obo:IAO_0000115 xml:lang="en">A relationship between a generically dependent continuant and a specifically dependent continuant or process, in which the generically dependent continuant depends on some independent continuant or process in virtue of the fact that the specifically dependent continuant or process also depends on that same independent continuant. A generically dependent continuant may be concretized as multiple specifically dependent continuants or processes.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A relationship between a generically dependent continuant and a specifically dependent continuant, in which the generically dependent continuant depends on some independent continuant in virtue of the fact that the specifically dependent continuant also depends on that same independent continuant. A generically dependent continuant may be concretized as multiple specifically dependent continuants.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">is concretized as</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0000080 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0000080">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+        <obo:IAO_0000112 xml:lang="en">this red color is a quality of this apple</obo:IAO_0000112>
+        <obo:IAO_0000115 xml:lang="en">a relation between a quality and an independent continuant (the bearer), in which the quality specifically depends on the bearer for its existence</obo:IAO_0000115>
+        <obo:IAO_0000116 xml:lang="en">A quality inheres in its bearer at all times for which the quality exists.</obo:IAO_0000116>
+        <rdfs:comment>This relation is modeled after the BFO relation of the same name which was in BFO2, but is used in a more restricted sense - specifically, we model this relation as functional (inherited from characteristic-of). Note that this relation is now removed from BFO2020.</rdfs:comment>
+        <rdfs:label xml:lang="en">quality of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0000081 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0000081">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+        <owl:inverseOf rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+        <obo:IAO_0000112 xml:lang="en">this investigator role is a role of this person</obo:IAO_0000112>
+        <obo:IAO_0000115 xml:lang="en">a relation between a role and an independent continuant (the bearer), in which the role specifically depends on the bearer for its existence</obo:IAO_0000115>
+        <obo:IAO_0000116 xml:lang="en">A role inheres in its bearer at all times for which the role exists, however the role need not be realized at all the times that the role exists.</obo:IAO_0000116>
+        <rdfs:comment>This relation is modeled after the BFO relation of the same name which was in BFO2, but is used in a more restricted sense - specifically, we model this relation as functional (inherited from characteristic-of). Note that this relation is now removed from BFO2020.</rdfs:comment>
+        <rdfs:label xml:lang="en">role of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0000087 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0000087">
+        <obo:IAO_0000112 xml:lang="en">this person has role this investigator role (more colloquially: this person has this role of investigator)</obo:IAO_0000112>
+        <obo:IAO_0000115 xml:lang="en">a relation between an independent continuant (the bearer) and a role, in which the role specifically depends on the bearer for its existence</obo:IAO_0000115>
+        <obo:IAO_0000116 xml:lang="en">A bearer can have many roles, and its roles can exist for different periods of time, but none of its roles can exist when the bearer does not exist. A role need not be realized at all the times that the role exists.</obo:IAO_0000116>
+        <rdfs:label xml:lang="en">has role</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0002350 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002350">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+        <obo:IAO_0000112>An organism that is a member of a population of organisms</obo:IAO_0000112>
+        <obo:IAO_0000115>is member of is a mereological relation between a item and a collection.</obo:IAO_0000115>
+        <obo:IAO_0000119>SIO</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">member of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0002353 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002353">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0000056"/>
+        <obo:IAO_0000115>inverse of has output</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">output of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/pmd/co/PMD_0000004 -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/pmd/co/PMD_0000004">
+        <rdfs:label xml:lang="en">is subject of</rdfs:label>
+        <skos:definition xml:lang="en">Inverse of &apos;is about&apos;.</skos:definition>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/pmd/co/PMD_0020127 -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/pmd/co/PMD_0020127">
+        <rdfs:comment xml:lang="en">Despite has characteristic from RO does not have any domain constraints, it is still not possible to directly connect an instance of a process with an instance of a SDC. 
+
+First, SDC is dependent on a IC. As RO does not have &quot;bearer of&quot; object property, the &quot;has characteristic&quot; implies that the domain should be an IC. 
+
+Second, characteristic of is a functional property. Thus, two triples SDC_1 characteristc of IC_1 and SDC_2  characteristc of Process_1 (where IC_1 participates in Process_1), cannot exist simultaneously. 
+An example of such case can be &quot;Temperature of during the annealing process was 1000°C&quot;. Temperature is an SDC of some participant of the annealing, however it is not clear whether it is an SDC of an oven or of a sample in the oven. If we assert triple Annealing--&gt; has characteristic --&gt; Temperature 1000°C, then the correct triple connecting temperature SDC with either oven or specimen cannot exist.</rdfs:comment>
+        <rdfs:label xml:lang="en">refers to</rdfs:label>
+        <skos:definition xml:lang="en">a relation between a process attribute and an SDC of some participant in a process</skos:definition>
+        <skos:example xml:lang="en">a relation to between a process attribute an a SDC of some participant in a process.</skos:example>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/pmd/co/PMD_0025006 -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/pmd/co/PMD_0025006">
+        <rdfs:label xml:lang="en">process attribute of</rdfs:label>
+        <skos:definition xml:lang="en">A relation between a process attribute and a process, which &quot;bears&quot; the attribute.</skos:definition>
+        <skos:example xml:lang="en">Tensile rate is a process attribute of tensile test</skos:example>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/pmd/co/PMD_0025013 -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/pmd/co/PMD_0025013">
+        <rdfs:label xml:lang="en">changes quality</rdfs:label>
+        <skos:definition xml:lang="en">indicates that a process changes a quality</skos:definition>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/pmd/co/PMD_0025999 -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/pmd/co/PMD_0025999">
+        <owl:propertyChainAxiom rdf:parseType="Collection">
+            <rdf:Description rdf:about="https://w3id.org/pmd/co/PMD_0025999"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000050"/>
+        </owl:propertyChainAxiom>
+        <obo:IAO_0000116 xml:lang="en">The &apos;relational quality of&apos; is more strict that &apos;quality of&apos; from RO, since domain is &apos;relational quality&apos;. The motivtion to introduce an object property for relational qualities is the following:
+RO&apos;s &apos;quality of&apos; is functional i.e., a-&gt;b, a-&gt;c =&gt; b=c. The functionality is relevant for most of the SDC -&gt; IC triples, expect for relational qualities, which per definiton can be simultaneously inherited in &gt;=2 ICs. Thus,  &apos;relational quality of&apos;  has the same intention to connect SDC to IC, however, without cardinality constraints.</obo:IAO_0000116>
+        <rdfs:label xml:lang="en">relational quality of</rdfs:label>
+        <skos:definition xml:lang="en">a relation between a relational quality and an independent continuant (the bearer), in which the quality specifically depends on the bearer for its existence</skos:definition>
+        <skos:example xml:lang="en">mass proportion m is relational qualitiy of material, and the same mass proportion m is relational qualitiy of portion of iron</skos:example>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://w3id.org/pmd/cto/CTO_0000002 -->
+
+    <owl:Class rdf:about="https://w3id.org/pmd/cto/CTO_0000002">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/pmd/cto/CTO_0000006"/>
+        <rdfs:label>single test piece machine</rdfs:label>
+        <skos:definition>Testing machine that permits straining of a single test piece.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/pmd/cto/CTO_0000005 -->
+
+    <owl:Class rdf:about="https://w3id.org/pmd/cto/CTO_0000005">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/pmd/cto/CTO_0000008"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">percentage elongation after creep fracture</rdfs:label>
+        <skos:definition>A percentage elongation after creep fracture is a mechanical property that quantifies the relative increase in length of a material after creep fracture, expressed as a percentage.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/pmd/cto/CTO_0000006 -->
+
+    <owl:Class rdf:about="https://w3id.org/pmd/cto/CTO_0000006">
+        <rdfs:label xml:lang="en">creep test machine type</rdfs:label>
+        <skos:definition>A creep test machine type is a device type specification that classifies a device according to the type of creep testing machine it is.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/pmd/cto/CTO_0000007 -->
+
+    <owl:Class rdf:about="https://w3id.org/pmd/cto/CTO_0000007">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/pmd/cto/CTO_0000006"/>
+        <rdfs:label>multiple test piece machine</rdfs:label>
+        <skos:definition>Testing machine that permits straining of more than one test piece simultaneously.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/pmd/cto/CTO_0000008 -->
+
+    <owl:Class rdf:about="https://w3id.org/pmd/cto/CTO_0000008">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/pmd/cto/CTO_1000010"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">creep test piece</rdfs:label>
+        <skos:definition>A creep test piece is an object that is a material specimen prepared for and subjected to a creep test.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/pmd/cto/CTO_0000009 -->
+
+    <owl:Class rdf:about="https://w3id.org/pmd/cto/CTO_0000009">
+        <rdfs:label xml:lang="en">creep reference dataset</rdfs:label>
+        <skos:definition>A creep reference dataset is a reference dataset that is composed of experimentally or computationally derived data about time-dependent deformation (creep) of materials under controlled conditions, and that serves as a trusted baseline for comparison, validation, or reuse.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/pmd/cto/CTO_0000010 -->
+
+    <owl:Class rdf:about="https://w3id.org/pmd/cto/CTO_0000010">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/pmd/cto/CTO_0000008"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">percentage creep extension</rdfs:label>
+        <skos:definition>Extension at loading determined as difference between ep​ and ei​.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/pmd/cto/CTO_0000011 -->
+
+    <owl:Class rdf:about="https://w3id.org/pmd/cto/CTO_0000011">
+        <rdfs:label xml:lang="en">loading process</rdfs:label>
+        <skos:definition>A loading process is a mechanical process that applies forces or stresses to a material or specimen.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/pmd/cto/CTO_0000012 -->
+
+    <owl:Class rdf:about="https://w3id.org/pmd/cto/CTO_0000012">
+        <rdfs:label xml:lang="en">solutionizing heat treatment process</rdfs:label>
+        <skos:definition>A solutionizing process is a physical heat treatment process in which a material is heated to a specific elevated temperature and held there for a sufficient duration to completely dissolve secondary alloying phases or precipitates into the primary solid solution matrix, typically followed by rapid cooling (quenching) to trap those elements in a supersaturated state prior to aging.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/pmd/cto/CTO_0000013 -->
+
+    <owl:Class rdf:about="https://w3id.org/pmd/cto/CTO_0000013">
+        <rdfs:label xml:lang="en">stress rupture time</rdfs:label>
+        <skos:definition>A stress rupture time is a temporal interval that specifies the duration from the application of stress to the occurrence of rupture in a material.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/pmd/cto/CTO_0000014 -->
+
+    <owl:Class rdf:about="https://w3id.org/pmd/cto/CTO_0000014">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/pmd/cto/CTO_0000008"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">stress exponent</rdfs:label>
+        <skos:definition>A stress exponent is a mechanical property that characterizes the sensitivity of creep rate to applied stress, typically appearing as an exponent in creep rate equations.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/pmd/cto/CTO_0000015 -->
+
+    <owl:Class rdf:about="https://w3id.org/pmd/cto/CTO_0000015">
+        <rdfs:label xml:lang="en">precipitate</rdfs:label>
+        <skos:definition>A precipitate is an object that is a distinct solid phase formed within a material, typically by separation from a solution or matrix.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/pmd/cto/CTO_0000016 -->
+
+    <owl:Class rdf:about="https://w3id.org/pmd/cto/CTO_0000016">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/pmd/cto/CTO_0000015"/>
+        <rdfs:label xml:lang="en">delta pricipitate</rdfs:label>
+        <skos:definition>A delta precipitate is a precipitate that is a specific phase (typically δ-phase) formed within a material under particular thermodynamic and processing conditions.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/pmd/cto/CTO_0000017 -->
+
+    <owl:Class rdf:about="https://w3id.org/pmd/cto/CTO_0000017">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/pmd/cto/CTO_0000015"/>
+        <rdfs:label xml:lang="en">gamma pricipitate</rdfs:label>
+        <skos:definition>A gamma precipitate is a precipitate that is a γ-phase formed within a material, typically contributing to its mechanical properties.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/pmd/cto/CTO_0000018 -->
+
+    <owl:Class rdf:about="https://w3id.org/pmd/cto/CTO_0000018">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/pmd/cto/CTO_0000015"/>
+        <rdfs:label xml:lang="en">gamma prime pricipitate</rdfs:label>
+        <skos:definition>A gamma prime precipitate is a precipitate that is a γ′-phase formed within a material, typically strengthening it by hindering dislocation motion.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/pmd/cto/CTO_0000021 -->
+
+    <owl:Class rdf:about="https://w3id.org/pmd/cto/CTO_0000021">
+        <rdfs:label xml:lang="en">creep material identifier</rdfs:label>
+        <skos:definition>A creep material identifier is a material identifier that denotes a creep test piece which participates in a creep testing process. It uniquely identifies the material used in a creep experiment by specifying its string name, like &quot;Inconel 625&quot;. typically found in the materials section, specimen description, or experimental setup of a scientific paper, and explicitly refers to the material of the target creep test piece</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/pmd/cto/CTO_0000022 -->
+
+    <owl:Class rdf:about="https://w3id.org/pmd/cto/CTO_0000022">
+        <rdfs:label xml:lang="en">creep test piece chemical composition</rdfs:label>
+        <skos:definition>creep test piece composition is a chemical composition data item that is specification of the chemical composition of a creep test piece which participates in a creep testing process. It is an information content entity about the elemental makeup of the material, specifying the proportions of chemical elements present. It appears as a table of element symbols with corresponding weight percent (wt.%) or atomic percent (at.%) values, or as inline compositional text, typically found in the materials section or a dedicated composition table of a scientific paper, and explicitly refers to the chemical makeup of the target creep test piece.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/pmd/cto/CTO_0000023 -->
+
+    <owl:Class rdf:about="https://w3id.org/pmd/cto/CTO_0000023">
+        <rdfs:label xml:lang="en">creep test piece grain size value</rdfs:label>
+        <skos:definition>A creep test piece grain size value is a scalar value specification that specifies the value of the grain size of a crystallite which is a member of a microstructure that is part of a creep test piece participating in a creep testing process. It quantifies the average or representative grain dimension of the material microstructure. It appears as a numeric value with a length unit (e.g., &quot;170 μm&quot;, &quot;80–190 μm&quot;), typically found in the microstructure characterization section, results table, or specimen description of a scientific paper, and explicitly refers to the grain size of the target creep test piece.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/pmd/cto/CTO_0000024 -->
+
+    <owl:Class rdf:about="https://w3id.org/pmd/cto/CTO_0000024">
+        <rdfs:label xml:lang="en">creep test standard</rdfs:label>
+        <skos:definition>A creep test standard is a standard that is concretized as a plan which is intended to realize a creep testing process. It establishes the set of guidelines, criteria, and norms governing the execution of a creep test. It appears as a designator string referencing an internationally recognized testing norm (e.g., &quot;ASTM E139&quot;, &quot;ASTM E 8M-94a&quot;, &quot;ISO 204&quot;), typically found in the experimental methods, testing conditions, or specimen preparation section of a scientific paper, and explicitly refers to the normative framework under which the target creep test was conducted.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/pmd/cto/CTO_0000025 -->
+
+    <owl:Class rdf:about="https://w3id.org/pmd/cto/CTO_0000025">
+        <rdfs:label xml:lang="en">specified creep temperature datum</rdfs:label>
+        <skos:definition>A specified creep temperature datum is an input specification that is concretized as a temperature which changes a quality in a creep testing process. It prescribes the test temperature applied as a controlled input condition during the creep experiment. It appears as a numeric value with a temperature unit (e.g., &quot;650°C&quot;, &quot;750 K&quot;), typically found in the testing parameters table, experimental conditions section, or figure axes of a scientific paper, and explicitly refers to the temperature at which the target creep test was conducted.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/pmd/cto/CTO_0000026 -->
+
+    <owl:Class rdf:about="https://w3id.org/pmd/cto/CTO_0000026">
+        <rdfs:label xml:lang="en">specified creep stress datum</rdfs:label>
+        <skos:definition>A specified creep stress datum is an input specification that is concretized as a mechanical stress which is realized in a creep testing process. It prescribes the applied stress imposed on the creep test piece as the primary loading input. It appears as a numeric value with a stress unit (e.g., &quot;625 MPa&quot;, &quot;150 MPa&quot;), typically found in the testing parameters table, experimental conditions section, or figure axes of a scientific paper, and explicitly refers to the initial applied stress under which the target creep test was conducted.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/pmd/cto/CTO_0000027 -->
+
+    <owl:Class rdf:about="https://w3id.org/pmd/cto/CTO_0000027">
+        <rdfs:label xml:lang="en">creep rupture time value</rdfs:label>
+        <skos:definition>A creep rupture time value is a scalar value specification that specifies the value of the stress rupture time of a loading process which is part of a creep testing process. It quantifies the total duration from the application of load to specimen fracture. It appears as a numeric value with a time unit (e.g., &quot;159.74 h&quot;, &quot;68779 h&quot;), typically found in the creep properties table, results section, or Larson–Miller plots of a scientific paper, and explicitly refers to the time to rupture of the target creep test piece.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/pmd/cto/CTO_0000028 -->
+
+    <owl:Class rdf:about="https://w3id.org/pmd/cto/CTO_0000028">
+        <rdfs:label xml:lang="en">creep percentage permanent elongation value</rdfs:label>
+        <skos:definition>A creep percentage permanent elongation value is a scalar value specification that specifies the value of the percentage permanent elongation realized in a creep testing process. It quantifies the irreversible axial deformation of the specimen after unloading relative to its original gauge length. It appears as a numeric value expressed as a percentage (e.g., &quot;13.8%&quot;), typically found in the creep properties table or post-test characterization section of a scientific paper, and explicitly refers to the permanent elongation measured on the target creep test piece.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/pmd/cto/CTO_0000029 -->
+
+    <owl:Class rdf:about="https://w3id.org/pmd/cto/CTO_0000029">
+        <rdfs:label xml:lang="en">Percentage elongation after creep fracture value</rdfs:label>
+        <skos:definition>A percentage elongation after creep fracture value is a scalar value specification that specifies the value of the percentage elongation after creep fracture realized in a creep testing process. It quantifies the total axial elongation of the specimen measured after fracture relative to its original gauge length. It appears as a numeric value expressed as a percentage, typically found in the creep properties table or post-fracture measurement section of a scientific paper, and explicitly refers to the elongation measured on the fractured creep test piece.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/pmd/cto/CTO_0000030 -->
+
+    <owl:Class rdf:about="https://w3id.org/pmd/cto/CTO_0000030">
+        <rdfs:label xml:lang="en">percentage reduction of area after creep fracture value</rdfs:label>
+        <skos:definition>A percentage reduction of area after creep fracture value is a scalar value specification that specifies the value of the percentage reduction of area after creep fracture realized in a creep testing process. It quantifies the cross-sectional area decrease at the fracture location relative to the original cross-sectional area. It appears as a numeric value expressed as a percentage, typically found in the creep properties table or post-fracture measurement section of a scientific paper, and explicitly refers to the area reduction measured at the fracture zone of the target creep test piece.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/pmd/cto/CTO_0000031 -->
+
+    <owl:Class rdf:about="https://w3id.org/pmd/cto/CTO_0000031">
+        <rdfs:label xml:lang="en">percentage total extension value</rdfs:label>
+        <skos:definition>A percentage total extension value is a scalar value specification that specifies the value of the percentage total extension realized in a creep testing process. It quantifies the total deformation of the specimen accumulated throughout the entire creep test relative to the original gauge length. It appears as a numeric value expressed as a percentage, typically found in the creep properties or deformation data table of a scientific paper, and explicitly refers to the total extension recorded during the target creep test.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/pmd/cto/CTO_0000033 -->
+
+    <owl:Class rdf:about="https://w3id.org/pmd/cto/CTO_0000033">
+        <rdfs:label xml:lang="en">percentage elastic extension value</rdfs:label>
+        <skos:definition>A percentage elastic extension value is a scalar value specification that specifies the value of the percentage elastic extension realized in a creep testing process. It quantifies the recoverable deformation component of the specimen upon loading, relative to the original gauge length. It appears as a numeric value expressed as a percentage, typically found in the creep deformation breakdown table of a scientific paper, and explicitly refers to the elastic extension component recorded during the target creep test.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/pmd/cto/CTO_0000034 -->
+
+    <owl:Class rdf:about="https://w3id.org/pmd/cto/CTO_0000034">
+        <rdfs:label xml:lang="en">percentage initial plastic extension value</rdfs:label>
+        <skos:definition>A percentage initial plastic extension value is a scalar value specification that specifies the value of the percentage initial plastic extension realized in a creep testing process. It quantifies the irreversible deformation occurring immediately upon load application before the creep stage, relative to the original gauge length. It appears as a numeric value expressed as a percentage, typically found in the creep deformation breakdown table of a scientific paper, and explicitly refers to the initial plastic extension at the onset of the target creep test.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/pmd/cto/CTO_0000035 -->
+
+    <owl:Class rdf:about="https://w3id.org/pmd/cto/CTO_0000035">
+        <rdfs:label xml:lang="en">percentage plastic extension value</rdfs:label>
+        <skos:definition>A percentage plastic extension value is a scalar value specification that specifies the value of the percentage plastic extension realized in a creep testing process. It quantifies the total irreversible deformation of the specimen accumulated during the creep test, relative to the original gauge length. It appears as a numeric value expressed as a percentage, typically found in the creep deformation data table of a scientific paper, and explicitly refers to the plastic extension component recorded during the target creep test.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/pmd/cto/CTO_0000036 -->
+
+    <owl:Class rdf:about="https://w3id.org/pmd/cto/CTO_0000036">
+        <rdfs:label xml:lang="en">percentage creep extension value</rdfs:label>
+        <skos:definition>A percentage creep extension value is a scalar value specification that specifies the value of the percentage creep extension realized in a creep testing process. It quantifies the time-dependent deformation of the specimen that occurs specifically under sustained load at elevated temperature, relative to the original gauge length. It appears as a numeric value expressed as a percentage, typically found in the creep strain or creep deformation table of a scientific paper, and explicitly refers to the creep-specific extension accumulated during the target creep test</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/pmd/cto/CTO_0000037 -->
+
+    <owl:Class rdf:about="https://w3id.org/pmd/cto/CTO_0000037">
+        <rdfs:label xml:lang="en">stady state creep rate value</rdfs:label>
+        <skos:definition>steady state creep rate value is a scalar value specification that specifies the value of the creep rate which is a process attribute of a creep testing process. It quantifies the minimum or steady-state strain rate at which the specimen deforms during the secondary creep stage. It appears as a numeric value with a unit of inverse time (e.g., &quot;0.96 × 10⁻⁴ s⁻¹&quot;, &quot;1.04 × 10⁻⁴ 1/s&quot;), typically found in the creep properties table, results section, or Norton power-law fitting data of a scientific paper, and explicitly refers to the steady-state creep rate measured during the target creep test.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/pmd/cto/CTO_0000038 -->
+
+    <owl:Class rdf:about="https://w3id.org/pmd/cto/CTO_0000038">
+        <rdfs:label xml:lang="en">stress exponent value</rdfs:label>
+        <skos:definition>A stress exponent value is a scalar value specification that specifies the value of the stress exponent realized in a creep testing process. It quantifies the sensitivity of the creep rate to applied stress, as defined by the Norton power-law creep model (ε̇ ∝ σⁿ). It appears as a dimensionless numeric value (e.g., &quot;n = 5&quot;, &quot;n = 10&quot;), typically found in the creep analysis, model fitting, or discussion section of a scientific paper, and explicitly refers to the stress exponent derived from the target creep testing data.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/pmd/cto/CTO_0000039 -->
+
+    <owl:Class rdf:about="https://w3id.org/pmd/cto/CTO_0000039">
+        <rdfs:label xml:lang="en">creep activation energy value</rdfs:label>
+        <skos:definition>A creep activation energy value is a scalar value specification that specifies the value of the activation energy which is a process attribute of a creep testing process. It quantifies the energy barrier governing thermally activated creep deformation mechanisms, commonly derived from Arrhenius-type analysis. It appears as a numeric value with a unit of energy per mole (e.g., &quot;276 kJ/mol&quot;, &quot;309 kJ/mol&quot;), typically found in the creep analysis, Arrhenius plot, or discussion section of a scientific paper, and explicitly refers to the activation energy characterizing the dominant creep mechanism in the target creep testing process.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/pmd/cto/CTO_1000000 -->
+
+    <owl:Class rdf:about="https://w3id.org/pmd/cto/CTO_1000000">
+        <rdfs:label xml:lang="en">creep publication DOI</rdfs:label>
+        <skos:definition>A creep publication DOI is a Digital Object Identifier (DOI) that denotes a publication which is about a creep testing process. It uniquely and persistently identifies a publication reporting on a creep testing process. It appears as a string in the format 10.XXXX/XXXXX, typically found in the header sections of the first page, and explicitly refers to the target creep publication.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/pmd/cto/CTO_1000001 -->
+
+    <owl:Class rdf:about="https://w3id.org/pmd/cto/CTO_1000001">
+        <obo:IAO_0000119>https://www.iso.org/standard/67737.html</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">creep test machine heating system</rdfs:label>
+        <skos:definition>The heating device provided for heating the test piece to the prescribed temperature (T).</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/pmd/cto/CTO_1000002 -->
+
+    <owl:Class rdf:about="https://w3id.org/pmd/cto/CTO_1000002">
+        <obo:IAO_0000119>https://www.iso.org/standard/41931.html</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">creep test machine loading sensor</rdfs:label>
+        <skos:definition>The force transducer used to measure the applied load, verified to ISO 7500-2, Class 1 or better.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/pmd/cto/CTO_1000004 -->
+
+    <owl:Class rdf:about="https://w3id.org/pmd/cto/CTO_1000004">
+        <rdfs:label xml:lang="en">creep test piece identifier</rdfs:label>
+        <skos:definition>A creep test piece identifier is an object identifier that denotes a creep test piece which participates in a creep testing process. It uniquely designates a specific specimen used in a creep experiment. It appears as an alphanumeric code, label, or sample name (e.g., &quot;HT1&quot;, &quot;SSM_100&quot;, &quot;CLH4663&quot;), typically found in the specimen description, experimental setup table, or results section of a scientific paper, and explicitly refers to the individual creep test piece under investigation.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/pmd/cto/CTO_1000005 -->
+
+    <owl:Class rdf:about="https://w3id.org/pmd/cto/CTO_1000005">
+        <rdfs:label xml:lang="en">creep test piece manufacturing description</rdfs:label>
+        <skos:definition>A creep test piece manufacturing description is a textual description that denotes a manufacturing process which performed for preparing the sample before creep testing process. It describes the fabrication route applied to produce the creep test piece prior to testing. It appears as a text string or structured narrative describing methods such as casting, forging, additive manufacturing, or powder metallurgy (e.g., &quot;LPBF (EOSINT M290) + HIP&quot;, &quot;VIM + ESR&quot;), typically found in the materials and methods section or specimen preparation section of a scientific paper, and explicitly refers to the manufacturing history of the target creep test piece.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/pmd/cto/CTO_1000006 -->
+
+    <owl:Class rdf:about="https://w3id.org/pmd/cto/CTO_1000006">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/pmd/cto/CTO_1000005"/>
+        <rdfs:label xml:lang="en">creep test piece solutionizing description</rdfs:label>
+        <skos:definition>A creep test piece solutionizing description is a textual description that denotes a solutionizing heat treatment process which perfomed before creep testing process. It describes the high-temperature homogenization treatment applied to the creep test piece before testing. It appears as a text string specifying temperature, duration, and cooling method (e.g., &quot;1095°C, 1 h/AC&quot;, &quot;HIP: 100 MPa, 1175°C, 4 h&quot;), typically found in the heat treatment, specimen preparation, or materials section of a scientific paper, and explicitly refers to the solutionizing step applied to the target creep test piece.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/pmd/cto/CTO_1000007 -->
+
+    <owl:Class rdf:about="https://w3id.org/pmd/cto/CTO_1000007">
+        <rdfs:label xml:lang="en">creep test piece aging description</rdfs:label>
+        <skos:definition>A creep test piece aging description is a textual description that denotes an aging process which performed before creep testing process. It describes the precipitation hardening or aging heat treatment applied to the creep test piece prior to testing. It appears as a text string specifying temperature, duration, cooling rate, and number of steps (e.g., &quot;720°C, 8 h/FC 57 K/h to 620°C, 8 h/AC&quot;), typically found in the heat treatment or specimen preparation section of a scientific paper, and explicitly refers to the aging treatment applied to the target creep test piece.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/pmd/cto/CTO_1000009 -->
+
+    <owl:Class rdf:about="https://w3id.org/pmd/cto/CTO_1000009">
+        <rdfs:label xml:lang="en">data acquisition system</rdfs:label>
+        <skos:definition>The central unit collecting signals from load cells, extensometers, and thermocouples.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/pmd/cto/CTO_1000010 -->
+
+    <owl:Class rdf:about="https://w3id.org/pmd/cto/CTO_1000010">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000081"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/pmd/cto/CTO_0000008"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">creep test piece role</rdfs:label>
+        <skos:definition>The realizable entity that the specimen plays during the experiment (i.e., being the object under stress).</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/pmd/cto/CTO_1000011 -->
+
+    <owl:Class rdf:about="https://w3id.org/pmd/cto/CTO_1000011">
+        <rdfs:label xml:lang="en">creep test piece delta precipitate fraction value</rdfs:label>
+        <skos:definition>A creep test piece delta precipitate fraction value is a scalar value specification that specifies the value of the volume proportion of delta precipitate which is a member of a microstructure that is part of a creep test piece participating in a creep testing process. It quantifies the relative volumetric abundance of delta phase in the material. It appears as a numeric value expressed as a percentage or fraction (e.g., &quot;5 vol%&quot;, &quot;0.03&quot;), typically found in the microstructure characterization or phase analysis section of a scientific paper, and explicitly refers to the delta precipitate fraction in the target creep test piece.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/pmd/cto/CTO_1000012 -->
+
+    <owl:Class rdf:about="https://w3id.org/pmd/cto/CTO_1000012">
+        <rdfs:label xml:lang="en">creep test piece delta precipitate size value</rdfs:label>
+        <skos:definition>A creep test piece delta precipitate size value is a scalar value specification that specifies the value of the size of a delta precipitate which is a member of a microstructure that is part of a creep test piece participating in a creep testing process. It quantifies the average or representative dimension of delta phase particles in the material. It appears as a numeric value with a length unit (e.g., &quot;2 μm&quot;, &quot;500 nm&quot;), typically found in the microstructure characterization or TEM/SEM analysis section of a scientific paper, and explicitly refers to the delta precipitate size in the target creep test piece.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/pmd/cto/CTO_1000021 -->
+
+    <owl:Class rdf:about="https://w3id.org/pmd/cto/CTO_1000021">
+        <rdfs:label xml:lang="en">creep test piece gamma precipitate fraction value</rdfs:label>
+        <skos:definition>A creep test piece gamma precipitate fraction value is a scalar value specification that specifies the value of the volume proportion of gamma precipitate which is a member of a microstructure that is part of a creep test piece participating in a creep testing process. It quantifies the relative volumetric abundance of the gamma phase in the material. It appears as a numeric value expressed as a percentage or fraction (e.g., &quot;20 vol%&quot;), typically found in the microstructure characterization or phase analysis section of a scientific paper, and explicitly refers to the gamma precipitate fraction in the target creep test piece.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/pmd/cto/CTO_1000022 -->
+
+    <owl:Class rdf:about="https://w3id.org/pmd/cto/CTO_1000022">
+        <rdfs:label xml:lang="en">creep test piece gamma precipitate size value</rdfs:label>
+        <skos:definition>A creep test piece gamma precipitate size value is a scalar value specification that specifies the value of the size of a gamma precipitate which is a member of a microstructure that is part of a creep test piece participating in a creep testing process. It quantifies the average or representative dimension of gamma phase particles in the material. It appears as a numeric value with a length unit (e.g., &quot;50 nm&quot;, &quot;0.5 μm&quot;), typically found in the microstructure characterization or phase analysis section of a scientific paper, and explicitly refers to the gamma precipitate size in the target creep test piece.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/pmd/cto/CTO_1000023 -->
+
+    <owl:Class rdf:about="https://w3id.org/pmd/cto/CTO_1000023">
+        <rdfs:label xml:lang="en">creep test piece gamma prime precipitate fraction value</rdfs:label>
+        <skos:definition>A creep test piece gamma prime precipitate fraction value is a scalar value specification that specifies the value of the volume proportion of gamma prime precipitate which is a member of a microstructure that is part of a creep test piece participating in a creep testing process. It quantifies the relative volumetric abundance of the gamma prime strengthening phase in the material. It appears as a numeric value expressed as a percentage or fraction (e.g., &quot;15–25 vol%&quot;), typically found in the microstructure characterization, phase analysis, or materials section of a scientific paper, and explicitly refers to the gamma prime precipitate fraction in the target creep test piece.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/pmd/cto/CTO_1000024 -->
+
+    <owl:Class rdf:about="https://w3id.org/pmd/cto/CTO_1000024">
+        <rdfs:label xml:lang="en">creep test piece gamma prime precipitate size value</rdfs:label>
+        <skos:definition>A creep test piece gamma prime precipitate size value is a scalar value specification that specifies the value of the size of a gamma prime precipitate which is a member of a microstructure that is part of a creep test piece participating in a creep testing process. It quantifies the average or representative dimension of gamma prime phase particles in the material. It appears as a numeric value with a length unit (e.g., &quot;100 nm&quot;, &quot;0.2 μm&quot;), typically found in the microstructure characterization or TEM analysis section of a scientific paper, and explicitly refers to the gamma prime precipitate size in the target creep test piece.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/pmd/cto/CTO_1000025 -->
+
+    <owl:Class rdf:about="https://w3id.org/pmd/cto/CTO_1000025">
+        <rdfs:label xml:lang="en">percentage initial total extension value</rdfs:label>
+        <skos:definition>A percentage initial total extension value is a scalar value specification that specifies the value of the percentage initial total extension realized in a creep testing process. It quantifies the total deformation recorded at the onset of loading before the creep stage begins, relative to the original gauge length. It appears as a numeric value expressed as a percentage, typically found in the creep deformation table or initial loading data section of a scientific paper, and explicitly refers to the initial total extension at the start of the target creep test.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/pmd/cto/CTO_1000027 -->
+
+    <owl:Class rdf:about="https://w3id.org/pmd/cto/CTO_1000027">
+        <rdfs:label xml:lang="en">reference length to calculate percentage elongation</rdfs:label>
+        <skos:definition>The standard length used for the calculation of ductility (elongation) at the end of the test, often defined by standards relative to the diameter (e.g., $5d$).</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/pmd/cto/CTO_1000028 -->
+
+    <owl:Class rdf:about="https://w3id.org/pmd/cto/CTO_1000028">
+        <rdfs:label xml:lang="en">reference length to calculate percentage extension</rdfs:label>
+        <skos:definition>The length used to calculate non-proportional extension, often distinct from elongation in specific creep contexts involving plastic deformation.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/pmd/cto/CTO_1000032 -->
+
+    <owl:Class rdf:about="https://w3id.org/pmd/cto/CTO_1000032">
+        <rdfs:label xml:lang="en">test piece origin</rdfs:label>
+        <skos:definition>A test piece origin is a 3D spatial region that specifies the spatial location from an object from which a test piece is taken.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/pmd/cto/CTO_1000033 -->
+
+    <owl:Class rdf:about="https://w3id.org/pmd/cto/CTO_1000033">
+        <rdfs:label xml:lang="en">creep testing machine role</rdfs:label>
+        <skos:definition>The function realized by the testing equipment when it is used to perform a creep test.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/pmd/cto/CTO_1000035 -->
+
+    <owl:Class rdf:about="https://w3id.org/pmd/cto/CTO_1000035">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/pmd/co/PMD_0020127"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/pmd/cto/CTO_0000014"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/pmd/co/PMD_0020127"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/pmd/cto/CTO_1000304"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000119>https://www.iso.org/standard/67737.html</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">creep rate</rdfs:label>
+        <skos:definition>The speed at which creep strain develops during a creep test.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/pmd/cto/CTO_1000036 -->
+
+    <owl:Class rdf:about="https://w3id.org/pmd/cto/CTO_1000036">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/pmd/co/PMD_0000004"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/pmd/cto/CTO_1000048"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000119>https://www.iso.org/standard/67737.html</obo:IAO_0000119>
+        <rdfs:label>primary creep region</rdfs:label>
+        <skos:definition>The stage of creep characterized by a decreasing creep rate as material hardening occurs.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/pmd/cto/CTO_1000037 -->
+
+    <owl:Class rdf:about="https://w3id.org/pmd/cto/CTO_1000037">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/pmd/co/PMD_0000004"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/pmd/cto/CTO_1000048"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000119>https://www.iso.org/standard/67737.html</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">secondary creep region</rdfs:label>
+        <skos:definition>The stage of creep where the creep rate becomes nearly constant and steady-state deformation dominates.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/pmd/cto/CTO_1000038 -->
+
+    <owl:Class rdf:about="https://w3id.org/pmd/cto/CTO_1000038">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/pmd/co/PMD_0000004"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/pmd/cto/CTO_1000048"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000119>https://www.iso.org/standard/67737.html</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">tertiary creep region</rdfs:label>
+        <skos:definition>The final creep stage marked by accelerated creep rate leading to material failure.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/pmd/cto/CTO_1000039 -->
+
+    <owl:Class rdf:about="https://w3id.org/pmd/cto/CTO_1000039">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://w3id.org/pmd/cto/CTO_1000304"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                        <owl:someValuesFrom rdf:resource="https://w3id.org/pmd/cto/CTO_0000008"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <obo:IAO_0000119>https://w3id.org/pmd/co/Stress</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">creep threshold stress</rdfs:label>
+        <skos:definition>The theoretical lower limiting stress below which no measurable creep deformation occurs.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/pmd/cto/CTO_1000040 -->
+
+    <owl:Class rdf:about="https://w3id.org/pmd/cto/CTO_1000040">
+        <rdfs:label xml:lang="en">creep activation energy</rdfs:label>
+        <skos:definition>The thermal energy barrier (Qc​) required to initiate the dominant creep mechanism (related to diffusion).</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/pmd/cto/CTO_1000041 -->
+
+    <owl:Class rdf:about="https://w3id.org/pmd/cto/CTO_1000041">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://w3id.org/pmd/cto/CTO_1000304"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                        <owl:someValuesFrom rdf:resource="https://w3id.org/pmd/cto/CTO_0000008"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <obo:IAO_0000119>https://www.iso.org/standard/67737.html</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">creep rupture stress</rdfs:label>
+        <skos:definition>The stress capable of causing fracture at a specific time and temperature.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/pmd/cto/CTO_1000042 -->
+
+    <owl:Class rdf:about="https://w3id.org/pmd/cto/CTO_1000042">
+        <rdfs:label xml:lang="en">grain boundary creep mechanism</rdfs:label>
+        <skos:definition>Deformation caused by the sliding of grains past one another (often Coble creep).</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/pmd/cto/CTO_1000043 -->
+
+    <owl:Class rdf:about="https://w3id.org/pmd/cto/CTO_1000043">
+        <rdfs:label>dislocation creep mechanism</rdfs:label>
+        <skos:definition>Deformation caused by the movement (climb/glide) of dislocations through the crystal lattice (Power-law creep).</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/pmd/cto/CTO_1000044 -->
+
+    <owl:Class rdf:about="https://w3id.org/pmd/cto/CTO_1000044">
+        <rdfs:label>diffusional creep mechanism</rdfs:label>
+        <skos:definition>Deformation caused by the stress-directed diffusion of vacancies (Nabarro-Herring creep).</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/pmd/cto/CTO_1000045 -->
+
+    <owl:Class rdf:about="https://w3id.org/pmd/cto/CTO_1000045">
+        <rdfs:label xml:lang="en">steady-state creep rate equation</rdfs:label>
+        <skos:comment>A steady-state creep rate equation is an equation textual entity that expresses the constant creep rate of a material during the steady-state (secondary) creep regime as a function of variables such as stress and temperature.</skos:comment>
+        <skos:definition>The mathematical formula describing the secondary creep rate (e.g., Norton&apos;s Law).</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/pmd/cto/CTO_1000046 -->
+
+    <owl:Class rdf:about="https://w3id.org/pmd/cto/CTO_1000046">
+        <obo:IAO_0000119>https://www.iso.org/standard/67737.html</obo:IAO_0000119>
+        <rdfs:label>creep test uncertainty</rdfs:label>
+        <skos:definition>The estimated range of values within which the true value of the measurement lies (ISO 204 Annex E).</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/pmd/cto/CTO_1000047 -->
+
+    <owl:Class rdf:about="https://w3id.org/pmd/cto/CTO_1000047">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/pmd/cto/CTO_0000008"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">creep modulus</rdfs:label>
+        <skos:definition>The secant modulus defined as the ratio of initial stress to the creep strain at a given time (Ec​=σ/εc​).</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/pmd/cto/CTO_1000048 -->
+
+    <owl:Class rdf:about="https://w3id.org/pmd/cto/CTO_1000048">
+        <rdfs:label xml:lang="en">creep curve</rdfs:label>
+        <skos:definition>The graphical or tabular representation of strain (ε) versus time (t) for a specific test.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/pmd/cto/CTO_1000049 -->
+
+    <owl:Class rdf:about="https://w3id.org/pmd/cto/CTO_1000049">
+        <terms:source>https://www.iso.org/standard/67737.html</terms:source>
+        <rdfs:label>fracture surface</rdfs:label>
+        <skos:definition>The specific topography of the failure surface (e.g., intergranular voids).</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/pmd/cto/CTO_1000062 -->
+
+    <owl:Class rdf:about="https://w3id.org/pmd/cto/CTO_1000062">
+        <rdfs:label xml:lang="en">test duration</rdfs:label>
+        <skos:definition>A test duration is a temporal interval that specifies the time span over which a test is conducted.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/pmd/cto/CTO_1000064 -->
+
+    <owl:Class rdf:about="https://w3id.org/pmd/cto/CTO_1000064">
+        <rdfs:label xml:lang="en">soaking time</rdfs:label>
+        <skos:definition>The duration the specimen is held at the target temperature before the load is applied, ensuring the material is thermally stable and uniformly heated.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/pmd/cto/CTO_1000304 -->
+
+    <owl:Class rdf:about="https://w3id.org/pmd/cto/CTO_1000304">
+        <rdfs:label>mechanical stress</rdfs:label>
+        <skos:definition>A mechanical stress is a mechanical property that quantifies the internal force per unit area within a material resulting from applied loads.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/pmd/cto/CTO_3000011 -->
+
+    <owl:Class rdf:about="https://w3id.org/pmd/cto/CTO_3000011">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/pmd/cto/CTO_0000008"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>percentage total extension</rdfs:label>
+        <skos:definition>Extension at the test force at time t and at test temperature, as a percentage of Lr​.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/pmd/cto/CTO_3000012 -->
+
+    <owl:Class rdf:about="https://w3id.org/pmd/cto/CTO_3000012">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/pmd/cto/CTO_0000008"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>percentage anelastic extension</rdfs:label>
+        <skos:definition>Negative extension at end of unloading at test temperature.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/pmd/cto/CTO_3000013 -->
+
+    <owl:Class rdf:about="https://w3id.org/pmd/cto/CTO_3000013">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/pmd/cto/CTO_0000008"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>percentage elastic extension</rdfs:label>
+        <skos:definition>Extension at test temperature expressed as a percentage of Lr​, proportional to initial stress Ro​.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/pmd/cto/CTO_3000113 -->
+
+    <owl:Class rdf:about="https://w3id.org/pmd/cto/CTO_3000113">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/pmd/cto/CTO_0000008"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>percentage initial plastic extension</rdfs:label>
+        <skos:definition>Extension at end of loading determined as difference between eti​ and ee​.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/pmd/cto/CTO_3000114 -->
+
+    <owl:Class rdf:about="https://w3id.org/pmd/cto/CTO_3000114">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/pmd/cto/CTO_0000008"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>percentage initial total extension</rdfs:label>
+        <skos:definition>Extension at test temperature as a percentage of Lr​ at end of loading with initial stress.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/pmd/cto/CTO_3000115 -->
+
+    <owl:Class rdf:about="https://w3id.org/pmd/cto/CTO_3000115">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/pmd/cto/CTO_0000008"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>percentage plastic extension</rdfs:label>
+        <skos:definition>Extension at time t determined as difference between et​ and ee​.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/pmd/cto/CTO_3000116 -->
+
+    <owl:Class rdf:about="https://w3id.org/pmd/cto/CTO_3000116">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/pmd/cto/CTO_0000008"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>percentage total ultimate extension</rdfs:label>
+        <skos:definition>Total extension at rupture and at test temperature, expressed as a percentage of Lr​.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/pmd/cto/CTO_3000118 -->
+
+    <owl:Class rdf:about="https://w3id.org/pmd/cto/CTO_3000118">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/pmd/cto/CTO_0000008"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>percentage reduction of area after creep fracture</rdfs:label>
+        <skos:definition>Maximum change in cross-sectional area after fracture, S0​−Su​, as a percentage of S0​.</skos:definition>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29) https://github.com/owlcs/owlapi -->
+
